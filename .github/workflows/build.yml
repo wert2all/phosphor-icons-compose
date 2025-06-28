@@ -28,4 +28,4 @@ jobs:
           cache-read-only: false
 
       - name: Run build
-        run: ./gradlew :lib:build --no-daemon
+        run: ./gradlew :lib:assemble --no-daemon
