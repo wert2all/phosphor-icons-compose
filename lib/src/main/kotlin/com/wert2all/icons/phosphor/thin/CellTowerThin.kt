@@ -1,0 +1,77 @@
+package com.wert2all.icons.phosphor.thin
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Thin.CellTowerThin: ImageVector
+    get() {
+        if (_CellTowerThin != null) {
+            return _CellTowerThin!!
+        }
+        _CellTowerThin =
+            ImageVector
+                .Builder(
+                    name = "CellTowerThin",
+                    defaultWidth = 256.dp,
+                    defaultHeight = 256.dp,
+                    viewportWidth = 256f,
+                    viewportHeight = 256f,
+                ).apply {
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(56f, 232f)
+                        lineToRelative(72f, -144f)
+                        lineToRelative(72f, 144f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(88.64f, 95.17f)
+                        arcToRelative(40f, 40f, 0f, isMoreThanHalf = true, isPositiveArc = true, 78.72f, 0f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(70.53f, 131.38f)
+                        arcToRelative(72f, 72f, 0f, isMoreThanHalf = true, isPositiveArc = true, 114.94f, 0f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(72f, 200f)
+                        lineTo(184f, 200f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(88f, 168f)
+                        lineTo(168f, 168f)
+                    }
+                }.build()
+
+        return _CellTowerThin!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _CellTowerThin: ImageVector? = null
