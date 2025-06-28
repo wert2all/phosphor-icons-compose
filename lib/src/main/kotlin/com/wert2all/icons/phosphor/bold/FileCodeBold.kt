@@ -1,0 +1,77 @@
+package com.wert2all.icons.phosphor.bold
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Bold.FileCodeBold: ImageVector
+    get() {
+        if (_FileCodeBold != null) {
+            return _FileCodeBold!!
+        }
+        _FileCodeBold =
+            ImageVector
+                .Builder(
+                    name = "FileCodeBold",
+                    defaultWidth = 256.dp,
+                    defaultHeight = 256.dp,
+                    viewportWidth = 256f,
+                    viewportHeight = 256f,
+                ).apply {
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 24f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(148f, 128f)
+                        lineToRelative(24f, 24f)
+                        lineToRelative(-24f, 24f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 24f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(108f, 128f)
+                        lineToRelative(-24f, 24f)
+                        lineToRelative(24f, 24f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 24f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(200f, 224f)
+                        arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, 8f, -8f)
+                        verticalLineTo(88f)
+                        lineTo(152f, 32f)
+                        horizontalLineTo(56f)
+                        arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -8f, 8f)
+                        verticalLineTo(216f)
+                        arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, 8f, 8f)
+                        close()
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 24f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(148f, 32f)
+                        lineToRelative(0f, 60f)
+                        lineToRelative(60f, 0f)
+                    }
+                }.build()
+
+        return _FileCodeBold!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _FileCodeBold: ImageVector? = null

@@ -1,0 +1,79 @@
+package com.wert2all.icons.phosphor.thin
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Thin.StairsThin: ImageVector
+    get() {
+        if (_StairsThin != null) {
+            return _StairsThin!!
+        }
+        _StairsThin =
+            ImageVector
+                .Builder(
+                    name = "StairsThin",
+                    defaultWidth = 256.dp,
+                    defaultHeight = 256.dp,
+                    viewportWidth = 256f,
+                    viewportHeight = 256f,
+                ).apply {
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(48f, 176f)
+                        lineToRelative(56f, 0f)
+                        lineToRelative(0f, -40f)
+                        lineToRelative(48f, 0f)
+                        lineToRelative(0f, -40f)
+                        lineToRelative(56f, 0f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(56f, 32f)
+                        lineTo(200f, 32f)
+                        arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 208f, 40f)
+                        lineTo(208f, 216f)
+                        arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 200f, 224f)
+                        lineTo(56f, 224f)
+                        arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 48f, 216f)
+                        lineTo(48f, 40f)
+                        arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 56f, 32f)
+                        close()
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(104f, 176f)
+                        lineTo(208f, 176f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 8f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(152f, 136f)
+                        lineTo(208f, 136f)
+                    }
+                }.build()
+
+        return _StairsThin!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _StairsThin: ImageVector? = null

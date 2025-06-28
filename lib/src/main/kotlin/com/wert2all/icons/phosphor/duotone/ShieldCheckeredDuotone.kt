@@ -1,0 +1,88 @@
+package com.wert2all.icons.phosphor.duotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Duotone.ShieldCheckeredDuotone: ImageVector
+    get() {
+        if (_ShieldCheckeredDuotone != null) {
+            return _ShieldCheckeredDuotone!!
+        }
+        _ShieldCheckeredDuotone =
+            ImageVector
+                .Builder(
+                    name = "ShieldCheckeredDuotone",
+                    defaultWidth = 256.dp,
+                    defaultHeight = 256.dp,
+                    viewportWidth = 256f,
+                    viewportHeight = 256f,
+                ).apply {
+                    path(
+                        fill = SolidColor(Color(0xFF000000)),
+                        fillAlpha = 0.2f,
+                        strokeAlpha = 0.2f,
+                    ) {
+                        moveTo(128f, 128f)
+                        verticalLineTo(48f)
+                        horizontalLineTo(48f)
+                        arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -8f, 8f)
+                        verticalLineToRelative(56f)
+                        arcToRelative(146.29f, 146.29f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.87f, 16f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000)),
+                        fillAlpha = 0.2f,
+                        strokeAlpha = 0.2f,
+                    ) {
+                        moveTo(128f, 128f)
+                        verticalLineTo(232f)
+                        reflectiveCurveToRelative(78.06f, -21.3f, 87.13f, -104f)
+                        close()
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 16f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(216f, 112f)
+                        verticalLineTo(56f)
+                        arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -8f, -8f)
+                        horizontalLineTo(48f)
+                        arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -8f, 8f)
+                        verticalLineToRelative(56f)
+                        curveToRelative(0f, 96f, 88f, 120f, 88f, 120f)
+                        reflectiveCurveTo(216f, 208f, 216f, 112f)
+                        close()
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 16f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(128f, 232f)
+                        lineTo(128f, 48f)
+                    }
+                    path(
+                        stroke = SolidColor(Color(0xFF000000)),
+                        strokeLineWidth = 16f,
+                        strokeLineCap = StrokeCap.Round,
+                        strokeLineJoin = StrokeJoin.Round,
+                    ) {
+                        moveTo(40.86f, 128f)
+                        lineTo(215.14f, 128f)
+                    }
+                }.build()
+
+        return _ShieldCheckeredDuotone!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _ShieldCheckeredDuotone: ImageVector? = null
