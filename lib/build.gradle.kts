@@ -53,6 +53,7 @@ dependencies {
     implementation(composeBom)
     androidTestImplementation(composeBom)
     implementation(libs.androidx.compose.runtime)
+    implementation(libs.androidx.compose.ui)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
