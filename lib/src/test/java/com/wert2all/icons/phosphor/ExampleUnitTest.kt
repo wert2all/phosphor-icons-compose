@@ -1,8 +1,8 @@
-package com.wert2all.phosphor.mylibrary
+package com.wert2all.icons.phosphor
 
 import org.junit.Test
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 
 /**
  * Example local unit test, which will execute on the development machine (host).

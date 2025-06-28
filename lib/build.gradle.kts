@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.wert2all.phosphor.icons"
+    namespace = "com.wert2all.icons.phosphor"
     compileSdk = 36
 
     defaultConfig {
