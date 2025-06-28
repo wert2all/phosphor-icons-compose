@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.detekt)
 }
 
 android {
@@ -30,6 +31,12 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+}
+
+detekt {
+    config.setFrom(file("$projectDir/../config/detekt.yml"))
+    buildUponDefaultConfig = true
+    parallel = true
 }
 
 dependencies {
