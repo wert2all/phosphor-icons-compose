@@ -8,4 +8,6 @@ object Phosphor {
     object Light
 
     object Fill
+
+    object Duotone
 }
