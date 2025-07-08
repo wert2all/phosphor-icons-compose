@@ -6,4 +6,6 @@ object Phosphor {
     object Regular
 
     object Light
+
+    object Fill
 }
