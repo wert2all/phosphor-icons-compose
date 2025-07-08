@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShuffleSimpleThin: ImageVector
+val Phosphor.Thin.ShuffleSimpleThin: ImageVector
     get() {
         if (_ShuffleSimpleThin != null) {
             return _ShuffleSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.ShuffleSimpleThin: ImageVector
         _ShuffleSimpleThin =
             ImageVector
                 .Builder(
-                    name = "ShuffleSimpleThin",
+                    name = "Thin.ShuffleSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

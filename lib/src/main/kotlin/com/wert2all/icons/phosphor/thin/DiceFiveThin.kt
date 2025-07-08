@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DiceFiveThin: ImageVector
+val Phosphor.Thin.DiceFiveThin: ImageVector
     get() {
         if (_DiceFiveThin != null) {
             return _DiceFiveThin!!
@@ -16,7 +17,7 @@ val Thin.DiceFiveThin: ImageVector
         _DiceFiveThin =
             ImageVector
                 .Builder(
-                    name = "DiceFiveThin",
+                    name = "Thin.DiceFiveThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -39,31 +40,31 @@ val Thin.DiceFiveThin: ImageVector
                         arcTo(24f, 24f, 0f, isMoreThanHalf = false, isPositiveArc = true, 64f, 40f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(92f, 92f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 128f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(164f, 92f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(92f, 164f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(164f, 164f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

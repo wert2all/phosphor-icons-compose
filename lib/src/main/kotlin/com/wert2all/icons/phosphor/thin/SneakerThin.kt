@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SneakerThin: ImageVector
+val Phosphor.Thin.SneakerThin: ImageVector
     get() {
         if (_SneakerThin != null) {
             return _SneakerThin!!
@@ -16,7 +17,7 @@ val Thin.SneakerThin: ImageVector
         _SneakerThin =
             ImageVector
                 .Builder(
-                    name = "SneakerThin",
+                    name = "Thin.SneakerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

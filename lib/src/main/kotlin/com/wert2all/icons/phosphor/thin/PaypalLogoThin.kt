@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PaypalLogoThin: ImageVector
+val Phosphor.Thin.PaypalLogoThin: ImageVector
     get() {
         if (_PaypalLogoThin != null) {
             return _PaypalLogoThin!!
@@ -16,7 +17,7 @@ val Thin.PaypalLogoThin: ImageVector
         _PaypalLogoThin =
             ImageVector
                 .Builder(
-                    name = "PaypalLogoThin",
+                    name = "Thin.PaypalLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CellSignalLowThin: ImageVector
+val Phosphor.Thin.CellSignalLowThin: ImageVector
     get() {
         if (_CellSignalLowThin != null) {
             return _CellSignalLowThin!!
@@ -16,7 +17,7 @@ val Thin.CellSignalLowThin: ImageVector
         _CellSignalLowThin =
             ImageVector
                 .Builder(
-                    name = "CellSignalLowThin",
+                    name = "Thin.CellSignalLowThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

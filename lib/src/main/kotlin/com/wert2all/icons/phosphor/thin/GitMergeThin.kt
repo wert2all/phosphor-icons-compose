@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GitMergeThin: ImageVector
+val Phosphor.Thin.GitMergeThin: ImageVector
     get() {
         if (_GitMergeThin != null) {
             return _GitMergeThin!!
@@ -16,7 +17,7 @@ val Thin.GitMergeThin: ImageVector
         _GitMergeThin =
             ImageVector
                 .Builder(
-                    name = "GitMergeThin",
+                    name = "Thin.GitMergeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

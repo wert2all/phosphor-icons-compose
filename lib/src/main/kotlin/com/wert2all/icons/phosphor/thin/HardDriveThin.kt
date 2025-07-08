@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HardDriveThin: ImageVector
+val Phosphor.Thin.HardDriveThin: ImageVector
     get() {
         if (_HardDriveThin != null) {
             return _HardDriveThin!!
@@ -16,7 +17,7 @@ val Thin.HardDriveThin: ImageVector
         _HardDriveThin =
             ImageVector
                 .Builder(
-                    name = "HardDriveThin",
+                    name = "Thin.HardDriveThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -39,7 +40,7 @@ val Thin.HardDriveThin: ImageVector
                         arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 32f, 72f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(188f, 128f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

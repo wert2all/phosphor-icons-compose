@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShoppingBagOpenThin: ImageVector
+val Phosphor.Thin.ShoppingBagOpenThin: ImageVector
     get() {
         if (_ShoppingBagOpenThin != null) {
             return _ShoppingBagOpenThin!!
@@ -16,7 +17,7 @@ val Thin.ShoppingBagOpenThin: ImageVector
         _ShoppingBagOpenThin =
             ImageVector
                 .Builder(
-                    name = "ShoppingBagOpenThin",
+                    name = "Thin.ShoppingBagOpenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

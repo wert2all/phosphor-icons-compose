@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChartPolarThin: ImageVector
+val Phosphor.Thin.ChartPolarThin: ImageVector
     get() {
         if (_ChartPolarThin != null) {
             return _ChartPolarThin!!
@@ -16,7 +17,7 @@ val Thin.ChartPolarThin: ImageVector
         _ChartPolarThin =
             ImageVector
                 .Builder(
-                    name = "ChartPolarThin",
+                    name = "Thin.ChartPolarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

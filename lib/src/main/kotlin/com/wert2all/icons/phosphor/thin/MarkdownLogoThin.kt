@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MarkdownLogoThin: ImageVector
+val Phosphor.Thin.MarkdownLogoThin: ImageVector
     get() {
         if (_MarkdownLogoThin != null) {
             return _MarkdownLogoThin!!
@@ -16,7 +17,7 @@ val Thin.MarkdownLogoThin: ImageVector
         _MarkdownLogoThin =
             ImageVector
                 .Builder(
-                    name = "MarkdownLogoThin",
+                    name = "Thin.MarkdownLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CaretCircleDoubleDownThin: ImageVector
+val Phosphor.Thin.CaretCircleDoubleDownThin: ImageVector
     get() {
         if (_CaretCircleDoubleDownThin != null) {
             return _CaretCircleDoubleDownThin!!
@@ -16,7 +17,7 @@ val Thin.CaretCircleDoubleDownThin: ImageVector
         _CaretCircleDoubleDownThin =
             ImageVector
                 .Builder(
-                    name = "CaretCircleDoubleDownThin",
+                    name = "Thin.CaretCircleDoubleDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

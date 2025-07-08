@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RocketThin: ImageVector
+val Phosphor.Thin.RocketThin: ImageVector
     get() {
         if (_RocketThin != null) {
             return _RocketThin!!
@@ -16,7 +17,7 @@ val Thin.RocketThin: ImageVector
         _RocketThin =
             ImageVector
                 .Builder(
-                    name = "RocketThin",
+                    name = "Thin.RocketThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -31,7 +32,7 @@ val Thin.RocketThin: ImageVector
                         moveTo(144f, 224f)
                         lineTo(112f, 224f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 100f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

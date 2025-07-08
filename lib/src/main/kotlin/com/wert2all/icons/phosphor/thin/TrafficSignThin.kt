@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrafficSignThin: ImageVector
+val Phosphor.Thin.TrafficSignThin: ImageVector
     get() {
         if (_TrafficSignThin != null) {
             return _TrafficSignThin!!
@@ -16,7 +17,7 @@ val Thin.TrafficSignThin: ImageVector
         _TrafficSignThin =
             ImageVector
                 .Builder(
-                    name = "TrafficSignThin",
+                    name = "Thin.TrafficSignThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

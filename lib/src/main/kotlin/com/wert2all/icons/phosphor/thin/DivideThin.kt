@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DivideThin: ImageVector
+val Phosphor.Thin.DivideThin: ImageVector
     get() {
         if (_DivideThin != null) {
             return _DivideThin!!
@@ -16,7 +17,7 @@ val Thin.DivideThin: ImageVector
         _DivideThin =
             ImageVector
                 .Builder(
-                    name = "DivideThin",
+                    name = "Thin.DivideThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -31,13 +32,13 @@ val Thin.DivideThin: ImageVector
                         moveTo(40f, 128f)
                         lineTo(216f, 128f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 64f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 192f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

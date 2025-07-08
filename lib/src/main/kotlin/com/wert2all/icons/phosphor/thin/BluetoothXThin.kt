@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BluetoothXThin: ImageVector
+val Phosphor.Thin.BluetoothXThin: ImageVector
     get() {
         if (_BluetoothXThin != null) {
             return _BluetoothXThin!!
@@ -16,7 +17,7 @@ val Thin.BluetoothXThin: ImageVector
         _BluetoothXThin =
             ImageVector
                 .Builder(
-                    name = "BluetoothXThin",
+                    name = "Thin.BluetoothXThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

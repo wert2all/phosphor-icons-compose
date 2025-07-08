@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DownloadThin: ImageVector
+val Phosphor.Thin.DownloadThin: ImageVector
     get() {
         if (_DownloadThin != null) {
             return _DownloadThin!!
@@ -16,7 +17,7 @@ val Thin.DownloadThin: ImageVector
         _DownloadThin =
             ImageVector
                 .Builder(
-                    name = "DownloadThin",
+                    name = "Thin.DownloadThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -58,7 +59,7 @@ val Thin.DownloadThin: ImageVector
                         lineToRelative(48f, 48f)
                         lineToRelative(48f, -48f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(188f, 168f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

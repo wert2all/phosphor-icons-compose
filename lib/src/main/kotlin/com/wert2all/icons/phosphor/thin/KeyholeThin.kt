@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.KeyholeThin: ImageVector
+val Phosphor.Thin.KeyholeThin: ImageVector
     get() {
         if (_KeyholeThin != null) {
             return _KeyholeThin!!
@@ -16,7 +17,7 @@ val Thin.KeyholeThin: ImageVector
         _KeyholeThin =
             ImageVector
                 .Builder(
-                    name = "KeyholeThin",
+                    name = "Thin.KeyholeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

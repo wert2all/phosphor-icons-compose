@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MatrixLogoThin: ImageVector
+val Phosphor.Thin.MatrixLogoThin: ImageVector
     get() {
         if (_MatrixLogoThin != null) {
             return _MatrixLogoThin!!
@@ -16,7 +17,7 @@ val Thin.MatrixLogoThin: ImageVector
         _MatrixLogoThin =
             ImageVector
                 .Builder(
-                    name = "MatrixLogoThin",
+                    name = "Thin.MatrixLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

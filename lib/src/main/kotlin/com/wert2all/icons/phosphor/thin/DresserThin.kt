@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DresserThin: ImageVector
+val Phosphor.Thin.DresserThin: ImageVector
     get() {
         if (_DresserThin != null) {
             return _DresserThin!!
@@ -16,7 +17,7 @@ val Thin.DresserThin: ImageVector
         _DresserThin =
             ImageVector
                 .Builder(
-                    name = "DresserThin",
+                    name = "Thin.DresserThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

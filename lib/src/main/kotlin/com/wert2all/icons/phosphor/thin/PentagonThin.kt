@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PentagonThin: ImageVector
+val Phosphor.Thin.PentagonThin: ImageVector
     get() {
         if (_PentagonThin != null) {
             return _PentagonThin!!
@@ -16,7 +17,7 @@ val Thin.PentagonThin: ImageVector
         _PentagonThin =
             ImageVector
                 .Builder(
-                    name = "PentagonThin",
+                    name = "Thin.PentagonThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

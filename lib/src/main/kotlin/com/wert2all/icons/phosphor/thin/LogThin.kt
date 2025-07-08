@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LogThin: ImageVector
+val Phosphor.Thin.LogThin: ImageVector
     get() {
         if (_LogThin != null) {
             return _LogThin!!
@@ -16,13 +17,13 @@ val Thin.LogThin: ImageVector
         _LogThin =
             ImageVector
                 .Builder(
-                    name = "LogThin",
+                    name = "Thin.LogThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
                     viewportHeight = 256f,
                 ).apply {
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(200f, 136f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

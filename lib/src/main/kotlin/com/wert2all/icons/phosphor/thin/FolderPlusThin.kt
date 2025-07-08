@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FolderPlusThin: ImageVector
+val Phosphor.Thin.FolderPlusThin: ImageVector
     get() {
         if (_FolderPlusThin != null) {
             return _FolderPlusThin!!
@@ -16,7 +17,7 @@ val Thin.FolderPlusThin: ImageVector
         _FolderPlusThin =
             ImageVector
                 .Builder(
-                    name = "FolderPlusThin",
+                    name = "Thin.FolderPlusThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NetworkSlashThin: ImageVector
+val Phosphor.Thin.NetworkSlashThin: ImageVector
     get() {
         if (_NetworkSlashThin != null) {
             return _NetworkSlashThin!!
@@ -16,7 +17,7 @@ val Thin.NetworkSlashThin: ImageVector
         _NetworkSlashThin =
             ImageVector
                 .Builder(
-                    name = "NetworkSlashThin",
+                    name = "Thin.NetworkSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

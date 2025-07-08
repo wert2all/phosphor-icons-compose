@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BowlFoodThin: ImageVector
+val Phosphor.Thin.BowlFoodThin: ImageVector
     get() {
         if (_BowlFoodThin != null) {
             return _BowlFoodThin!!
@@ -16,7 +17,7 @@ val Thin.BowlFoodThin: ImageVector
         _BowlFoodThin =
             ImageVector
                 .Builder(
-                    name = "BowlFoodThin",
+                    name = "Thin.BowlFoodThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

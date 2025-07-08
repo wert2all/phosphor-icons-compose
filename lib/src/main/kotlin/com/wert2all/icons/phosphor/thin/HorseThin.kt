@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HorseThin: ImageVector
+val Phosphor.Thin.HorseThin: ImageVector
     get() {
         if (_HorseThin != null) {
             return _HorseThin!!
@@ -16,7 +17,7 @@ val Thin.HorseThin: ImageVector
         _HorseThin =
             ImageVector
                 .Builder(
-                    name = "HorseThin",
+                    name = "Thin.HorseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -31,7 +32,7 @@ val Thin.HorseThin: ImageVector
                         moveTo(176f, 120f)
                         arcToRelative(48f, 48f, 0f, isMoreThanHalf = false, isPositiveArc = true, -48f, 48f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(124f, 100f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

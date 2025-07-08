@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CheckerboardThin: ImageVector
+val Phosphor.Thin.CheckerboardThin: ImageVector
     get() {
         if (_CheckerboardThin != null) {
             return _CheckerboardThin!!
@@ -16,7 +17,7 @@ val Thin.CheckerboardThin: ImageVector
         _CheckerboardThin =
             ImageVector
                 .Builder(
-                    name = "CheckerboardThin",
+                    name = "Thin.CheckerboardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SidebarSimpleThin: ImageVector
+val Phosphor.Thin.SidebarSimpleThin: ImageVector
     get() {
         if (_SidebarSimpleThin != null) {
             return _SidebarSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.SidebarSimpleThin: ImageVector
         _SidebarSimpleThin =
             ImageVector
                 .Builder(
-                    name = "SidebarSimpleThin",
+                    name = "Thin.SidebarSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

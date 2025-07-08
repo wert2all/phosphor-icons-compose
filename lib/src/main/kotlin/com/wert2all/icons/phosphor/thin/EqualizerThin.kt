@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EqualizerThin: ImageVector
+val Phosphor.Thin.EqualizerThin: ImageVector
     get() {
         if (_EqualizerThin != null) {
             return _EqualizerThin!!
@@ -16,7 +17,7 @@ val Thin.EqualizerThin: ImageVector
         _EqualizerThin =
             ImageVector
                 .Builder(
-                    name = "EqualizerThin",
+                    name = "Thin.EqualizerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LinuxLogoThin: ImageVector
+val Phosphor.Thin.LinuxLogoThin: ImageVector
     get() {
         if (_LinuxLogoThin != null) {
             return _LinuxLogoThin!!
@@ -16,7 +17,7 @@ val Thin.LinuxLogoThin: ImageVector
         _LinuxLogoThin =
             ImageVector
                 .Builder(
-                    name = "LinuxLogoThin",
+                    name = "Thin.LinuxLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -33,13 +34,13 @@ val Thin.LinuxLogoThin: ImageVector
                         arcToRelative(64f, 64f, 0f, isMoreThanHalf = false, isPositiveArc = true, 128f, 0f)
                         curveToRelative(0f, 80f, 32f, 120f, 32f, 120f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(100f, 100f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(156f, 100f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

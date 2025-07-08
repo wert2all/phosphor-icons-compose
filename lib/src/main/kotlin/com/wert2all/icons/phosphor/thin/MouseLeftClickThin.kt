@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MouseLeftClickThin: ImageVector
+val Phosphor.Thin.MouseLeftClickThin: ImageVector
     get() {
         if (_MouseLeftClickThin != null) {
             return _MouseLeftClickThin!!
@@ -16,7 +17,7 @@ val Thin.MouseLeftClickThin: ImageVector
         _MouseLeftClickThin =
             ImageVector
                 .Builder(
-                    name = "MouseLeftClickThin",
+                    name = "Thin.MouseLeftClickThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

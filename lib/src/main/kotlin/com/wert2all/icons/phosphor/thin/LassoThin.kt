@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LassoThin: ImageVector
+val Phosphor.Thin.LassoThin: ImageVector
     get() {
         if (_LassoThin != null) {
             return _LassoThin!!
@@ -16,7 +17,7 @@ val Thin.LassoThin: ImageVector
         _LassoThin =
             ImageVector
                 .Builder(
-                    name = "LassoThin",
+                    name = "Thin.LassoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

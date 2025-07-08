@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LightningSlashThin: ImageVector
+val Phosphor.Thin.LightningSlashThin: ImageVector
     get() {
         if (_LightningSlashThin != null) {
             return _LightningSlashThin!!
@@ -16,7 +17,7 @@ val Thin.LightningSlashThin: ImageVector
         _LightningSlashThin =
             ImageVector
                 .Builder(
-                    name = "LightningSlashThin",
+                    name = "Thin.LightningSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

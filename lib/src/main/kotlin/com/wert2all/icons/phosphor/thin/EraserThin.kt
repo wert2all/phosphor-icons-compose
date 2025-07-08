@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EraserThin: ImageVector
+val Phosphor.Thin.EraserThin: ImageVector
     get() {
         if (_EraserThin != null) {
             return _EraserThin!!
@@ -16,7 +17,7 @@ val Thin.EraserThin: ImageVector
         _EraserThin =
             ImageVector
                 .Builder(
-                    name = "EraserThin",
+                    name = "Thin.EraserThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

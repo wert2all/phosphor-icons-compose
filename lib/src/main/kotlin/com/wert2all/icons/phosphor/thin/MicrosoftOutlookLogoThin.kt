@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MicrosoftOutlookLogoThin: ImageVector
+val Phosphor.Thin.MicrosoftOutlookLogoThin: ImageVector
     get() {
         if (_MicrosoftOutlookLogoThin != null) {
             return _MicrosoftOutlookLogoThin!!
@@ -16,7 +17,7 @@ val Thin.MicrosoftOutlookLogoThin: ImageVector
         _MicrosoftOutlookLogoThin =
             ImageVector
                 .Builder(
-                    name = "MicrosoftOutlookLogoThin",
+                    name = "Thin.MicrosoftOutlookLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

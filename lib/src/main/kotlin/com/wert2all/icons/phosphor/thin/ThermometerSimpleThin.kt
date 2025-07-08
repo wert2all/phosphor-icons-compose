@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ThermometerSimpleThin: ImageVector
+val Phosphor.Thin.ThermometerSimpleThin: ImageVector
     get() {
         if (_ThermometerSimpleThin != null) {
             return _ThermometerSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.ThermometerSimpleThin: ImageVector
         _ThermometerSimpleThin =
             ImageVector
                 .Builder(
-                    name = "ThermometerSimpleThin",
+                    name = "Thin.ThermometerSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

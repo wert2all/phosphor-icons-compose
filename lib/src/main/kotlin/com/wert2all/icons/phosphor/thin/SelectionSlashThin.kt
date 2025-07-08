@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SelectionSlashThin: ImageVector
+val Phosphor.Thin.SelectionSlashThin: ImageVector
     get() {
         if (_SelectionSlashThin != null) {
             return _SelectionSlashThin!!
@@ -16,7 +17,7 @@ val Thin.SelectionSlashThin: ImageVector
         _SelectionSlashThin =
             ImageVector
                 .Builder(
-                    name = "SelectionSlashThin",
+                    name = "Thin.SelectionSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

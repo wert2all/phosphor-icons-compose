@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CodepenLogoThin: ImageVector
+val Phosphor.Thin.CodepenLogoThin: ImageVector
     get() {
         if (_CodepenLogoThin != null) {
             return _CodepenLogoThin!!
@@ -16,7 +17,7 @@ val Thin.CodepenLogoThin: ImageVector
         _CodepenLogoThin =
             ImageVector
                 .Builder(
-                    name = "CodepenLogoThin",
+                    name = "Thin.CodepenLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GenderNonbinaryThin: ImageVector
+val Phosphor.Thin.GenderNonbinaryThin: ImageVector
     get() {
         if (_GenderNonbinaryThin != null) {
             return _GenderNonbinaryThin!!
@@ -16,7 +17,7 @@ val Thin.GenderNonbinaryThin: ImageVector
         _GenderNonbinaryThin =
             ImageVector
                 .Builder(
-                    name = "GenderNonbinaryThin",
+                    name = "Thin.GenderNonbinaryThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ThumbsDownThin: ImageVector
+val Phosphor.Thin.ThumbsDownThin: ImageVector
     get() {
         if (_ThumbsDownThin != null) {
             return _ThumbsDownThin!!
@@ -16,7 +17,7 @@ val Thin.ThumbsDownThin: ImageVector
         _ThumbsDownThin =
             ImageVector
                 .Builder(
-                    name = "ThumbsDownThin",
+                    name = "Thin.ThumbsDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

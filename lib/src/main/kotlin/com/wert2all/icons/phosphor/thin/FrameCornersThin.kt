@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FrameCornersThin: ImageVector
+val Phosphor.Thin.FrameCornersThin: ImageVector
     get() {
         if (_FrameCornersThin != null) {
             return _FrameCornersThin!!
@@ -16,7 +17,7 @@ val Thin.FrameCornersThin: ImageVector
         _FrameCornersThin =
             ImageVector
                 .Builder(
-                    name = "FrameCornersThin",
+                    name = "Thin.FrameCornersThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

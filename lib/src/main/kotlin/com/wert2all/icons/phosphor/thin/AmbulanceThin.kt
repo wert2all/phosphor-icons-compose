@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AmbulanceThin: ImageVector
+val Phosphor.Thin.AmbulanceThin: ImageVector
     get() {
         if (_AmbulanceThin != null) {
             return _AmbulanceThin!!
@@ -16,7 +17,7 @@ val Thin.AmbulanceThin: ImageVector
         _AmbulanceThin =
             ImageVector
                 .Builder(
-                    name = "AmbulanceThin",
+                    name = "Thin.AmbulanceThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

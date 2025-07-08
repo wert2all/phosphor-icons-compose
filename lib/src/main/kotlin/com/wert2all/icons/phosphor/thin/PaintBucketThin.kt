@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PaintBucketThin: ImageVector
+val Phosphor.Thin.PaintBucketThin: ImageVector
     get() {
         if (_PaintBucketThin != null) {
             return _PaintBucketThin!!
@@ -16,7 +17,7 @@ val Thin.PaintBucketThin: ImageVector
         _PaintBucketThin =
             ImageVector
                 .Builder(
-                    name = "PaintBucketThin",
+                    name = "Thin.PaintBucketThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

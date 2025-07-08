@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FishSimpleThin: ImageVector
+val Phosphor.Thin.FishSimpleThin: ImageVector
     get() {
         if (_FishSimpleThin != null) {
             return _FishSimpleThin!!
@@ -16,13 +17,13 @@ val Thin.FishSimpleThin: ImageVector
         _FishSimpleThin =
             ImageVector
                 .Builder(
-                    name = "FishSimpleThin",
+                    name = "Thin.FishSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
                     viewportHeight = 256f,
                 ).apply {
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(156f, 76f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WaveTriangleThin: ImageVector
+val Phosphor.Thin.WaveTriangleThin: ImageVector
     get() {
         if (_WaveTriangleThin != null) {
             return _WaveTriangleThin!!
@@ -16,7 +17,7 @@ val Thin.WaveTriangleThin: ImageVector
         _WaveTriangleThin =
             ImageVector
                 .Builder(
-                    name = "WaveTriangleThin",
+                    name = "Thin.WaveTriangleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

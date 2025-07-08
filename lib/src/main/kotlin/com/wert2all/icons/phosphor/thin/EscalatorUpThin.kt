@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EscalatorUpThin: ImageVector
+val Phosphor.Thin.EscalatorUpThin: ImageVector
     get() {
         if (_EscalatorUpThin != null) {
             return _EscalatorUpThin!!
@@ -16,7 +17,7 @@ val Thin.EscalatorUpThin: ImageVector
         _EscalatorUpThin =
             ImageVector
                 .Builder(
-                    name = "EscalatorUpThin",
+                    name = "Thin.EscalatorUpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

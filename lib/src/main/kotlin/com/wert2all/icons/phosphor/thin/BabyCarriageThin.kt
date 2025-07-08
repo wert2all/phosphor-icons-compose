@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BabyCarriageThin: ImageVector
+val Phosphor.Thin.BabyCarriageThin: ImageVector
     get() {
         if (_BabyCarriageThin != null) {
             return _BabyCarriageThin!!
@@ -16,7 +17,7 @@ val Thin.BabyCarriageThin: ImageVector
         _BabyCarriageThin =
             ImageVector
                 .Builder(
-                    name = "BabyCarriageThin",
+                    name = "Thin.BabyCarriageThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -61,13 +62,13 @@ val Thin.BabyCarriageThin: ImageVector
                         moveTo(16f, 80f)
                         arcToRelative(32f, 32f, 0f, isMoreThanHalf = false, isPositiveArc = true, 32f, 32f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(88f, 224f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(192f, 224f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

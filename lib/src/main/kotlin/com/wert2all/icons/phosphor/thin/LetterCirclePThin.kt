@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LetterCirclePThin: ImageVector
+val Phosphor.Thin.LetterCirclePThin: ImageVector
     get() {
         if (_LetterCirclePThin != null) {
             return _LetterCirclePThin!!
@@ -16,7 +17,7 @@ val Thin.LetterCirclePThin: ImageVector
         _LetterCirclePThin =
             ImageVector
                 .Builder(
-                    name = "LetterCirclePThin",
+                    name = "Thin.LetterCirclePThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

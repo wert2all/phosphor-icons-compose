@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ArrowBendDoubleUpRightThin: ImageVector
+val Phosphor.Thin.ArrowBendDoubleUpRightThin: ImageVector
     get() {
         if (_ArrowBendDoubleUpRightThin != null) {
             return _ArrowBendDoubleUpRightThin!!
@@ -16,7 +17,7 @@ val Thin.ArrowBendDoubleUpRightThin: ImageVector
         _ArrowBendDoubleUpRightThin =
             ImageVector
                 .Builder(
-                    name = "ArrowBendDoubleUpRightThin",
+                    name = "Thin.ArrowBendDoubleUpRightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

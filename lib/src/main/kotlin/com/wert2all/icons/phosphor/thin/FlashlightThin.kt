@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FlashlightThin: ImageVector
+val Phosphor.Thin.FlashlightThin: ImageVector
     get() {
         if (_FlashlightThin != null) {
             return _FlashlightThin!!
@@ -16,7 +17,7 @@ val Thin.FlashlightThin: ImageVector
         _FlashlightThin =
             ImageVector
                 .Builder(
-                    name = "FlashlightThin",
+                    name = "Thin.FlashlightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

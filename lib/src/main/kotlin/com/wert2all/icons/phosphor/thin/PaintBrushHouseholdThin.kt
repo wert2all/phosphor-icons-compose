@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PaintBrushHouseholdThin: ImageVector
+val Phosphor.Thin.PaintBrushHouseholdThin: ImageVector
     get() {
         if (_PaintBrushHouseholdThin != null) {
             return _PaintBrushHouseholdThin!!
@@ -16,7 +17,7 @@ val Thin.PaintBrushHouseholdThin: ImageVector
         _PaintBrushHouseholdThin =
             ImageVector
                 .Builder(
-                    name = "PaintBrushHouseholdThin",
+                    name = "Thin.PaintBrushHouseholdThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

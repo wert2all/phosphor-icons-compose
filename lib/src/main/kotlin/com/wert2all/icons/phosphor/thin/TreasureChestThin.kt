@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TreasureChestThin: ImageVector
+val Phosphor.Thin.TreasureChestThin: ImageVector
     get() {
         if (_TreasureChestThin != null) {
             return _TreasureChestThin!!
@@ -16,7 +17,7 @@ val Thin.TreasureChestThin: ImageVector
         _TreasureChestThin =
             ImageVector
                 .Builder(
-                    name = "TreasureChestThin",
+                    name = "Thin.TreasureChestThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

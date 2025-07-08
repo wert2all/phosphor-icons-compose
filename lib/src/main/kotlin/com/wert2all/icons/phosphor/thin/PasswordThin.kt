@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PasswordThin: ImageVector
+val Phosphor.Thin.PasswordThin: ImageVector
     get() {
         if (_PasswordThin != null) {
             return _PasswordThin!!
@@ -16,7 +17,7 @@ val Thin.PasswordThin: ImageVector
         _PasswordThin =
             ImageVector
                 .Builder(
-                    name = "PasswordThin",
+                    name = "Thin.PasswordThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

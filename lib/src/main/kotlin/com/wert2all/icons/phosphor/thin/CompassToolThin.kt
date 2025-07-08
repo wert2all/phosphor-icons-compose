@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CompassToolThin: ImageVector
+val Phosphor.Thin.CompassToolThin: ImageVector
     get() {
         if (_CompassToolThin != null) {
             return _CompassToolThin!!
@@ -16,7 +17,7 @@ val Thin.CompassToolThin: ImageVector
         _CompassToolThin =
             ImageVector
                 .Builder(
-                    name = "CompassToolThin",
+                    name = "Thin.CompassToolThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

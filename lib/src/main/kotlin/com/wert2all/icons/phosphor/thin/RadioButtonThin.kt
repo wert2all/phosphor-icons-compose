@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RadioButtonThin: ImageVector
+val Phosphor.Thin.RadioButtonThin: ImageVector
     get() {
         if (_RadioButtonThin != null) {
             return _RadioButtonThin!!
@@ -16,7 +17,7 @@ val Thin.RadioButtonThin: ImageVector
         _RadioButtonThin =
             ImageVector
                 .Builder(
-                    name = "RadioButtonThin",
+                    name = "Thin.RadioButtonThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

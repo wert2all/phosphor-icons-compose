@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChatCenteredThin: ImageVector
+val Phosphor.Thin.ChatCenteredThin: ImageVector
     get() {
         if (_ChatCenteredThin != null) {
             return _ChatCenteredThin!!
@@ -16,7 +17,7 @@ val Thin.ChatCenteredThin: ImageVector
         _ChatCenteredThin =
             ImageVector
                 .Builder(
-                    name = "ChatCenteredThin",
+                    name = "Thin.ChatCenteredThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

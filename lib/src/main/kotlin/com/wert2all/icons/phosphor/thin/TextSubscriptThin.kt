@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TextSubscriptThin: ImageVector
+val Phosphor.Thin.TextSubscriptThin: ImageVector
     get() {
         if (_TextSubscriptThin != null) {
             return _TextSubscriptThin!!
@@ -16,7 +17,7 @@ val Thin.TextSubscriptThin: ImageVector
         _TextSubscriptThin =
             ImageVector
                 .Builder(
-                    name = "TextSubscriptThin",
+                    name = "Thin.TextSubscriptThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

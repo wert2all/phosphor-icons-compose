@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GithubLogoThin: ImageVector
+val Phosphor.Thin.GithubLogoThin: ImageVector
     get() {
         if (_GithubLogoThin != null) {
             return _GithubLogoThin!!
@@ -16,7 +17,7 @@ val Thin.GithubLogoThin: ImageVector
         _GithubLogoThin =
             ImageVector
                 .Builder(
-                    name = "GithubLogoThin",
+                    name = "Thin.GithubLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

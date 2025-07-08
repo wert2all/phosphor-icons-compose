@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ArrowFatLineDownThin: ImageVector
+val Phosphor.Thin.ArrowFatLineDownThin: ImageVector
     get() {
         if (_ArrowFatLineDownThin != null) {
             return _ArrowFatLineDownThin!!
@@ -16,7 +17,7 @@ val Thin.ArrowFatLineDownThin: ImageVector
         _ArrowFatLineDownThin =
             ImageVector
                 .Builder(
-                    name = "ArrowFatLineDownThin",
+                    name = "Thin.ArrowFatLineDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

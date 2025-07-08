@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CaretLineUpThin: ImageVector
+val Phosphor.Thin.CaretLineUpThin: ImageVector
     get() {
         if (_CaretLineUpThin != null) {
             return _CaretLineUpThin!!
@@ -16,7 +17,7 @@ val Thin.CaretLineUpThin: ImageVector
         _CaretLineUpThin =
             ImageVector
                 .Builder(
-                    name = "CaretLineUpThin",
+                    name = "Thin.CaretLineUpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

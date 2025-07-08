@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NumberSquareTwoThin: ImageVector
+val Phosphor.Thin.NumberSquareTwoThin: ImageVector
     get() {
         if (_NumberSquareTwoThin != null) {
             return _NumberSquareTwoThin!!
@@ -16,7 +17,7 @@ val Thin.NumberSquareTwoThin: ImageVector
         _NumberSquareTwoThin =
             ImageVector
                 .Builder(
-                    name = "NumberSquareTwoThin",
+                    name = "Thin.NumberSquareTwoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

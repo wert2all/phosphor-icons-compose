@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MapTrifoldThin: ImageVector
+val Phosphor.Thin.MapTrifoldThin: ImageVector
     get() {
         if (_MapTrifoldThin != null) {
             return _MapTrifoldThin!!
@@ -16,7 +17,7 @@ val Thin.MapTrifoldThin: ImageVector
         _MapTrifoldThin =
             ImageVector
                 .Builder(
-                    name = "MapTrifoldThin",
+                    name = "Thin.MapTrifoldThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

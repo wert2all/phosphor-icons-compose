@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SlidersThin: ImageVector
+val Phosphor.Thin.SlidersThin: ImageVector
     get() {
         if (_SlidersThin != null) {
             return _SlidersThin!!
@@ -16,7 +17,7 @@ val Thin.SlidersThin: ImageVector
         _SlidersThin =
             ImageVector
                 .Builder(
-                    name = "SlidersThin",
+                    name = "Thin.SlidersThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

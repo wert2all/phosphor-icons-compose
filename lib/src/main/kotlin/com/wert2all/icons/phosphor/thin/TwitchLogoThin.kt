@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TwitchLogoThin: ImageVector
+val Phosphor.Thin.TwitchLogoThin: ImageVector
     get() {
         if (_TwitchLogoThin != null) {
             return _TwitchLogoThin!!
@@ -16,7 +17,7 @@ val Thin.TwitchLogoThin: ImageVector
         _TwitchLogoThin =
             ImageVector
                 .Builder(
-                    name = "TwitchLogoThin",
+                    name = "Thin.TwitchLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

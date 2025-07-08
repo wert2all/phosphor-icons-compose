@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ListDashesThin: ImageVector
+val Phosphor.Thin.ListDashesThin: ImageVector
     get() {
         if (_ListDashesThin != null) {
             return _ListDashesThin!!
@@ -16,7 +17,7 @@ val Thin.ListDashesThin: ImageVector
         _ListDashesThin =
             ImageVector
                 .Builder(
-                    name = "ListDashesThin",
+                    name = "Thin.ListDashesThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

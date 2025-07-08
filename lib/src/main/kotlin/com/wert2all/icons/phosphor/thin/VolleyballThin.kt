@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.VolleyballThin: ImageVector
+val Phosphor.Thin.VolleyballThin: ImageVector
     get() {
         if (_VolleyballThin != null) {
             return _VolleyballThin!!
@@ -16,7 +17,7 @@ val Thin.VolleyballThin: ImageVector
         _VolleyballThin =
             ImageVector
                 .Builder(
-                    name = "VolleyballThin",
+                    name = "Thin.VolleyballThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

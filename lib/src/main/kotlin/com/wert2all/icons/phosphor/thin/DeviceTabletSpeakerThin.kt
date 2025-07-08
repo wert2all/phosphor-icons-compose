@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DeviceTabletSpeakerThin: ImageVector
+val Phosphor.Thin.DeviceTabletSpeakerThin: ImageVector
     get() {
         if (_DeviceTabletSpeakerThin != null) {
             return _DeviceTabletSpeakerThin!!
@@ -16,7 +17,7 @@ val Thin.DeviceTabletSpeakerThin: ImageVector
         _DeviceTabletSpeakerThin =
             ImageVector
                 .Builder(
-                    name = "DeviceTabletSpeakerThin",
+                    name = "Thin.DeviceTabletSpeakerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

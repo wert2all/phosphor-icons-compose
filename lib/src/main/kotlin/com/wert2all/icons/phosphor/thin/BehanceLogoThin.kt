@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BehanceLogoThin: ImageVector
+val Phosphor.Thin.BehanceLogoThin: ImageVector
     get() {
         if (_BehanceLogoThin != null) {
             return _BehanceLogoThin!!
@@ -16,7 +17,7 @@ val Thin.BehanceLogoThin: ImageVector
         _BehanceLogoThin =
             ImageVector
                 .Builder(
-                    name = "BehanceLogoThin",
+                    name = "Thin.BehanceLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

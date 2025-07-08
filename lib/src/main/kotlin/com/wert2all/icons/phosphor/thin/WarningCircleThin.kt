@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WarningCircleThin: ImageVector
+val Phosphor.Thin.WarningCircleThin: ImageVector
     get() {
         if (_WarningCircleThin != null) {
             return _WarningCircleThin!!
@@ -16,7 +17,7 @@ val Thin.WarningCircleThin: ImageVector
         _WarningCircleThin =
             ImageVector
                 .Builder(
-                    name = "WarningCircleThin",
+                    name = "Thin.WarningCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -42,7 +43,7 @@ val Thin.WarningCircleThin: ImageVector
                         moveTo(128f, 136f)
                         lineTo(128f, 80f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 172f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

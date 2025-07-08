@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CoatHangerThin: ImageVector
+val Phosphor.Thin.CoatHangerThin: ImageVector
     get() {
         if (_CoatHangerThin != null) {
             return _CoatHangerThin!!
@@ -16,7 +17,7 @@ val Thin.CoatHangerThin: ImageVector
         _CoatHangerThin =
             ImageVector
                 .Builder(
-                    name = "CoatHangerThin",
+                    name = "Thin.CoatHangerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

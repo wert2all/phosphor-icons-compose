@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HeadlightsThin: ImageVector
+val Phosphor.Thin.HeadlightsThin: ImageVector
     get() {
         if (_HeadlightsThin != null) {
             return _HeadlightsThin!!
@@ -16,7 +17,7 @@ val Thin.HeadlightsThin: ImageVector
         _HeadlightsThin =
             ImageVector
                 .Builder(
-                    name = "HeadlightsThin",
+                    name = "Thin.HeadlightsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

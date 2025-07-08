@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DroneThin: ImageVector
+val Phosphor.Thin.DroneThin: ImageVector
     get() {
         if (_DroneThin != null) {
             return _DroneThin!!
@@ -16,7 +17,7 @@ val Thin.DroneThin: ImageVector
         _DroneThin =
             ImageVector
                 .Builder(
-                    name = "DroneThin",
+                    name = "Thin.DroneThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

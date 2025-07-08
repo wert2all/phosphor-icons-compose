@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BeerBottleThin: ImageVector
+val Phosphor.Thin.BeerBottleThin: ImageVector
     get() {
         if (_BeerBottleThin != null) {
             return _BeerBottleThin!!
@@ -16,7 +17,7 @@ val Thin.BeerBottleThin: ImageVector
         _BeerBottleThin =
             ImageVector
                 .Builder(
-                    name = "BeerBottleThin",
+                    name = "Thin.BeerBottleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

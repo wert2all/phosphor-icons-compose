@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CableCarThin: ImageVector
+val Phosphor.Thin.CableCarThin: ImageVector
     get() {
         if (_CableCarThin != null) {
             return _CableCarThin!!
@@ -16,7 +17,7 @@ val Thin.CableCarThin: ImageVector
         _CableCarThin =
             ImageVector
                 .Builder(
-                    name = "CableCarThin",
+                    name = "Thin.CableCarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

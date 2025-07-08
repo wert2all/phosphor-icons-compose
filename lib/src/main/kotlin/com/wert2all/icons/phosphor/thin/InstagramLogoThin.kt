@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.InstagramLogoThin: ImageVector
+val Phosphor.Thin.InstagramLogoThin: ImageVector
     get() {
         if (_InstagramLogoThin != null) {
             return _InstagramLogoThin!!
@@ -16,7 +17,7 @@ val Thin.InstagramLogoThin: ImageVector
         _InstagramLogoThin =
             ImageVector
                 .Builder(
-                    name = "InstagramLogoThin",
+                    name = "Thin.InstagramLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -50,7 +51,7 @@ val Thin.InstagramLogoThin: ImageVector
                         arcTo(48f, 48f, 0f, isMoreThanHalf = false, isPositiveArc = true, 80f, 32f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(180f, 76f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

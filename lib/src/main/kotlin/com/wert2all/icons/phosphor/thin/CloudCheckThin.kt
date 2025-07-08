@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CloudCheckThin: ImageVector
+val Phosphor.Thin.CloudCheckThin: ImageVector
     get() {
         if (_CloudCheckThin != null) {
             return _CloudCheckThin!!
@@ -16,7 +17,7 @@ val Thin.CloudCheckThin: ImageVector
         _CloudCheckThin =
             ImageVector
                 .Builder(
-                    name = "CloudCheckThin",
+                    name = "Thin.CloudCheckThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.StackOverflowLogoThin: ImageVector
+val Phosphor.Thin.StackOverflowLogoThin: ImageVector
     get() {
         if (_StackOverflowLogoThin != null) {
             return _StackOverflowLogoThin!!
@@ -16,7 +17,7 @@ val Thin.StackOverflowLogoThin: ImageVector
         _StackOverflowLogoThin =
             ImageVector
                 .Builder(
-                    name = "StackOverflowLogoThin",
+                    name = "Thin.StackOverflowLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

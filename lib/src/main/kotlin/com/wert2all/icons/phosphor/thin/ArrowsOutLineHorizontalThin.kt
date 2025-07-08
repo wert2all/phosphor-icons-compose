@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ArrowsOutLineHorizontalThin: ImageVector
+val Phosphor.Thin.ArrowsOutLineHorizontalThin: ImageVector
     get() {
         if (_ArrowsOutLineHorizontalThin != null) {
             return _ArrowsOutLineHorizontalThin!!
@@ -16,7 +17,7 @@ val Thin.ArrowsOutLineHorizontalThin: ImageVector
         _ArrowsOutLineHorizontalThin =
             ImageVector
                 .Builder(
-                    name = "ArrowsOutLineHorizontalThin",
+                    name = "Thin.ArrowsOutLineHorizontalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

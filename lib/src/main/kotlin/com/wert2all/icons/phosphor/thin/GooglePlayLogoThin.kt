@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GooglePlayLogoThin: ImageVector
+val Phosphor.Thin.GooglePlayLogoThin: ImageVector
     get() {
         if (_GooglePlayLogoThin != null) {
             return _GooglePlayLogoThin!!
@@ -16,7 +17,7 @@ val Thin.GooglePlayLogoThin: ImageVector
         _GooglePlayLogoThin =
             ImageVector
                 .Builder(
-                    name = "GooglePlayLogoThin",
+                    name = "Thin.GooglePlayLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

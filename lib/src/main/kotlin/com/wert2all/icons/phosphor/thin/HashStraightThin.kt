@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HashStraightThin: ImageVector
+val Phosphor.Thin.HashStraightThin: ImageVector
     get() {
         if (_HashStraightThin != null) {
             return _HashStraightThin!!
@@ -16,7 +17,7 @@ val Thin.HashStraightThin: ImageVector
         _HashStraightThin =
             ImageVector
                 .Builder(
-                    name = "HashStraightThin",
+                    name = "Thin.HashStraightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

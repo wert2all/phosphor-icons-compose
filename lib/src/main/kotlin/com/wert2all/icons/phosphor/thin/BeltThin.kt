@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BeltThin: ImageVector
+val Phosphor.Thin.BeltThin: ImageVector
     get() {
         if (_BeltThin != null) {
             return _BeltThin!!
@@ -16,7 +17,7 @@ val Thin.BeltThin: ImageVector
         _BeltThin =
             ImageVector
                 .Builder(
-                    name = "BeltThin",
+                    name = "Thin.BeltThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

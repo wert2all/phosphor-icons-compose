@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BagThin: ImageVector
+val Phosphor.Thin.BagThin: ImageVector
     get() {
         if (_BagThin != null) {
             return _BagThin!!
@@ -16,7 +17,7 @@ val Thin.BagThin: ImageVector
         _BagThin =
             ImageVector
                 .Builder(
-                    name = "BagThin",
+                    name = "Thin.BagThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

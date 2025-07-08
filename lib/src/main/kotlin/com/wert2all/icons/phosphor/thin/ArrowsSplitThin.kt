@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ArrowsSplitThin: ImageVector
+val Phosphor.Thin.ArrowsSplitThin: ImageVector
     get() {
         if (_ArrowsSplitThin != null) {
             return _ArrowsSplitThin!!
@@ -16,7 +17,7 @@ val Thin.ArrowsSplitThin: ImageVector
         _ArrowsSplitThin =
             ImageVector
                 .Builder(
-                    name = "ArrowsSplitThin",
+                    name = "Thin.ArrowsSplitThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

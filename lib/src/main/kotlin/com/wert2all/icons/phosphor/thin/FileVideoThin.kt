@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FileVideoThin: ImageVector
+val Phosphor.Thin.FileVideoThin: ImageVector
     get() {
         if (_FileVideoThin != null) {
             return _FileVideoThin!!
@@ -16,7 +17,7 @@ val Thin.FileVideoThin: ImageVector
         _FileVideoThin =
             ImageVector
                 .Builder(
-                    name = "FileVideoThin",
+                    name = "Thin.FileVideoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

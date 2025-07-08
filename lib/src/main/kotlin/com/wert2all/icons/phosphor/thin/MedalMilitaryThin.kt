@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MedalMilitaryThin: ImageVector
+val Phosphor.Thin.MedalMilitaryThin: ImageVector
     get() {
         if (_MedalMilitaryThin != null) {
             return _MedalMilitaryThin!!
@@ -16,7 +17,7 @@ val Thin.MedalMilitaryThin: ImageVector
         _MedalMilitaryThin =
             ImageVector
                 .Builder(
-                    name = "MedalMilitaryThin",
+                    name = "Thin.MedalMilitaryThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

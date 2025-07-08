@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DribbbleLogoThin: ImageVector
+val Phosphor.Thin.DribbbleLogoThin: ImageVector
     get() {
         if (_DribbbleLogoThin != null) {
             return _DribbbleLogoThin!!
@@ -16,7 +17,7 @@ val Thin.DribbbleLogoThin: ImageVector
         _DribbbleLogoThin =
             ImageVector
                 .Builder(
-                    name = "DribbbleLogoThin",
+                    name = "Thin.DribbbleLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

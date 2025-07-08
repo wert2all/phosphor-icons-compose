@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BookOpenTextThin: ImageVector
+val Phosphor.Thin.BookOpenTextThin: ImageVector
     get() {
         if (_BookOpenTextThin != null) {
             return _BookOpenTextThin!!
@@ -16,7 +17,7 @@ val Thin.BookOpenTextThin: ImageVector
         _BookOpenTextThin =
             ImageVector
                 .Builder(
-                    name = "BookOpenTextThin",
+                    name = "Thin.BookOpenTextThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

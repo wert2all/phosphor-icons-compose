@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FramerLogoThin: ImageVector
+val Phosphor.Thin.FramerLogoThin: ImageVector
     get() {
         if (_FramerLogoThin != null) {
             return _FramerLogoThin!!
@@ -16,7 +17,7 @@ val Thin.FramerLogoThin: ImageVector
         _FramerLogoThin =
             ImageVector
                 .Builder(
-                    name = "FramerLogoThin",
+                    name = "Thin.FramerLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SparkleThin: ImageVector
+val Phosphor.Thin.SparkleThin: ImageVector
     get() {
         if (_SparkleThin != null) {
             return _SparkleThin!!
@@ -16,7 +17,7 @@ val Thin.SparkleThin: ImageVector
         _SparkleThin =
             ImageVector
                 .Builder(
-                    name = "SparkleThin",
+                    name = "Thin.SparkleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

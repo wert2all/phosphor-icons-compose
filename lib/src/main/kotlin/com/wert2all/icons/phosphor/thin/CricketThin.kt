@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CricketThin: ImageVector
+val Phosphor.Thin.CricketThin: ImageVector
     get() {
         if (_CricketThin != null) {
             return _CricketThin!!
@@ -16,7 +17,7 @@ val Thin.CricketThin: ImageVector
         _CricketThin =
             ImageVector
                 .Builder(
-                    name = "CricketThin",
+                    name = "Thin.CricketThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

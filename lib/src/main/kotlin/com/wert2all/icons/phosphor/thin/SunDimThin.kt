@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SunDimThin: ImageVector
+val Phosphor.Thin.SunDimThin: ImageVector
     get() {
         if (_SunDimThin != null) {
             return _SunDimThin!!
@@ -16,7 +17,7 @@ val Thin.SunDimThin: ImageVector
         _SunDimThin =
             ImageVector
                 .Builder(
-                    name = "SunDimThin",
+                    name = "Thin.SunDimThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpeakerSimpleNoneThin: ImageVector
+val Phosphor.Thin.SpeakerSimpleNoneThin: ImageVector
     get() {
         if (_SpeakerSimpleNoneThin != null) {
             return _SpeakerSimpleNoneThin!!
@@ -16,7 +17,7 @@ val Thin.SpeakerSimpleNoneThin: ImageVector
         _SpeakerSimpleNoneThin =
             ImageVector
                 .Builder(
-                    name = "SpeakerSimpleNoneThin",
+                    name = "Thin.SpeakerSimpleNoneThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

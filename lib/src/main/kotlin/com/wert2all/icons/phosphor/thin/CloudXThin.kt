@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CloudXThin: ImageVector
+val Phosphor.Thin.CloudXThin: ImageVector
     get() {
         if (_CloudXThin != null) {
             return _CloudXThin!!
@@ -16,7 +17,7 @@ val Thin.CloudXThin: ImageVector
         _CloudXThin =
             ImageVector
                 .Builder(
-                    name = "CloudXThin",
+                    name = "Thin.CloudXThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

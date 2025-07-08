@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AmazonLogoThin: ImageVector
+val Phosphor.Thin.AmazonLogoThin: ImageVector
     get() {
         if (_AmazonLogoThin != null) {
             return _AmazonLogoThin!!
@@ -16,7 +17,7 @@ val Thin.AmazonLogoThin: ImageVector
         _AmazonLogoThin =
             ImageVector
                 .Builder(
-                    name = "AmazonLogoThin",
+                    name = "Thin.AmazonLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

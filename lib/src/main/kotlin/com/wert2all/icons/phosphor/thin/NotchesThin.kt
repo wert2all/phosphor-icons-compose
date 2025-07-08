@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NotchesThin: ImageVector
+val Phosphor.Thin.NotchesThin: ImageVector
     get() {
         if (_NotchesThin != null) {
             return _NotchesThin!!
@@ -16,7 +17,7 @@ val Thin.NotchesThin: ImageVector
         _NotchesThin =
             ImageVector
                 .Builder(
-                    name = "NotchesThin",
+                    name = "Thin.NotchesThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

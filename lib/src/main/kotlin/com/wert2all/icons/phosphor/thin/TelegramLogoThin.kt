@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TelegramLogoThin: ImageVector
+val Phosphor.Thin.TelegramLogoThin: ImageVector
     get() {
         if (_TelegramLogoThin != null) {
             return _TelegramLogoThin!!
@@ -16,7 +17,7 @@ val Thin.TelegramLogoThin: ImageVector
         _TelegramLogoThin =
             ImageVector
                 .Builder(
-                    name = "TelegramLogoThin",
+                    name = "Thin.TelegramLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

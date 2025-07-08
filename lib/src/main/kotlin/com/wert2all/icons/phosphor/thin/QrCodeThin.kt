@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.QrCodeThin: ImageVector
+val Phosphor.Thin.QrCodeThin: ImageVector
     get() {
         if (_QrCodeThin != null) {
             return _QrCodeThin!!
@@ -16,7 +17,7 @@ val Thin.QrCodeThin: ImageVector
         _QrCodeThin =
             ImageVector
                 .Builder(
-                    name = "QrCodeThin",
+                    name = "Thin.QrCodeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

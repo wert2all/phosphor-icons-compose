@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CoinsThin: ImageVector
+val Phosphor.Thin.CoinsThin: ImageVector
     get() {
         if (_CoinsThin != null) {
             return _CoinsThin!!
@@ -16,7 +17,7 @@ val Thin.CoinsThin: ImageVector
         _CoinsThin =
             ImageVector
                 .Builder(
-                    name = "CoinsThin",
+                    name = "Thin.CoinsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

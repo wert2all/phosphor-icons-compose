@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BarricadeThin: ImageVector
+val Phosphor.Thin.BarricadeThin: ImageVector
     get() {
         if (_BarricadeThin != null) {
             return _BarricadeThin!!
@@ -16,7 +17,7 @@ val Thin.BarricadeThin: ImageVector
         _BarricadeThin =
             ImageVector
                 .Builder(
-                    name = "BarricadeThin",
+                    name = "Thin.BarricadeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

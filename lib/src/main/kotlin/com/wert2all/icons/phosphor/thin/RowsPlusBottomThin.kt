@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RowsPlusBottomThin: ImageVector
+val Phosphor.Thin.RowsPlusBottomThin: ImageVector
     get() {
         if (_RowsPlusBottomThin != null) {
             return _RowsPlusBottomThin!!
@@ -16,7 +17,7 @@ val Thin.RowsPlusBottomThin: ImageVector
         _RowsPlusBottomThin =
             ImageVector
                 .Builder(
-                    name = "RowsPlusBottomThin",
+                    name = "Thin.RowsPlusBottomThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

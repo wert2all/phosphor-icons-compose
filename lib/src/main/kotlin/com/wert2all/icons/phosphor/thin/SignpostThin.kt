@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SignpostThin: ImageVector
+val Phosphor.Thin.SignpostThin: ImageVector
     get() {
         if (_SignpostThin != null) {
             return _SignpostThin!!
@@ -16,7 +17,7 @@ val Thin.SignpostThin: ImageVector
         _SignpostThin =
             ImageVector
                 .Builder(
-                    name = "SignpostThin",
+                    name = "Thin.SignpostThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PlugsConnectedThin: ImageVector
+val Phosphor.Thin.PlugsConnectedThin: ImageVector
     get() {
         if (_PlugsConnectedThin != null) {
             return _PlugsConnectedThin!!
@@ -16,7 +17,7 @@ val Thin.PlugsConnectedThin: ImageVector
         _PlugsConnectedThin =
             ImageVector
                 .Builder(
-                    name = "PlugsConnectedThin",
+                    name = "Thin.PlugsConnectedThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

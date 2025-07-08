@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SkipForwardCircleThin: ImageVector
+val Phosphor.Thin.SkipForwardCircleThin: ImageVector
     get() {
         if (_SkipForwardCircleThin != null) {
             return _SkipForwardCircleThin!!
@@ -16,7 +17,7 @@ val Thin.SkipForwardCircleThin: ImageVector
         _SkipForwardCircleThin =
             ImageVector
                 .Builder(
-                    name = "SkipForwardCircleThin",
+                    name = "Thin.SkipForwardCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

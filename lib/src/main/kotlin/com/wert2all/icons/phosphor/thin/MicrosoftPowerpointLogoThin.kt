@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MicrosoftPowerpointLogoThin: ImageVector
+val Phosphor.Thin.MicrosoftPowerpointLogoThin: ImageVector
     get() {
         if (_MicrosoftPowerpointLogoThin != null) {
             return _MicrosoftPowerpointLogoThin!!
@@ -16,7 +17,7 @@ val Thin.MicrosoftPowerpointLogoThin: ImageVector
         _MicrosoftPowerpointLogoThin =
             ImageVector
                 .Builder(
-                    name = "MicrosoftPowerpointLogoThin",
+                    name = "Thin.MicrosoftPowerpointLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MopedFrontThin: ImageVector
+val Phosphor.Thin.MopedFrontThin: ImageVector
     get() {
         if (_MopedFrontThin != null) {
             return _MopedFrontThin!!
@@ -16,7 +17,7 @@ val Thin.MopedFrontThin: ImageVector
         _MopedFrontThin =
             ImageVector
                 .Builder(
-                    name = "MopedFrontThin",
+                    name = "Thin.MopedFrontThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

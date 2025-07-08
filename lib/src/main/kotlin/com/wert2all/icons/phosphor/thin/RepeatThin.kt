@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RepeatThin: ImageVector
+val Phosphor.Thin.RepeatThin: ImageVector
     get() {
         if (_RepeatThin != null) {
             return _RepeatThin!!
@@ -16,7 +17,7 @@ val Thin.RepeatThin: ImageVector
         _RepeatThin =
             ImageVector
                 .Builder(
-                    name = "RepeatThin",
+                    name = "Thin.RepeatThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

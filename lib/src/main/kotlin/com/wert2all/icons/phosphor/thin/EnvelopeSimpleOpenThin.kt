@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EnvelopeSimpleOpenThin: ImageVector
+val Phosphor.Thin.EnvelopeSimpleOpenThin: ImageVector
     get() {
         if (_EnvelopeSimpleOpenThin != null) {
             return _EnvelopeSimpleOpenThin!!
@@ -16,7 +17,7 @@ val Thin.EnvelopeSimpleOpenThin: ImageVector
         _EnvelopeSimpleOpenThin =
             ImageVector
                 .Builder(
-                    name = "EnvelopeSimpleOpenThin",
+                    name = "Thin.EnvelopeSimpleOpenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

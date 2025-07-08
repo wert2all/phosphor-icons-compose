@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpotifyLogoThin: ImageVector
+val Phosphor.Thin.SpotifyLogoThin: ImageVector
     get() {
         if (_SpotifyLogoThin != null) {
             return _SpotifyLogoThin!!
@@ -16,7 +17,7 @@ val Thin.SpotifyLogoThin: ImageVector
         _SpotifyLogoThin =
             ImageVector
                 .Builder(
-                    name = "SpotifyLogoThin",
+                    name = "Thin.SpotifyLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

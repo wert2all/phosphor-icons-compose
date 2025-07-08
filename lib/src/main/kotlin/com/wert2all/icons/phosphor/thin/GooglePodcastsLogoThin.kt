@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GooglePodcastsLogoThin: ImageVector
+val Phosphor.Thin.GooglePodcastsLogoThin: ImageVector
     get() {
         if (_GooglePodcastsLogoThin != null) {
             return _GooglePodcastsLogoThin!!
@@ -16,7 +17,7 @@ val Thin.GooglePodcastsLogoThin: ImageVector
         _GooglePodcastsLogoThin =
             ImageVector
                 .Builder(
-                    name = "GooglePodcastsLogoThin",
+                    name = "Thin.GooglePodcastsLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

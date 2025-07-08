@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WatchThin: ImageVector
+val Phosphor.Thin.WatchThin: ImageVector
     get() {
         if (_WatchThin != null) {
             return _WatchThin!!
@@ -16,7 +17,7 @@ val Thin.WatchThin: ImageVector
         _WatchThin =
             ImageVector
                 .Builder(
-                    name = "WatchThin",
+                    name = "Thin.WatchThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

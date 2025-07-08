@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FireTruckThin: ImageVector
+val Phosphor.Thin.FireTruckThin: ImageVector
     get() {
         if (_FireTruckThin != null) {
             return _FireTruckThin!!
@@ -16,7 +17,7 @@ val Thin.FireTruckThin: ImageVector
         _FireTruckThin =
             ImageVector
                 .Builder(
-                    name = "FireTruckThin",
+                    name = "Thin.FireTruckThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

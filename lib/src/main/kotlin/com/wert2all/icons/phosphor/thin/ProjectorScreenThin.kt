@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ProjectorScreenThin: ImageVector
+val Phosphor.Thin.ProjectorScreenThin: ImageVector
     get() {
         if (_ProjectorScreenThin != null) {
             return _ProjectorScreenThin!!
@@ -16,7 +17,7 @@ val Thin.ProjectorScreenThin: ImageVector
         _ProjectorScreenThin =
             ImageVector
                 .Builder(
-                    name = "ProjectorScreenThin",
+                    name = "Thin.ProjectorScreenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

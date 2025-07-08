@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SlideshowThin: ImageVector
+val Phosphor.Thin.SlideshowThin: ImageVector
     get() {
         if (_SlideshowThin != null) {
             return _SlideshowThin!!
@@ -16,7 +17,7 @@ val Thin.SlideshowThin: ImageVector
         _SlideshowThin =
             ImageVector
                 .Builder(
-                    name = "SlideshowThin",
+                    name = "Thin.SlideshowThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

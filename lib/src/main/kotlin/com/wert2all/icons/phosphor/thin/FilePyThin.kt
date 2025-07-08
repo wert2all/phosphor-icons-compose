@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FilePyThin: ImageVector
+val Phosphor.Thin.FilePyThin: ImageVector
     get() {
         if (_FilePyThin != null) {
             return _FilePyThin!!
@@ -16,7 +17,7 @@ val Thin.FilePyThin: ImageVector
         _FilePyThin =
             ImageVector
                 .Builder(
-                    name = "FilePyThin",
+                    name = "Thin.FilePyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

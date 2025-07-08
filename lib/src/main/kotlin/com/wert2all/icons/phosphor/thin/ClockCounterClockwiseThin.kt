@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ClockCounterClockwiseThin: ImageVector
+val Phosphor.Thin.ClockCounterClockwiseThin: ImageVector
     get() {
         if (_ClockCounterClockwiseThin != null) {
             return _ClockCounterClockwiseThin!!
@@ -16,7 +17,7 @@ val Thin.ClockCounterClockwiseThin: ImageVector
         _ClockCounterClockwiseThin =
             ImageVector
                 .Builder(
-                    name = "ClockCounterClockwiseThin",
+                    name = "Thin.ClockCounterClockwiseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

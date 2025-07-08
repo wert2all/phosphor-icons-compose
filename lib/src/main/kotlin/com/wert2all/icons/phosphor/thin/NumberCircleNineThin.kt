@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NumberCircleNineThin: ImageVector
+val Phosphor.Thin.NumberCircleNineThin: ImageVector
     get() {
         if (_NumberCircleNineThin != null) {
             return _NumberCircleNineThin!!
@@ -16,7 +17,7 @@ val Thin.NumberCircleNineThin: ImageVector
         _NumberCircleNineThin =
             ImageVector
                 .Builder(
-                    name = "NumberCircleNineThin",
+                    name = "Thin.NumberCircleNineThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

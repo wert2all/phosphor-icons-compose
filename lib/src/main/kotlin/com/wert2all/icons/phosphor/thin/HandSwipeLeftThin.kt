@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandSwipeLeftThin: ImageVector
+val Phosphor.Thin.HandSwipeLeftThin: ImageVector
     get() {
         if (_HandSwipeLeftThin != null) {
             return _HandSwipeLeftThin!!
@@ -16,7 +17,7 @@ val Thin.HandSwipeLeftThin: ImageVector
         _HandSwipeLeftThin =
             ImageVector
                 .Builder(
-                    name = "HandSwipeLeftThin",
+                    name = "Thin.HandSwipeLeftThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

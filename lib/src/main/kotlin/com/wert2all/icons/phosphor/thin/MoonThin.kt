@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MoonThin: ImageVector
+val Phosphor.Thin.MoonThin: ImageVector
     get() {
         if (_MoonThin != null) {
             return _MoonThin!!
@@ -16,7 +17,7 @@ val Thin.MoonThin: ImageVector
         _MoonThin =
             ImageVector
                 .Builder(
-                    name = "MoonThin",
+                    name = "Thin.MoonThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

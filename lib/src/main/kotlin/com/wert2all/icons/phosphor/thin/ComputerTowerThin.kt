@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ComputerTowerThin: ImageVector
+val Phosphor.Thin.ComputerTowerThin: ImageVector
     get() {
         if (_ComputerTowerThin != null) {
             return _ComputerTowerThin!!
@@ -16,7 +17,7 @@ val Thin.ComputerTowerThin: ImageVector
         _ComputerTowerThin =
             ImageVector
                 .Builder(
-                    name = "ComputerTowerThin",
+                    name = "Thin.ComputerTowerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -57,7 +58,7 @@ val Thin.ComputerTowerThin: ImageVector
                         arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 200f, 40f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 180f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

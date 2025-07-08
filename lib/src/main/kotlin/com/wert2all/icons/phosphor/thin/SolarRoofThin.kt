@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SolarRoofThin: ImageVector
+val Phosphor.Thin.SolarRoofThin: ImageVector
     get() {
         if (_SolarRoofThin != null) {
             return _SolarRoofThin!!
@@ -16,7 +17,7 @@ val Thin.SolarRoofThin: ImageVector
         _SolarRoofThin =
             ImageVector
                 .Builder(
-                    name = "SolarRoofThin",
+                    name = "Thin.SolarRoofThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

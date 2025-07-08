@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ThreadsLogoThin: ImageVector
+val Phosphor.Thin.ThreadsLogoThin: ImageVector
     get() {
         if (_ThreadsLogoThin != null) {
             return _ThreadsLogoThin!!
@@ -16,7 +17,7 @@ val Thin.ThreadsLogoThin: ImageVector
         _ThreadsLogoThin =
             ImageVector
                 .Builder(
-                    name = "ThreadsLogoThin",
+                    name = "Thin.ThreadsLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

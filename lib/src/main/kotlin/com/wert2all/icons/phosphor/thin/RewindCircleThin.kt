@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RewindCircleThin: ImageVector
+val Phosphor.Thin.RewindCircleThin: ImageVector
     get() {
         if (_RewindCircleThin != null) {
             return _RewindCircleThin!!
@@ -16,7 +17,7 @@ val Thin.RewindCircleThin: ImageVector
         _RewindCircleThin =
             ImageVector
                 .Builder(
-                    name = "RewindCircleThin",
+                    name = "Thin.RewindCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

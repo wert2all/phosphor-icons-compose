@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TextStrikethroughThin: ImageVector
+val Phosphor.Thin.TextStrikethroughThin: ImageVector
     get() {
         if (_TextStrikethroughThin != null) {
             return _TextStrikethroughThin!!
@@ -16,7 +17,7 @@ val Thin.TextStrikethroughThin: ImageVector
         _TextStrikethroughThin =
             ImageVector
                 .Builder(
-                    name = "TextStrikethroughThin",
+                    name = "Thin.TextStrikethroughThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

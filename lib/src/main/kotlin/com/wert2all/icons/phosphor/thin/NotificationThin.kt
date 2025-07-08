@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NotificationThin: ImageVector
+val Phosphor.Thin.NotificationThin: ImageVector
     get() {
         if (_NotificationThin != null) {
             return _NotificationThin!!
@@ -16,7 +17,7 @@ val Thin.NotificationThin: ImageVector
         _NotificationThin =
             ImageVector
                 .Builder(
-                    name = "NotificationThin",
+                    name = "Thin.NotificationThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

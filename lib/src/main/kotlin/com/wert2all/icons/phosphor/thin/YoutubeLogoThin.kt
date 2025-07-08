@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.YoutubeLogoThin: ImageVector
+val Phosphor.Thin.YoutubeLogoThin: ImageVector
     get() {
         if (_YoutubeLogoThin != null) {
             return _YoutubeLogoThin!!
@@ -16,7 +17,7 @@ val Thin.YoutubeLogoThin: ImageVector
         _YoutubeLogoThin =
             ImageVector
                 .Builder(
-                    name = "YoutubeLogoThin",
+                    name = "Thin.YoutubeLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

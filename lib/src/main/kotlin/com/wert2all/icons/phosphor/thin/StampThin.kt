@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.StampThin: ImageVector
+val Phosphor.Thin.StampThin: ImageVector
     get() {
         if (_StampThin != null) {
             return _StampThin!!
@@ -16,7 +17,7 @@ val Thin.StampThin: ImageVector
         _StampThin =
             ImageVector
                 .Builder(
-                    name = "StampThin",
+                    name = "Thin.StampThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

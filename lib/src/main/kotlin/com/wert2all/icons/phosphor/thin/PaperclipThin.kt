@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PaperclipThin: ImageVector
+val Phosphor.Thin.PaperclipThin: ImageVector
     get() {
         if (_PaperclipThin != null) {
             return _PaperclipThin!!
@@ -16,7 +17,7 @@ val Thin.PaperclipThin: ImageVector
         _PaperclipThin =
             ImageVector
                 .Builder(
-                    name = "PaperclipThin",
+                    name = "Thin.PaperclipThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

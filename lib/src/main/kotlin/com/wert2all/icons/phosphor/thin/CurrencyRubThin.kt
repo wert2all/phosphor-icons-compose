@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CurrencyRubThin: ImageVector
+val Phosphor.Thin.CurrencyRubThin: ImageVector
     get() {
         if (_CurrencyRubThin != null) {
             return _CurrencyRubThin!!
@@ -16,7 +17,7 @@ val Thin.CurrencyRubThin: ImageVector
         _CurrencyRubThin =
             ImageVector
                 .Builder(
-                    name = "CurrencyRubThin",
+                    name = "Thin.CurrencyRubThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TableThin: ImageVector
+val Phosphor.Thin.TableThin: ImageVector
     get() {
         if (_TableThin != null) {
             return _TableThin!!
@@ -16,7 +17,7 @@ val Thin.TableThin: ImageVector
         _TableThin =
             ImageVector
                 .Builder(
-                    name = "TableThin",
+                    name = "Thin.TableThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

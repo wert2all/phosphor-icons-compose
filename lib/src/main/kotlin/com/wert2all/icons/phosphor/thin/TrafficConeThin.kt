@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrafficConeThin: ImageVector
+val Phosphor.Thin.TrafficConeThin: ImageVector
     get() {
         if (_TrafficConeThin != null) {
             return _TrafficConeThin!!
@@ -16,7 +17,7 @@ val Thin.TrafficConeThin: ImageVector
         _TrafficConeThin =
             ImageVector
                 .Builder(
-                    name = "TrafficConeThin",
+                    name = "Thin.TrafficConeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TireThin: ImageVector
+val Phosphor.Thin.TireThin: ImageVector
     get() {
         if (_TireThin != null) {
             return _TireThin!!
@@ -16,7 +17,7 @@ val Thin.TireThin: ImageVector
         _TireThin =
             ImageVector
                 .Builder(
-                    name = "TireThin",
+                    name = "Thin.TireThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

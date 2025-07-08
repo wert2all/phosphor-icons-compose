@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ProjectorScreenChartThin: ImageVector
+val Phosphor.Thin.ProjectorScreenChartThin: ImageVector
     get() {
         if (_ProjectorScreenChartThin != null) {
             return _ProjectorScreenChartThin!!
@@ -16,7 +17,7 @@ val Thin.ProjectorScreenChartThin: ImageVector
         _ProjectorScreenChartThin =
             ImageVector
                 .Builder(
-                    name = "ProjectorScreenChartThin",
+                    name = "Thin.ProjectorScreenChartThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CastleTurretThin: ImageVector
+val Phosphor.Thin.CastleTurretThin: ImageVector
     get() {
         if (_CastleTurretThin != null) {
             return _CastleTurretThin!!
@@ -16,7 +17,7 @@ val Thin.CastleTurretThin: ImageVector
         _CastleTurretThin =
             ImageVector
                 .Builder(
-                    name = "CastleTurretThin",
+                    name = "Thin.CastleTurretThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandGrabbingThin: ImageVector
+val Phosphor.Thin.HandGrabbingThin: ImageVector
     get() {
         if (_HandGrabbingThin != null) {
             return _HandGrabbingThin!!
@@ -16,7 +17,7 @@ val Thin.HandGrabbingThin: ImageVector
         _HandGrabbingThin =
             ImageVector
                 .Builder(
-                    name = "HandGrabbingThin",
+                    name = "Thin.HandGrabbingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

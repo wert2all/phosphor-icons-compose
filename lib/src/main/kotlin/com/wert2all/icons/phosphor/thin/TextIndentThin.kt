@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TextIndentThin: ImageVector
+val Phosphor.Thin.TextIndentThin: ImageVector
     get() {
         if (_TextIndentThin != null) {
             return _TextIndentThin!!
@@ -16,7 +17,7 @@ val Thin.TextIndentThin: ImageVector
         _TextIndentThin =
             ImageVector
                 .Builder(
-                    name = "TextIndentThin",
+                    name = "Thin.TextIndentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandshakeThin: ImageVector
+val Phosphor.Thin.HandshakeThin: ImageVector
     get() {
         if (_HandshakeThin != null) {
             return _HandshakeThin!!
@@ -16,7 +17,7 @@ val Thin.HandshakeThin: ImageVector
         _HandshakeThin =
             ImageVector
                 .Builder(
-                    name = "HandshakeThin",
+                    name = "Thin.HandshakeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

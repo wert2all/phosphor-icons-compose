@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MaskSadThin: ImageVector
+val Phosphor.Thin.MaskSadThin: ImageVector
     get() {
         if (_MaskSadThin != null) {
             return _MaskSadThin!!
@@ -16,7 +17,7 @@ val Thin.MaskSadThin: ImageVector
         _MaskSadThin =
             ImageVector
                 .Builder(
-                    name = "MaskSadThin",
+                    name = "Thin.MaskSadThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

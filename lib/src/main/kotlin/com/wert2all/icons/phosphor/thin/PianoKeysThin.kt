@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PianoKeysThin: ImageVector
+val Phosphor.Thin.PianoKeysThin: ImageVector
     get() {
         if (_PianoKeysThin != null) {
             return _PianoKeysThin!!
@@ -16,7 +17,7 @@ val Thin.PianoKeysThin: ImageVector
         _PianoKeysThin =
             ImageVector
                 .Builder(
-                    name = "PianoKeysThin",
+                    name = "Thin.PianoKeysThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

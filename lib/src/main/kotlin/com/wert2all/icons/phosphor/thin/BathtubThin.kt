@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BathtubThin: ImageVector
+val Phosphor.Thin.BathtubThin: ImageVector
     get() {
         if (_BathtubThin != null) {
             return _BathtubThin!!
@@ -16,7 +17,7 @@ val Thin.BathtubThin: ImageVector
         _BathtubThin =
             ImageVector
                 .Builder(
-                    name = "BathtubThin",
+                    name = "Thin.BathtubThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

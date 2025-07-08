@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WallThin: ImageVector
+val Phosphor.Thin.WallThin: ImageVector
     get() {
         if (_WallThin != null) {
             return _WallThin!!
@@ -16,7 +17,7 @@ val Thin.WallThin: ImageVector
         _WallThin =
             ImageVector
                 .Builder(
-                    name = "WallThin",
+                    name = "Thin.WallThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

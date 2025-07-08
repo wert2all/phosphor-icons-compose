@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.StickerThin: ImageVector
+val Phosphor.Thin.StickerThin: ImageVector
     get() {
         if (_StickerThin != null) {
             return _StickerThin!!
@@ -16,7 +17,7 @@ val Thin.StickerThin: ImageVector
         _StickerThin =
             ImageVector
                 .Builder(
-                    name = "StickerThin",
+                    name = "Thin.StickerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

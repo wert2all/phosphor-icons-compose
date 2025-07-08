@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WarningThin: ImageVector
+val Phosphor.Thin.WarningThin: ImageVector
     get() {
         if (_WarningThin != null) {
             return _WarningThin!!
@@ -16,7 +17,7 @@ val Thin.WarningThin: ImageVector
         _WarningThin =
             ImageVector
                 .Builder(
-                    name = "WarningThin",
+                    name = "Thin.WarningThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -46,7 +47,7 @@ val Thin.WarningThin: ImageVector
                         moveTo(128f, 144f)
                         lineTo(128f, 104f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 180f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

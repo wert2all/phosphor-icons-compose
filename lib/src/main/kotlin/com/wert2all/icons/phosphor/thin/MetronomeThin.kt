@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MetronomeThin: ImageVector
+val Phosphor.Thin.MetronomeThin: ImageVector
     get() {
         if (_MetronomeThin != null) {
             return _MetronomeThin!!
@@ -16,7 +17,7 @@ val Thin.MetronomeThin: ImageVector
         _MetronomeThin =
             ImageVector
                 .Builder(
-                    name = "MetronomeThin",
+                    name = "Thin.MetronomeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

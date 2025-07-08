@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MailboxThin: ImageVector
+val Phosphor.Thin.MailboxThin: ImageVector
     get() {
         if (_MailboxThin != null) {
             return _MailboxThin!!
@@ -16,7 +17,7 @@ val Thin.MailboxThin: ImageVector
         _MailboxThin =
             ImageVector
                 .Builder(
-                    name = "MailboxThin",
+                    name = "Thin.MailboxThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

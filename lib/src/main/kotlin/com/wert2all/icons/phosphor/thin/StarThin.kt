@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.StarThin: ImageVector
+val Phosphor.Thin.StarThin: ImageVector
     get() {
         if (_StarThin != null) {
             return _StarThin!!
@@ -16,7 +17,7 @@ val Thin.StarThin: ImageVector
         _StarThin =
             ImageVector
                 .Builder(
-                    name = "StarThin",
+                    name = "Thin.StarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CrosshairThin: ImageVector
+val Phosphor.Thin.CrosshairThin: ImageVector
     get() {
         if (_CrosshairThin != null) {
             return _CrosshairThin!!
@@ -16,7 +17,7 @@ val Thin.CrosshairThin: ImageVector
         _CrosshairThin =
             ImageVector
                 .Builder(
-                    name = "CrosshairThin",
+                    name = "Thin.CrosshairThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

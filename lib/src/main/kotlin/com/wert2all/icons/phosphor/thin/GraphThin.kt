@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GraphThin: ImageVector
+val Phosphor.Thin.GraphThin: ImageVector
     get() {
         if (_GraphThin != null) {
             return _GraphThin!!
@@ -16,7 +17,7 @@ val Thin.GraphThin: ImageVector
         _GraphThin =
             ImageVector
                 .Builder(
-                    name = "GraphThin",
+                    name = "Thin.GraphThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

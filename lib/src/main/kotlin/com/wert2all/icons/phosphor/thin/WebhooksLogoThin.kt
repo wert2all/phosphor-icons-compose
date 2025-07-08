@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WebhooksLogoThin: ImageVector
+val Phosphor.Thin.WebhooksLogoThin: ImageVector
     get() {
         if (_WebhooksLogoThin != null) {
             return _WebhooksLogoThin!!
@@ -16,25 +17,25 @@ val Thin.WebhooksLogoThin: ImageVector
         _WebhooksLogoThin =
             ImageVector
                 .Builder(
-                    name = "WebhooksLogoThin",
+                    name = "Thin.WebhooksLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
                     viewportHeight = 256f,
                 ).apply {
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(192f, 168f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 64f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(64f, 168f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

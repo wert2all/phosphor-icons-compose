@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FilmSlateThin: ImageVector
+val Phosphor.Thin.FilmSlateThin: ImageVector
     get() {
         if (_FilmSlateThin != null) {
             return _FilmSlateThin!!
@@ -16,7 +17,7 @@ val Thin.FilmSlateThin: ImageVector
         _FilmSlateThin =
             ImageVector
                 .Builder(
-                    name = "FilmSlateThin",
+                    name = "Thin.FilmSlateThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

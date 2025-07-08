@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TractorThin: ImageVector
+val Phosphor.Thin.TractorThin: ImageVector
     get() {
         if (_TractorThin != null) {
             return _TractorThin!!
@@ -16,7 +17,7 @@ val Thin.TractorThin: ImageVector
         _TractorThin =
             ImageVector
                 .Builder(
-                    name = "TractorThin",
+                    name = "Thin.TractorThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -44,7 +45,7 @@ val Thin.TractorThin: ImageVector
                         arcToRelative(44f, 44f, 0f, isMoreThanHalf = true, isPositiveArc = true, 88f, 0f)
                         arcToRelative(44f, 44f, 0f, isMoreThanHalf = true, isPositiveArc = true, -88f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(68f, 172f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DoorOpenThin: ImageVector
+val Phosphor.Thin.DoorOpenThin: ImageVector
     get() {
         if (_DoorOpenThin != null) {
             return _DoorOpenThin!!
@@ -16,7 +17,7 @@ val Thin.DoorOpenThin: ImageVector
         _DoorOpenThin =
             ImageVector
                 .Builder(
-                    name = "DoorOpenThin",
+                    name = "Thin.DoorOpenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -44,7 +45,7 @@ val Thin.DoorOpenThin: ImageVector
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8f, 8f)
                         verticalLineTo(224f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(132f, 132f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

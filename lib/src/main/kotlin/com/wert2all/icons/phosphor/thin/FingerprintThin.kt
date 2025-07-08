@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FingerprintThin: ImageVector
+val Phosphor.Thin.FingerprintThin: ImageVector
     get() {
         if (_FingerprintThin != null) {
             return _FingerprintThin!!
@@ -16,7 +17,7 @@ val Thin.FingerprintThin: ImageVector
         _FingerprintThin =
             ImageVector
                 .Builder(
-                    name = "FingerprintThin",
+                    name = "Thin.FingerprintThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

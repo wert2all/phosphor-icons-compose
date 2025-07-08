@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PulseThin: ImageVector
+val Phosphor.Thin.PulseThin: ImageVector
     get() {
         if (_PulseThin != null) {
             return _PulseThin!!
@@ -16,7 +17,7 @@ val Thin.PulseThin: ImageVector
         _PulseThin =
             ImageVector
                 .Builder(
-                    name = "PulseThin",
+                    name = "Thin.PulseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

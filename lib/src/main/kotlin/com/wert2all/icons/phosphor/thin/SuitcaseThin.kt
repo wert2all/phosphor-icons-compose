@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SuitcaseThin: ImageVector
+val Phosphor.Thin.SuitcaseThin: ImageVector
     get() {
         if (_SuitcaseThin != null) {
             return _SuitcaseThin!!
@@ -16,7 +17,7 @@ val Thin.SuitcaseThin: ImageVector
         _SuitcaseThin =
             ImageVector
                 .Builder(
-                    name = "SuitcaseThin",
+                    name = "Thin.SuitcaseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

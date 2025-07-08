@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DeviceRotateThin: ImageVector
+val Phosphor.Thin.DeviceRotateThin: ImageVector
     get() {
         if (_DeviceRotateThin != null) {
             return _DeviceRotateThin!!
@@ -16,7 +17,7 @@ val Thin.DeviceRotateThin: ImageVector
         _DeviceRotateThin =
             ImageVector
                 .Builder(
-                    name = "DeviceRotateThin",
+                    name = "Thin.DeviceRotateThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

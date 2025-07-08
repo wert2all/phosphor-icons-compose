@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FlipHorizontalThin: ImageVector
+val Phosphor.Thin.FlipHorizontalThin: ImageVector
     get() {
         if (_FlipHorizontalThin != null) {
             return _FlipHorizontalThin!!
@@ -16,7 +17,7 @@ val Thin.FlipHorizontalThin: ImageVector
         _FlipHorizontalThin =
             ImageVector
                 .Builder(
-                    name = "FlipHorizontalThin",
+                    name = "Thin.FlipHorizontalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

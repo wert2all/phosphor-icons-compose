@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ArrowElbowRightDownThin: ImageVector
+val Phosphor.Thin.ArrowElbowRightDownThin: ImageVector
     get() {
         if (_ArrowElbowRightDownThin != null) {
             return _ArrowElbowRightDownThin!!
@@ -16,7 +17,7 @@ val Thin.ArrowElbowRightDownThin: ImageVector
         _ArrowElbowRightDownThin =
             ImageVector
                 .Builder(
-                    name = "ArrowElbowRightDownThin",
+                    name = "Thin.ArrowElbowRightDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

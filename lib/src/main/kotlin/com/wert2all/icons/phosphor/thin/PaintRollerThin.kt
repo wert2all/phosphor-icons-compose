@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PaintRollerThin: ImageVector
+val Phosphor.Thin.PaintRollerThin: ImageVector
     get() {
         if (_PaintRollerThin != null) {
             return _PaintRollerThin!!
@@ -16,7 +17,7 @@ val Thin.PaintRollerThin: ImageVector
         _PaintRollerThin =
             ImageVector
                 .Builder(
-                    name = "PaintRollerThin",
+                    name = "Thin.PaintRollerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

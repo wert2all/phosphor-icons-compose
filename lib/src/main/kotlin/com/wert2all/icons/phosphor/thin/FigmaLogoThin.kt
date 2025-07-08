@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FigmaLogoThin: ImageVector
+val Phosphor.Thin.FigmaLogoThin: ImageVector
     get() {
         if (_FigmaLogoThin != null) {
             return _FigmaLogoThin!!
@@ -16,7 +17,7 @@ val Thin.FigmaLogoThin: ImageVector
         _FigmaLogoThin =
             ImageVector
                 .Builder(
-                    name = "FigmaLogoThin",
+                    name = "Thin.FigmaLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

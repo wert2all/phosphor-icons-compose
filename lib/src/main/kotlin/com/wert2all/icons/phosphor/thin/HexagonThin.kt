@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HexagonThin: ImageVector
+val Phosphor.Thin.HexagonThin: ImageVector
     get() {
         if (_HexagonThin != null) {
             return _HexagonThin!!
@@ -16,7 +17,7 @@ val Thin.HexagonThin: ImageVector
         _HexagonThin =
             ImageVector
                 .Builder(
-                    name = "HexagonThin",
+                    name = "Thin.HexagonThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

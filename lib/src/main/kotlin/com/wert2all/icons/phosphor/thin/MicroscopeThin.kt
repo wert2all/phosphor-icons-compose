@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MicroscopeThin: ImageVector
+val Phosphor.Thin.MicroscopeThin: ImageVector
     get() {
         if (_MicroscopeThin != null) {
             return _MicroscopeThin!!
@@ -16,7 +17,7 @@ val Thin.MicroscopeThin: ImageVector
         _MicroscopeThin =
             ImageVector
                 .Builder(
-                    name = "MicroscopeThin",
+                    name = "Thin.MicroscopeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

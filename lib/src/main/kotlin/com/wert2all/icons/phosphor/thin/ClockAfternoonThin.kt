@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ClockAfternoonThin: ImageVector
+val Phosphor.Thin.ClockAfternoonThin: ImageVector
     get() {
         if (_ClockAfternoonThin != null) {
             return _ClockAfternoonThin!!
@@ -16,7 +17,7 @@ val Thin.ClockAfternoonThin: ImageVector
         _ClockAfternoonThin =
             ImageVector
                 .Builder(
-                    name = "ClockAfternoonThin",
+                    name = "Thin.ClockAfternoonThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

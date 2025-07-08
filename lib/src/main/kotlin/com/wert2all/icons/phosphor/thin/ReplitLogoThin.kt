@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ReplitLogoThin: ImageVector
+val Phosphor.Thin.ReplitLogoThin: ImageVector
     get() {
         if (_ReplitLogoThin != null) {
             return _ReplitLogoThin!!
@@ -16,7 +17,7 @@ val Thin.ReplitLogoThin: ImageVector
         _ReplitLogoThin =
             ImageVector
                 .Builder(
-                    name = "ReplitLogoThin",
+                    name = "Thin.ReplitLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PlaylistThin: ImageVector
+val Phosphor.Thin.PlaylistThin: ImageVector
     get() {
         if (_PlaylistThin != null) {
             return _PlaylistThin!!
@@ -16,7 +17,7 @@ val Thin.PlaylistThin: ImageVector
         _PlaylistThin =
             ImageVector
                 .Builder(
-                    name = "PlaylistThin",
+                    name = "Thin.PlaylistThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

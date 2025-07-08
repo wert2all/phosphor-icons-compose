@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NumberCircleZeroThin: ImageVector
+val Phosphor.Thin.NumberCircleZeroThin: ImageVector
     get() {
         if (_NumberCircleZeroThin != null) {
             return _NumberCircleZeroThin!!
@@ -16,7 +17,7 @@ val Thin.NumberCircleZeroThin: ImageVector
         _NumberCircleZeroThin =
             ImageVector
                 .Builder(
-                    name = "NumberCircleZeroThin",
+                    name = "Thin.NumberCircleZeroThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

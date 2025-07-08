@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PlusMinusThin: ImageVector
+val Phosphor.Thin.PlusMinusThin: ImageVector
     get() {
         if (_PlusMinusThin != null) {
             return _PlusMinusThin!!
@@ -16,7 +17,7 @@ val Thin.PlusMinusThin: ImageVector
         _PlusMinusThin =
             ImageVector
                 .Builder(
-                    name = "PlusMinusThin",
+                    name = "Thin.PlusMinusThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

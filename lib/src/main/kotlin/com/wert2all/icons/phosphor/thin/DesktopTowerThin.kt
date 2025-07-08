@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DesktopTowerThin: ImageVector
+val Phosphor.Thin.DesktopTowerThin: ImageVector
     get() {
         if (_DesktopTowerThin != null) {
             return _DesktopTowerThin!!
@@ -16,7 +17,7 @@ val Thin.DesktopTowerThin: ImageVector
         _DesktopTowerThin =
             ImageVector
                 .Builder(
-                    name = "DesktopTowerThin",
+                    name = "Thin.DesktopTowerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -88,7 +89,7 @@ val Thin.DesktopTowerThin: ImageVector
                         moveTo(88f, 184f)
                         lineTo(88f, 216f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(192f, 180f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

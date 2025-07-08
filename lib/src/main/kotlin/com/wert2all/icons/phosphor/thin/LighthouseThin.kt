@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LighthouseThin: ImageVector
+val Phosphor.Thin.LighthouseThin: ImageVector
     get() {
         if (_LighthouseThin != null) {
             return _LighthouseThin!!
@@ -16,7 +17,7 @@ val Thin.LighthouseThin: ImageVector
         _LighthouseThin =
             ImageVector
                 .Builder(
-                    name = "LighthouseThin",
+                    name = "Thin.LighthouseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

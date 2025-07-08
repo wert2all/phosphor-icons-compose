@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CheckSquareOffsetThin: ImageVector
+val Phosphor.Thin.CheckSquareOffsetThin: ImageVector
     get() {
         if (_CheckSquareOffsetThin != null) {
             return _CheckSquareOffsetThin!!
@@ -16,7 +17,7 @@ val Thin.CheckSquareOffsetThin: ImageVector
         _CheckSquareOffsetThin =
             ImageVector
                 .Builder(
-                    name = "CheckSquareOffsetThin",
+                    name = "Thin.CheckSquareOffsetThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChatCircleSlashThin: ImageVector
+val Phosphor.Thin.ChatCircleSlashThin: ImageVector
     get() {
         if (_ChatCircleSlashThin != null) {
             return _ChatCircleSlashThin!!
@@ -16,7 +17,7 @@ val Thin.ChatCircleSlashThin: ImageVector
         _ChatCircleSlashThin =
             ImageVector
                 .Builder(
-                    name = "ChatCircleSlashThin",
+                    name = "Thin.ChatCircleSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

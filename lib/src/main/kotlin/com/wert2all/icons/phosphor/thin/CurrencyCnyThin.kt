@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CurrencyCnyThin: ImageVector
+val Phosphor.Thin.CurrencyCnyThin: ImageVector
     get() {
         if (_CurrencyCnyThin != null) {
             return _CurrencyCnyThin!!
@@ -16,7 +17,7 @@ val Thin.CurrencyCnyThin: ImageVector
         _CurrencyCnyThin =
             ImageVector
                 .Builder(
-                    name = "CurrencyCnyThin",
+                    name = "Thin.CurrencyCnyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

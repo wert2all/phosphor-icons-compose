@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AsclepiusThin: ImageVector
+val Phosphor.Thin.AsclepiusThin: ImageVector
     get() {
         if (_AsclepiusThin != null) {
             return _AsclepiusThin!!
@@ -16,7 +17,7 @@ val Thin.AsclepiusThin: ImageVector
         _AsclepiusThin =
             ImageVector
                 .Builder(
-                    name = "AsclepiusThin",
+                    name = "Thin.AsclepiusThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

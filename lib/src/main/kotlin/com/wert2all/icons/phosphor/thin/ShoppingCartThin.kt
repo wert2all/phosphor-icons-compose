@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShoppingCartThin: ImageVector
+val Phosphor.Thin.ShoppingCartThin: ImageVector
     get() {
         if (_ShoppingCartThin != null) {
             return _ShoppingCartThin!!
@@ -16,7 +17,7 @@ val Thin.ShoppingCartThin: ImageVector
         _ShoppingCartThin =
             ImageVector
                 .Builder(
-                    name = "ShoppingCartThin",
+                    name = "Thin.ShoppingCartThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

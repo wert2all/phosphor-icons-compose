@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ColumnsPlusLeftThin: ImageVector
+val Phosphor.Thin.ColumnsPlusLeftThin: ImageVector
     get() {
         if (_ColumnsPlusLeftThin != null) {
             return _ColumnsPlusLeftThin!!
@@ -16,7 +17,7 @@ val Thin.ColumnsPlusLeftThin: ImageVector
         _ColumnsPlusLeftThin =
             ImageVector
                 .Builder(
-                    name = "ColumnsPlusLeftThin",
+                    name = "Thin.ColumnsPlusLeftThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

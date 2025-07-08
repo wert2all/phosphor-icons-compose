@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TreeViewThin: ImageVector
+val Phosphor.Thin.TreeViewThin: ImageVector
     get() {
         if (_TreeViewThin != null) {
             return _TreeViewThin!!
@@ -16,7 +17,7 @@ val Thin.TreeViewThin: ImageVector
         _TreeViewThin =
             ImageVector
                 .Builder(
-                    name = "TreeViewThin",
+                    name = "Thin.TreeViewThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

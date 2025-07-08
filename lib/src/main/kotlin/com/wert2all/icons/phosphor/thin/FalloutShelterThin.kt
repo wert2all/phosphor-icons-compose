@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FalloutShelterThin: ImageVector
+val Phosphor.Thin.FalloutShelterThin: ImageVector
     get() {
         if (_FalloutShelterThin != null) {
             return _FalloutShelterThin!!
@@ -16,7 +17,7 @@ val Thin.FalloutShelterThin: ImageVector
         _FalloutShelterThin =
             ImageVector
                 .Builder(
-                    name = "FalloutShelterThin",
+                    name = "Thin.FalloutShelterThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

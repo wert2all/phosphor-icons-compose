@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FileMagnifyingGlassThin: ImageVector
+val Phosphor.Thin.FileMagnifyingGlassThin: ImageVector
     get() {
         if (_FileMagnifyingGlassThin != null) {
             return _FileMagnifyingGlassThin!!
@@ -16,7 +17,7 @@ val Thin.FileMagnifyingGlassThin: ImageVector
         _FileMagnifyingGlassThin =
             ImageVector
                 .Builder(
-                    name = "FileMagnifyingGlassThin",
+                    name = "Thin.FileMagnifyingGlassThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

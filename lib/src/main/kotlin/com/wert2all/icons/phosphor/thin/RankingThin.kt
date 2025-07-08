@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RankingThin: ImageVector
+val Phosphor.Thin.RankingThin: ImageVector
     get() {
         if (_RankingThin != null) {
             return _RankingThin!!
@@ -16,7 +17,7 @@ val Thin.RankingThin: ImageVector
         _RankingThin =
             ImageVector
                 .Builder(
-                    name = "RankingThin",
+                    name = "Thin.RankingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LampPendantThin: ImageVector
+val Phosphor.Thin.LampPendantThin: ImageVector
     get() {
         if (_LampPendantThin != null) {
             return _LampPendantThin!!
@@ -16,7 +17,7 @@ val Thin.LampPendantThin: ImageVector
         _LampPendantThin =
             ImageVector
                 .Builder(
-                    name = "LampPendantThin",
+                    name = "Thin.LampPendantThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

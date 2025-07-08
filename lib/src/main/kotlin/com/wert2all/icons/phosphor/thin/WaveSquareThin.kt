@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WaveSquareThin: ImageVector
+val Phosphor.Thin.WaveSquareThin: ImageVector
     get() {
         if (_WaveSquareThin != null) {
             return _WaveSquareThin!!
@@ -16,7 +17,7 @@ val Thin.WaveSquareThin: ImageVector
         _WaveSquareThin =
             ImageVector
                 .Builder(
-                    name = "WaveSquareThin",
+                    name = "Thin.WaveSquareThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

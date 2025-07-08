@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChatTextThin: ImageVector
+val Phosphor.Thin.ChatTextThin: ImageVector
     get() {
         if (_ChatTextThin != null) {
             return _ChatTextThin!!
@@ -16,7 +17,7 @@ val Thin.ChatTextThin: ImageVector
         _ChatTextThin =
             ImageVector
                 .Builder(
-                    name = "ChatTextThin",
+                    name = "Thin.ChatTextThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

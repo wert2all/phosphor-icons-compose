@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HighlighterCircleThin: ImageVector
+val Phosphor.Thin.HighlighterCircleThin: ImageVector
     get() {
         if (_HighlighterCircleThin != null) {
             return _HighlighterCircleThin!!
@@ -16,7 +17,7 @@ val Thin.HighlighterCircleThin: ImageVector
         _HighlighterCircleThin =
             ImageVector
                 .Builder(
-                    name = "HighlighterCircleThin",
+                    name = "Thin.HighlighterCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

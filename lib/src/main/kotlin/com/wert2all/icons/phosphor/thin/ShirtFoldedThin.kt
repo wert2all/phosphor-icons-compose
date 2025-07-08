@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShirtFoldedThin: ImageVector
+val Phosphor.Thin.ShirtFoldedThin: ImageVector
     get() {
         if (_ShirtFoldedThin != null) {
             return _ShirtFoldedThin!!
@@ -16,7 +17,7 @@ val Thin.ShirtFoldedThin: ImageVector
         _ShirtFoldedThin =
             ImageVector
                 .Builder(
-                    name = "ShirtFoldedThin",
+                    name = "Thin.ShirtFoldedThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

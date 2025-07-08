@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PuzzlePieceThin: ImageVector
+val Phosphor.Thin.PuzzlePieceThin: ImageVector
     get() {
         if (_PuzzlePieceThin != null) {
             return _PuzzlePieceThin!!
@@ -16,7 +17,7 @@ val Thin.PuzzlePieceThin: ImageVector
         _PuzzlePieceThin =
             ImageVector
                 .Builder(
-                    name = "PuzzlePieceThin",
+                    name = "Thin.PuzzlePieceThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BookmarkSimpleThin: ImageVector
+val Phosphor.Thin.BookmarkSimpleThin: ImageVector
     get() {
         if (_BookmarkSimpleThin != null) {
             return _BookmarkSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.BookmarkSimpleThin: ImageVector
         _BookmarkSimpleThin =
             ImageVector
                 .Builder(
-                    name = "BookmarkSimpleThin",
+                    name = "Thin.BookmarkSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

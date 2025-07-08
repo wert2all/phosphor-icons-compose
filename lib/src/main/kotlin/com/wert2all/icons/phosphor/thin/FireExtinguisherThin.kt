@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FireExtinguisherThin: ImageVector
+val Phosphor.Thin.FireExtinguisherThin: ImageVector
     get() {
         if (_FireExtinguisherThin != null) {
             return _FireExtinguisherThin!!
@@ -16,7 +17,7 @@ val Thin.FireExtinguisherThin: ImageVector
         _FireExtinguisherThin =
             ImageVector
                 .Builder(
-                    name = "FireExtinguisherThin",
+                    name = "Thin.FireExtinguisherThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

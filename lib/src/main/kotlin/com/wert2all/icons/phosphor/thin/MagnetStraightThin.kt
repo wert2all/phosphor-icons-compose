@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MagnetStraightThin: ImageVector
+val Phosphor.Thin.MagnetStraightThin: ImageVector
     get() {
         if (_MagnetStraightThin != null) {
             return _MagnetStraightThin!!
@@ -16,7 +17,7 @@ val Thin.MagnetStraightThin: ImageVector
         _MagnetStraightThin =
             ImageVector
                 .Builder(
-                    name = "MagnetStraightThin",
+                    name = "Thin.MagnetStraightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

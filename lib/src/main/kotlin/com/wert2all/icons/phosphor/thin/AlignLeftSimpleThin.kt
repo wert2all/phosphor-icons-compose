@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AlignLeftSimpleThin: ImageVector
+val Phosphor.Thin.AlignLeftSimpleThin: ImageVector
     get() {
         if (_AlignLeftSimpleThin != null) {
             return _AlignLeftSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.AlignLeftSimpleThin: ImageVector
         _AlignLeftSimpleThin =
             ImageVector
                 .Builder(
-                    name = "AlignLeftSimpleThin",
+                    name = "Thin.AlignLeftSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

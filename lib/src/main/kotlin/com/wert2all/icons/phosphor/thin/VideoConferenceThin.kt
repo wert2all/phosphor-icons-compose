@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.VideoConferenceThin: ImageVector
+val Phosphor.Thin.VideoConferenceThin: ImageVector
     get() {
         if (_VideoConferenceThin != null) {
             return _VideoConferenceThin!!
@@ -16,7 +17,7 @@ val Thin.VideoConferenceThin: ImageVector
         _VideoConferenceThin =
             ImageVector
                 .Builder(
-                    name = "VideoConferenceThin",
+                    name = "Thin.VideoConferenceThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -57,13 +58,13 @@ val Thin.VideoConferenceThin: ImageVector
                         moveTo(160f, 128f)
                         lineTo(224f, 128f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(192f, 88f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(192f, 168f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

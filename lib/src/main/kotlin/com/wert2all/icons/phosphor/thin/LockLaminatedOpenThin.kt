@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LockLaminatedOpenThin: ImageVector
+val Phosphor.Thin.LockLaminatedOpenThin: ImageVector
     get() {
         if (_LockLaminatedOpenThin != null) {
             return _LockLaminatedOpenThin!!
@@ -16,7 +17,7 @@ val Thin.LockLaminatedOpenThin: ImageVector
         _LockLaminatedOpenThin =
             ImageVector
                 .Builder(
-                    name = "LockLaminatedOpenThin",
+                    name = "Thin.LockLaminatedOpenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

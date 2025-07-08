@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SoccerBallThin: ImageVector
+val Phosphor.Thin.SoccerBallThin: ImageVector
     get() {
         if (_SoccerBallThin != null) {
             return _SoccerBallThin!!
@@ -16,7 +17,7 @@ val Thin.SoccerBallThin: ImageVector
         _SoccerBallThin =
             ImageVector
                 .Builder(
-                    name = "SoccerBallThin",
+                    name = "Thin.SoccerBallThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

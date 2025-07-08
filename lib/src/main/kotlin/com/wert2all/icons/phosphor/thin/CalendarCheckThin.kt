@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CalendarCheckThin: ImageVector
+val Phosphor.Thin.CalendarCheckThin: ImageVector
     get() {
         if (_CalendarCheckThin != null) {
             return _CalendarCheckThin!!
@@ -16,7 +17,7 @@ val Thin.CalendarCheckThin: ImageVector
         _CalendarCheckThin =
             ImageVector
                 .Builder(
-                    name = "CalendarCheckThin",
+                    name = "Thin.CalendarCheckThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CreditCardThin: ImageVector
+val Phosphor.Thin.CreditCardThin: ImageVector
     get() {
         if (_CreditCardThin != null) {
             return _CreditCardThin!!
@@ -16,7 +17,7 @@ val Thin.CreditCardThin: ImageVector
         _CreditCardThin =
             ImageVector
                 .Builder(
-                    name = "CreditCardThin",
+                    name = "Thin.CreditCardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

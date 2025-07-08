@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BarbellThin: ImageVector
+val Phosphor.Thin.BarbellThin: ImageVector
     get() {
         if (_BarbellThin != null) {
             return _BarbellThin!!
@@ -16,7 +17,7 @@ val Thin.BarbellThin: ImageVector
         _BarbellThin =
             ImageVector
                 .Builder(
-                    name = "BarbellThin",
+                    name = "Thin.BarbellThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

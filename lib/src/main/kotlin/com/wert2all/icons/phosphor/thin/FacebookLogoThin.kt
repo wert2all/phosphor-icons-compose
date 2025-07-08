@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FacebookLogoThin: ImageVector
+val Phosphor.Thin.FacebookLogoThin: ImageVector
     get() {
         if (_FacebookLogoThin != null) {
             return _FacebookLogoThin!!
@@ -16,7 +17,7 @@ val Thin.FacebookLogoThin: ImageVector
         _FacebookLogoThin =
             ImageVector
                 .Builder(
-                    name = "FacebookLogoThin",
+                    name = "Thin.FacebookLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

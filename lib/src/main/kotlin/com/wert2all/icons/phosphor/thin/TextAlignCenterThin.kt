@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TextAlignCenterThin: ImageVector
+val Phosphor.Thin.TextAlignCenterThin: ImageVector
     get() {
         if (_TextAlignCenterThin != null) {
             return _TextAlignCenterThin!!
@@ -16,7 +17,7 @@ val Thin.TextAlignCenterThin: ImageVector
         _TextAlignCenterThin =
             ImageVector
                 .Builder(
-                    name = "TextAlignCenterThin",
+                    name = "Thin.TextAlignCenterThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

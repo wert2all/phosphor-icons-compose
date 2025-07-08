@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PawPrintThin: ImageVector
+val Phosphor.Thin.PawPrintThin: ImageVector
     get() {
         if (_PawPrintThin != null) {
             return _PawPrintThin!!
@@ -16,7 +17,7 @@ val Thin.PawPrintThin: ImageVector
         _PawPrintThin =
             ImageVector
                 .Builder(
-                    name = "PawPrintThin",
+                    name = "Thin.PawPrintThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

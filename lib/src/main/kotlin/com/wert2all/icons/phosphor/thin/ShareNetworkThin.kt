@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShareNetworkThin: ImageVector
+val Phosphor.Thin.ShareNetworkThin: ImageVector
     get() {
         if (_ShareNetworkThin != null) {
             return _ShareNetworkThin!!
@@ -16,7 +17,7 @@ val Thin.ShareNetworkThin: ImageVector
         _ShareNetworkThin =
             ImageVector
                 .Builder(
-                    name = "ShareNetworkThin",
+                    name = "Thin.ShareNetworkThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

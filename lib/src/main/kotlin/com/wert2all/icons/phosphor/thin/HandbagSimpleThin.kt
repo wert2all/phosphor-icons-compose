@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandbagSimpleThin: ImageVector
+val Phosphor.Thin.HandbagSimpleThin: ImageVector
     get() {
         if (_HandbagSimpleThin != null) {
             return _HandbagSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.HandbagSimpleThin: ImageVector
         _HandbagSimpleThin =
             ImageVector
                 .Builder(
-                    name = "HandbagSimpleThin",
+                    name = "Thin.HandbagSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

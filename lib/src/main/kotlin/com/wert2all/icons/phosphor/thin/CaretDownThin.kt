@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CaretDownThin: ImageVector
+val Phosphor.Thin.CaretDownThin: ImageVector
     get() {
         if (_CaretDownThin != null) {
             return _CaretDownThin!!
@@ -16,7 +17,7 @@ val Thin.CaretDownThin: ImageVector
         _CaretDownThin =
             ImageVector
                 .Builder(
-                    name = "CaretDownThin",
+                    name = "Thin.CaretDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ThumbsUpThin: ImageVector
+val Phosphor.Thin.ThumbsUpThin: ImageVector
     get() {
         if (_ThumbsUpThin != null) {
             return _ThumbsUpThin!!
@@ -16,7 +17,7 @@ val Thin.ThumbsUpThin: ImageVector
         _ThumbsUpThin =
             ImageVector
                 .Builder(
-                    name = "ThumbsUpThin",
+                    name = "Thin.ThumbsUpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

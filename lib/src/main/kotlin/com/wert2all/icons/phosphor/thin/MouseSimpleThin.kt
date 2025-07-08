@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MouseSimpleThin: ImageVector
+val Phosphor.Thin.MouseSimpleThin: ImageVector
     get() {
         if (_MouseSimpleThin != null) {
             return _MouseSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.MouseSimpleThin: ImageVector
         _MouseSimpleThin =
             ImageVector
                 .Builder(
-                    name = "MouseSimpleThin",
+                    name = "Thin.MouseSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

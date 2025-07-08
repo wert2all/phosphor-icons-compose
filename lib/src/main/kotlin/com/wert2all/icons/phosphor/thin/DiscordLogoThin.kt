@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DiscordLogoThin: ImageVector
+val Phosphor.Thin.DiscordLogoThin: ImageVector
     get() {
         if (_DiscordLogoThin != null) {
             return _DiscordLogoThin!!
@@ -16,7 +17,7 @@ val Thin.DiscordLogoThin: ImageVector
         _DiscordLogoThin =
             ImageVector
                 .Builder(
-                    name = "DiscordLogoThin",
+                    name = "Thin.DiscordLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -42,13 +43,13 @@ val Thin.DiscordLogoThin: ImageVector
                         arcTo(178.94f, 178.94f, 0f, isMoreThanHalf = false, isPositiveArc = true, 128f, 184f)
                         arcToRelative(178.94f, 178.94f, 0f, isMoreThanHalf = false, isPositiveArc = true, -48f, -6.31f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(92f, 140f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(164f, 140f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

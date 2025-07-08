@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PlayPauseThin: ImageVector
+val Phosphor.Thin.PlayPauseThin: ImageVector
     get() {
         if (_PlayPauseThin != null) {
             return _PlayPauseThin!!
@@ -16,7 +17,7 @@ val Thin.PlayPauseThin: ImageVector
         _PlayPauseThin =
             ImageVector
                 .Builder(
-                    name = "PlayPauseThin",
+                    name = "Thin.PlayPauseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

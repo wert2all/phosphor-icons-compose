@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpadeThin: ImageVector
+val Phosphor.Thin.SpadeThin: ImageVector
     get() {
         if (_SpadeThin != null) {
             return _SpadeThin!!
@@ -16,7 +17,7 @@ val Thin.SpadeThin: ImageVector
         _SpadeThin =
             ImageVector
                 .Builder(
-                    name = "SpadeThin",
+                    name = "Thin.SpadeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

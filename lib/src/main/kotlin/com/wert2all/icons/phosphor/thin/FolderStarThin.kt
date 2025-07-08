@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FolderStarThin: ImageVector
+val Phosphor.Thin.FolderStarThin: ImageVector
     get() {
         if (_FolderStarThin != null) {
             return _FolderStarThin!!
@@ -16,7 +17,7 @@ val Thin.FolderStarThin: ImageVector
         _FolderStarThin =
             ImageVector
                 .Builder(
-                    name = "FolderStarThin",
+                    name = "Thin.FolderStarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

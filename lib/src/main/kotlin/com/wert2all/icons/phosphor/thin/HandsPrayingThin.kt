@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandsPrayingThin: ImageVector
+val Phosphor.Thin.HandsPrayingThin: ImageVector
     get() {
         if (_HandsPrayingThin != null) {
             return _HandsPrayingThin!!
@@ -16,7 +17,7 @@ val Thin.HandsPrayingThin: ImageVector
         _HandsPrayingThin =
             ImageVector
                 .Builder(
-                    name = "HandsPrayingThin",
+                    name = "Thin.HandsPrayingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

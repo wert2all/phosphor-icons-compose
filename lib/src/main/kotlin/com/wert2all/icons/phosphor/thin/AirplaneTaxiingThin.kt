@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AirplaneTaxiingThin: ImageVector
+val Phosphor.Thin.AirplaneTaxiingThin: ImageVector
     get() {
         if (_AirplaneTaxiingThin != null) {
             return _AirplaneTaxiingThin!!
@@ -16,7 +17,7 @@ val Thin.AirplaneTaxiingThin: ImageVector
         _AirplaneTaxiingThin =
             ImageVector
                 .Builder(
-                    name = "AirplaneTaxiingThin",
+                    name = "Thin.AirplaneTaxiingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -44,13 +45,13 @@ val Thin.AirplaneTaxiingThin: ImageVector
                         horizontalLineToRelative(8f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(208f, 200f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(112f, 200f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

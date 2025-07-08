@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WheelchairThin: ImageVector
+val Phosphor.Thin.WheelchairThin: ImageVector
     get() {
         if (_WheelchairThin != null) {
             return _WheelchairThin!!
@@ -16,7 +17,7 @@ val Thin.WheelchairThin: ImageVector
         _WheelchairThin =
             ImageVector
                 .Builder(
-                    name = "WheelchairThin",
+                    name = "Thin.WheelchairThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

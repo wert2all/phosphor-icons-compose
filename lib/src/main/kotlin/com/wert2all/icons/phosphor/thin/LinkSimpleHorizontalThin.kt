@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LinkSimpleHorizontalThin: ImageVector
+val Phosphor.Thin.LinkSimpleHorizontalThin: ImageVector
     get() {
         if (_LinkSimpleHorizontalThin != null) {
             return _LinkSimpleHorizontalThin!!
@@ -16,7 +17,7 @@ val Thin.LinkSimpleHorizontalThin: ImageVector
         _LinkSimpleHorizontalThin =
             ImageVector
                 .Builder(
-                    name = "LinkSimpleHorizontalThin",
+                    name = "Thin.LinkSimpleHorizontalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

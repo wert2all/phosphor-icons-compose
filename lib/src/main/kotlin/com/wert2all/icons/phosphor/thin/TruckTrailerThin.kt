@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TruckTrailerThin: ImageVector
+val Phosphor.Thin.TruckTrailerThin: ImageVector
     get() {
         if (_TruckTrailerThin != null) {
             return _TruckTrailerThin!!
@@ -16,7 +17,7 @@ val Thin.TruckTrailerThin: ImageVector
         _TruckTrailerThin =
             ImageVector
                 .Builder(
-                    name = "TruckTrailerThin",
+                    name = "Thin.TruckTrailerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

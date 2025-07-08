@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.VignetteThin: ImageVector
+val Phosphor.Thin.VignetteThin: ImageVector
     get() {
         if (_VignetteThin != null) {
             return _VignetteThin!!
@@ -16,7 +17,7 @@ val Thin.VignetteThin: ImageVector
         _VignetteThin =
             ImageVector
                 .Builder(
-                    name = "VignetteThin",
+                    name = "Thin.VignetteThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

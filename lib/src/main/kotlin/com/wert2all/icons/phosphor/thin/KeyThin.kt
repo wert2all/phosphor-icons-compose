@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.KeyThin: ImageVector
+val Phosphor.Thin.KeyThin: ImageVector
     get() {
         if (_KeyThin != null) {
             return _KeyThin!!
@@ -16,7 +17,7 @@ val Thin.KeyThin: ImageVector
         _KeyThin =
             ImageVector
                 .Builder(
-                    name = "KeyThin",
+                    name = "Thin.KeyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -47,7 +48,7 @@ val Thin.KeyThin: ImageVector
                         lineToRelative(58.83f, -58.83f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(180f, 76f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SeatThin: ImageVector
+val Phosphor.Thin.SeatThin: ImageVector
     get() {
         if (_SeatThin != null) {
             return _SeatThin!!
@@ -16,7 +17,7 @@ val Thin.SeatThin: ImageVector
         _SeatThin =
             ImageVector
                 .Builder(
-                    name = "SeatThin",
+                    name = "Thin.SeatThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AirplaneTiltThin: ImageVector
+val Phosphor.Thin.AirplaneTiltThin: ImageVector
     get() {
         if (_AirplaneTiltThin != null) {
             return _AirplaneTiltThin!!
@@ -16,7 +17,7 @@ val Thin.AirplaneTiltThin: ImageVector
         _AirplaneTiltThin =
             ImageVector
                 .Builder(
-                    name = "AirplaneTiltThin",
+                    name = "Thin.AirplaneTiltThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

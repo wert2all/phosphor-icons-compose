@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BracketsRoundThin: ImageVector
+val Phosphor.Thin.BracketsRoundThin: ImageVector
     get() {
         if (_BracketsRoundThin != null) {
             return _BracketsRoundThin!!
@@ -16,7 +17,7 @@ val Thin.BracketsRoundThin: ImageVector
         _BracketsRoundThin =
             ImageVector
                 .Builder(
-                    name = "BracketsRoundThin",
+                    name = "Thin.BracketsRoundThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

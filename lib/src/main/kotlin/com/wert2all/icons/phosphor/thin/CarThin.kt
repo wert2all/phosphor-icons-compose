@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CarThin: ImageVector
+val Phosphor.Thin.CarThin: ImageVector
     get() {
         if (_CarThin != null) {
             return _CarThin!!
@@ -16,7 +17,7 @@ val Thin.CarThin: ImageVector
         _CarThin =
             ImageVector
                 .Builder(
-                    name = "CarThin",
+                    name = "Thin.CarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrolleySuitcaseThin: ImageVector
+val Phosphor.Thin.TrolleySuitcaseThin: ImageVector
     get() {
         if (_TrolleySuitcaseThin != null) {
             return _TrolleySuitcaseThin!!
@@ -16,7 +17,7 @@ val Thin.TrolleySuitcaseThin: ImageVector
         _TrolleySuitcaseThin =
             ImageVector
                 .Builder(
-                    name = "TrolleySuitcaseThin",
+                    name = "Thin.TrolleySuitcaseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -52,13 +53,13 @@ val Thin.TrolleySuitcaseThin: ImageVector
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8f, 8f)
                         verticalLineTo(64f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(72f, 224f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(216f, 224f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

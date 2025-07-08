@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FileAudioThin: ImageVector
+val Phosphor.Thin.FileAudioThin: ImageVector
     get() {
         if (_FileAudioThin != null) {
             return _FileAudioThin!!
@@ -16,7 +17,7 @@ val Thin.FileAudioThin: ImageVector
         _FileAudioThin =
             ImageVector
                 .Builder(
-                    name = "FileAudioThin",
+                    name = "Thin.FileAudioThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.IdentificationCardThin: ImageVector
+val Phosphor.Thin.IdentificationCardThin: ImageVector
     get() {
         if (_IdentificationCardThin != null) {
             return _IdentificationCardThin!!
@@ -16,7 +17,7 @@ val Thin.IdentificationCardThin: ImageVector
         _IdentificationCardThin =
             ImageVector
                 .Builder(
-                    name = "IdentificationCardThin",
+                    name = "Thin.IdentificationCardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

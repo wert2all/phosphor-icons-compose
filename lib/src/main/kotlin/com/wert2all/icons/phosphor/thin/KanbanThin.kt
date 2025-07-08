@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.KanbanThin: ImageVector
+val Phosphor.Thin.KanbanThin: ImageVector
     get() {
         if (_KanbanThin != null) {
             return _KanbanThin!!
@@ -16,7 +17,7 @@ val Thin.KanbanThin: ImageVector
         _KanbanThin =
             ImageVector
                 .Builder(
-                    name = "KanbanThin",
+                    name = "Thin.KanbanThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
