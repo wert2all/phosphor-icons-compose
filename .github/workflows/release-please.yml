@@ -16,12 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
-          package-name: phosphor-icons-compose
-          config-file: release-please-config.json
-          version-file: lib/build.gradle.kts
     
     outputs:  
       release_created: ${{ steps.release.outputs.release_created }}
