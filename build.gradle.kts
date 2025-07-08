@@ -10,6 +10,8 @@ plugins {
     alias(libs.plugins.detekt) apply false
 }
 
+version = project.findProperty("VERSION_NAME") ?: "0.0.1"
+
 subprojects {
     apply(plugin = "org.jlleitschuh.gradle.ktlint") // Version should be inherited from parent
 
