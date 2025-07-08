@@ -3,7 +3,11 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.detekt)
+    `maven-publish`
 }
+
+group = "com.wert2all.icons.phosphor"
+version = "0.0.1"
 
 android {
     namespace = "com.wert2all.icons.phosphor"
@@ -58,4 +62,27 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.wert2all.icons.phosphor"
+                artifactId = "phosphor-icons-compose"
+                version = "0.0.1"
+            }
+        }
+        repositories {
+            maven {
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/wert2all/phosphor-icons-compose")
+                credentials {
+                    username = System.getenv("GITHUB_ACTOR")
+                    password = System.getenv("GITHUB_TOKEN")
+                }
+            }
+        }
+    }
 }

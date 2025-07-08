@@ -8,19 +8,34 @@ An implementation of [Phosphor Icons](https://phosphoricons.com/) for Android Je
 
 ## Installation
 
-Add the dependency to your `build.gradle.kts` (recommended) or `build.gradle` file.
+To use this library, you need to add the GitHub Packages repository to your `settings.gradle.kts` (or `settings.gradle`) file:
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/wert2all/phosphor-icons-compose")
+        }
+    }
+}
+```
+
+Then, add the dependency to your `build.gradle.kts` (or `build.gradle`) file:
 
 **build.gradle.kts**
 ```kotlin
 dependencies {
-    implementation("com.github.wert2all:phosphor-icons-compose:1.0.0")
+    implementation("com.wert2all.icons.phosphor:phosphor-icons-compose:1.0.0")
 }
 ```
 
 **build.gradle**
 ```groovy
 dependencies {
-    implementation 'com.github.wert2all:phosphor-icons-compose:1.0.0'
+    implementation 'com.wert2all.icons.phosphor:phosphor-icons-compose:1.0.0'
 }
 ```
 **Note:** Remember to replace `1.0.0` with the latest version of the library.
