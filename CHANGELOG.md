@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/wert2all/phosphor-icons-compose/compare/v1.0.0...v1.0.1) (2025-07-08)
+
+
+### Bug Fixes
+
+* add version ([91f9d09](https://github.com/wert2all/phosphor-icons-compose/commit/91f9d09fa5cbe98db3190e5610661b2c95df654e))
+
 ## 1.0.0 (2025-07-08)
 
 
