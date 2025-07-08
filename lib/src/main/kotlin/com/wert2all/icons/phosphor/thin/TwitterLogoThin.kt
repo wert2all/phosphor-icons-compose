@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TwitterLogoThin: ImageVector
+val Phosphor.Thin.TwitterLogoThin: ImageVector
     get() {
         if (_TwitterLogoThin != null) {
             return _TwitterLogoThin!!
@@ -16,7 +17,7 @@ val Thin.TwitterLogoThin: ImageVector
         _TwitterLogoThin =
             ImageVector
                 .Builder(
-                    name = "TwitterLogoThin",
+                    name = "Thin.TwitterLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

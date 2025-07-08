@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FastForwardThin: ImageVector
+val Phosphor.Thin.FastForwardThin: ImageVector
     get() {
         if (_FastForwardThin != null) {
             return _FastForwardThin!!
@@ -16,7 +17,7 @@ val Thin.FastForwardThin: ImageVector
         _FastForwardThin =
             ImageVector
                 .Builder(
-                    name = "FastForwardThin",
+                    name = "Thin.FastForwardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

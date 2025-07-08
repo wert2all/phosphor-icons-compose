@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NuclearPlantThin: ImageVector
+val Phosphor.Thin.NuclearPlantThin: ImageVector
     get() {
         if (_NuclearPlantThin != null) {
             return _NuclearPlantThin!!
@@ -16,7 +17,7 @@ val Thin.NuclearPlantThin: ImageVector
         _NuclearPlantThin =
             ImageVector
                 .Builder(
-                    name = "NuclearPlantThin",
+                    name = "Thin.NuclearPlantThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

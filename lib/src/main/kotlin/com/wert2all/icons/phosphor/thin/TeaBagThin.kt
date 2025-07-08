@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TeaBagThin: ImageVector
+val Phosphor.Thin.TeaBagThin: ImageVector
     get() {
         if (_TeaBagThin != null) {
             return _TeaBagThin!!
@@ -16,7 +17,7 @@ val Thin.TeaBagThin: ImageVector
         _TeaBagThin =
             ImageVector
                 .Builder(
-                    name = "TeaBagThin",
+                    name = "Thin.TeaBagThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

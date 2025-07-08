@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EarSlashThin: ImageVector
+val Phosphor.Thin.EarSlashThin: ImageVector
     get() {
         if (_EarSlashThin != null) {
             return _EarSlashThin!!
@@ -16,7 +17,7 @@ val Thin.EarSlashThin: ImageVector
         _EarSlashThin =
             ImageVector
                 .Builder(
-                    name = "EarSlashThin",
+                    name = "Thin.EarSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

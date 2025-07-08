@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpinnerGapThin: ImageVector
+val Phosphor.Thin.SpinnerGapThin: ImageVector
     get() {
         if (_SpinnerGapThin != null) {
             return _SpinnerGapThin!!
@@ -16,7 +17,7 @@ val Thin.SpinnerGapThin: ImageVector
         _SpinnerGapThin =
             ImageVector
                 .Builder(
-                    name = "SpinnerGapThin",
+                    name = "Thin.SpinnerGapThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

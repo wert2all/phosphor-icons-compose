@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrademarkRegisteredThin: ImageVector
+val Phosphor.Thin.TrademarkRegisteredThin: ImageVector
     get() {
         if (_TrademarkRegisteredThin != null) {
             return _TrademarkRegisteredThin!!
@@ -16,7 +17,7 @@ val Thin.TrademarkRegisteredThin: ImageVector
         _TrademarkRegisteredThin =
             ImageVector
                 .Builder(
-                    name = "TrademarkRegisteredThin",
+                    name = "Thin.TrademarkRegisteredThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PersonSimpleCircleThin: ImageVector
+val Phosphor.Thin.PersonSimpleCircleThin: ImageVector
     get() {
         if (_PersonSimpleCircleThin != null) {
             return _PersonSimpleCircleThin!!
@@ -16,7 +17,7 @@ val Thin.PersonSimpleCircleThin: ImageVector
         _PersonSimpleCircleThin =
             ImageVector
                 .Builder(
-                    name = "PersonSimpleCircleThin",
+                    name = "Thin.PersonSimpleCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -33,7 +34,7 @@ val Thin.PersonSimpleCircleThin: ImageVector
                         arcToRelative(96f, 96f, 0f, isMoreThanHalf = true, isPositiveArc = true, 192f, 0f)
                         arcToRelative(96f, 96f, 0f, isMoreThanHalf = true, isPositiveArc = true, -192f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 80f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

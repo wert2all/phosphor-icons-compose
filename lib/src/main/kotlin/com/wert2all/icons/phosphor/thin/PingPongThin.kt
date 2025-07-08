@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PingPongThin: ImageVector
+val Phosphor.Thin.PingPongThin: ImageVector
     get() {
         if (_PingPongThin != null) {
             return _PingPongThin!!
@@ -16,7 +17,7 @@ val Thin.PingPongThin: ImageVector
         _PingPongThin =
             ImageVector
                 .Builder(
-                    name = "PingPongThin",
+                    name = "Thin.PingPongThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

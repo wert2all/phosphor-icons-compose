@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MosqueThin: ImageVector
+val Phosphor.Thin.MosqueThin: ImageVector
     get() {
         if (_MosqueThin != null) {
             return _MosqueThin!!
@@ -16,7 +17,7 @@ val Thin.MosqueThin: ImageVector
         _MosqueThin =
             ImageVector
                 .Builder(
-                    name = "MosqueThin",
+                    name = "Thin.MosqueThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

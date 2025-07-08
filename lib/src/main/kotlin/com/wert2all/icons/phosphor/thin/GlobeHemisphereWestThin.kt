@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GlobeHemisphereWestThin: ImageVector
+val Phosphor.Thin.GlobeHemisphereWestThin: ImageVector
     get() {
         if (_GlobeHemisphereWestThin != null) {
             return _GlobeHemisphereWestThin!!
@@ -16,7 +17,7 @@ val Thin.GlobeHemisphereWestThin: ImageVector
         _GlobeHemisphereWestThin =
             ImageVector
                 .Builder(
-                    name = "GlobeHemisphereWestThin",
+                    name = "Thin.GlobeHemisphereWestThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

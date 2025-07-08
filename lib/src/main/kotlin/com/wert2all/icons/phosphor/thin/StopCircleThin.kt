@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.StopCircleThin: ImageVector
+val Phosphor.Thin.StopCircleThin: ImageVector
     get() {
         if (_StopCircleThin != null) {
             return _StopCircleThin!!
@@ -16,7 +17,7 @@ val Thin.StopCircleThin: ImageVector
         _StopCircleThin =
             ImageVector
                 .Builder(
-                    name = "StopCircleThin",
+                    name = "Thin.StopCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

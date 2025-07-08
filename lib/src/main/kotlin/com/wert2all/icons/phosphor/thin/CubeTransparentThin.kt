@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CubeTransparentThin: ImageVector
+val Phosphor.Thin.CubeTransparentThin: ImageVector
     get() {
         if (_CubeTransparentThin != null) {
             return _CubeTransparentThin!!
@@ -16,7 +17,7 @@ val Thin.CubeTransparentThin: ImageVector
         _CubeTransparentThin =
             ImageVector
                 .Builder(
-                    name = "CubeTransparentThin",
+                    name = "Thin.CubeTransparentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

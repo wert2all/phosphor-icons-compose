@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LastfmLogoThin: ImageVector
+val Phosphor.Thin.LastfmLogoThin: ImageVector
     get() {
         if (_LastfmLogoThin != null) {
             return _LastfmLogoThin!!
@@ -16,7 +17,7 @@ val Thin.LastfmLogoThin: ImageVector
         _LastfmLogoThin =
             ImageVector
                 .Builder(
-                    name = "LastfmLogoThin",
+                    name = "Thin.LastfmLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

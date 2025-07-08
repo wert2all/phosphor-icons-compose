@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GenderIntersexThin: ImageVector
+val Phosphor.Thin.GenderIntersexThin: ImageVector
     get() {
         if (_GenderIntersexThin != null) {
             return _GenderIntersexThin!!
@@ -16,7 +17,7 @@ val Thin.GenderIntersexThin: ImageVector
         _GenderIntersexThin =
             ImageVector
                 .Builder(
-                    name = "GenderIntersexThin",
+                    name = "Thin.GenderIntersexThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

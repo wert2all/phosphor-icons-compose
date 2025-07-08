@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CopyleftThin: ImageVector
+val Phosphor.Thin.CopyleftThin: ImageVector
     get() {
         if (_CopyleftThin != null) {
             return _CopyleftThin!!
@@ -16,7 +17,7 @@ val Thin.CopyleftThin: ImageVector
         _CopyleftThin =
             ImageVector
                 .Builder(
-                    name = "CopyleftThin",
+                    name = "Thin.CopyleftThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PoliceCarThin: ImageVector
+val Phosphor.Thin.PoliceCarThin: ImageVector
     get() {
         if (_PoliceCarThin != null) {
             return _PoliceCarThin!!
@@ -16,7 +17,7 @@ val Thin.PoliceCarThin: ImageVector
         _PoliceCarThin =
             ImageVector
                 .Builder(
-                    name = "PoliceCarThin",
+                    name = "Thin.PoliceCarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

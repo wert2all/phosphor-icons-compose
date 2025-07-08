@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CaretDoubleRightThin: ImageVector
+val Phosphor.Thin.CaretDoubleRightThin: ImageVector
     get() {
         if (_CaretDoubleRightThin != null) {
             return _CaretDoubleRightThin!!
@@ -16,7 +17,7 @@ val Thin.CaretDoubleRightThin: ImageVector
         _CaretDoubleRightThin =
             ImageVector
                 .Builder(
-                    name = "CaretDoubleRightThin",
+                    name = "Thin.CaretDoubleRightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WindowsLogoThin: ImageVector
+val Phosphor.Thin.WindowsLogoThin: ImageVector
     get() {
         if (_WindowsLogoThin != null) {
             return _WindowsLogoThin!!
@@ -16,7 +17,7 @@ val Thin.WindowsLogoThin: ImageVector
         _WindowsLogoThin =
             ImageVector
                 .Builder(
-                    name = "WindowsLogoThin",
+                    name = "Thin.WindowsLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

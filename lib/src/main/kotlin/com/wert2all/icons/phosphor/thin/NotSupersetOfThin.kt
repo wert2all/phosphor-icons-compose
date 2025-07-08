@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NotSupersetOfThin: ImageVector
+val Phosphor.Thin.NotSupersetOfThin: ImageVector
     get() {
         if (_NotSupersetOfThin != null) {
             return _NotSupersetOfThin!!
@@ -16,7 +17,7 @@ val Thin.NotSupersetOfThin: ImageVector
         _NotSupersetOfThin =
             ImageVector
                 .Builder(
-                    name = "NotSupersetOfThin",
+                    name = "Thin.NotSupersetOfThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

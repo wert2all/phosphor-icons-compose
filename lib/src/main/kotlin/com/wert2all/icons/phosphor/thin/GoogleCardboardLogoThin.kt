@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GoogleCardboardLogoThin: ImageVector
+val Phosphor.Thin.GoogleCardboardLogoThin: ImageVector
     get() {
         if (_GoogleCardboardLogoThin != null) {
             return _GoogleCardboardLogoThin!!
@@ -16,7 +17,7 @@ val Thin.GoogleCardboardLogoThin: ImageVector
         _GoogleCardboardLogoThin =
             ImageVector
                 .Builder(
-                    name = "GoogleCardboardLogoThin",
+                    name = "Thin.GoogleCardboardLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

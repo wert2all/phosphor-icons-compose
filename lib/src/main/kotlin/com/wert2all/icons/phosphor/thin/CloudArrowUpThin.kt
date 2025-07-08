@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CloudArrowUpThin: ImageVector
+val Phosphor.Thin.CloudArrowUpThin: ImageVector
     get() {
         if (_CloudArrowUpThin != null) {
             return _CloudArrowUpThin!!
@@ -16,7 +17,7 @@ val Thin.CloudArrowUpThin: ImageVector
         _CloudArrowUpThin =
             ImageVector
                 .Builder(
-                    name = "CloudArrowUpThin",
+                    name = "Thin.CloudArrowUpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

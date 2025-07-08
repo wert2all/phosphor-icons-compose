@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.OpenAiLogoThin: ImageVector
+val Phosphor.Thin.OpenAiLogoThin: ImageVector
     get() {
         if (_OpenAiLogoThin != null) {
             return _OpenAiLogoThin!!
@@ -16,7 +17,7 @@ val Thin.OpenAiLogoThin: ImageVector
         _OpenAiLogoThin =
             ImageVector
                 .Builder(
-                    name = "OpenAiLogoThin",
+                    name = "Thin.OpenAiLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

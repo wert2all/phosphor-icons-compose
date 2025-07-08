@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FireThin: ImageVector
+val Phosphor.Thin.FireThin: ImageVector
     get() {
         if (_FireThin != null) {
             return _FireThin!!
@@ -16,7 +17,7 @@ val Thin.FireThin: ImageVector
         _FireThin =
             ImageVector
                 .Builder(
-                    name = "FireThin",
+                    name = "Thin.FireThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.StarAndCrescentThin: ImageVector
+val Phosphor.Thin.StarAndCrescentThin: ImageVector
     get() {
         if (_StarAndCrescentThin != null) {
             return _StarAndCrescentThin!!
@@ -16,7 +17,7 @@ val Thin.StarAndCrescentThin: ImageVector
         _StarAndCrescentThin =
             ImageVector
                 .Builder(
-                    name = "StarAndCrescentThin",
+                    name = "Thin.StarAndCrescentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

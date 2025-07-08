@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ArrowCircleUpRightThin: ImageVector
+val Phosphor.Thin.ArrowCircleUpRightThin: ImageVector
     get() {
         if (_ArrowCircleUpRightThin != null) {
             return _ArrowCircleUpRightThin!!
@@ -16,7 +17,7 @@ val Thin.ArrowCircleUpRightThin: ImageVector
         _ArrowCircleUpRightThin =
             ImageVector
                 .Builder(
-                    name = "ArrowCircleUpRightThin",
+                    name = "Thin.ArrowCircleUpRightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

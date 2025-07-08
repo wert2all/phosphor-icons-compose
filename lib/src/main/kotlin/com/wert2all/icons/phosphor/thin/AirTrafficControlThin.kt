@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AirTrafficControlThin: ImageVector
+val Phosphor.Thin.AirTrafficControlThin: ImageVector
     get() {
         if (_AirTrafficControlThin != null) {
             return _AirTrafficControlThin!!
@@ -16,7 +17,7 @@ val Thin.AirTrafficControlThin: ImageVector
         _AirTrafficControlThin =
             ImageVector
                 .Builder(
-                    name = "AirTrafficControlThin",
+                    name = "Thin.AirTrafficControlThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GoodreadsLogoThin: ImageVector
+val Phosphor.Thin.GoodreadsLogoThin: ImageVector
     get() {
         if (_GoodreadsLogoThin != null) {
             return _GoodreadsLogoThin!!
@@ -16,7 +17,7 @@ val Thin.GoodreadsLogoThin: ImageVector
         _GoodreadsLogoThin =
             ImageVector
                 .Builder(
-                    name = "GoodreadsLogoThin",
+                    name = "Thin.GoodreadsLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TaxiThin: ImageVector
+val Phosphor.Thin.TaxiThin: ImageVector
     get() {
         if (_TaxiThin != null) {
             return _TaxiThin!!
@@ -16,7 +17,7 @@ val Thin.TaxiThin: ImageVector
         _TaxiThin =
             ImageVector
                 .Builder(
-                    name = "TaxiThin",
+                    name = "Thin.TaxiThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

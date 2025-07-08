@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShieldCheckThin: ImageVector
+val Phosphor.Thin.ShieldCheckThin: ImageVector
     get() {
         if (_ShieldCheckThin != null) {
             return _ShieldCheckThin!!
@@ -16,7 +17,7 @@ val Thin.ShieldCheckThin: ImageVector
         _ShieldCheckThin =
             ImageVector
                 .Builder(
-                    name = "ShieldCheckThin",
+                    name = "Thin.ShieldCheckThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

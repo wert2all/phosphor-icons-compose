@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TagChevronThin: ImageVector
+val Phosphor.Thin.TagChevronThin: ImageVector
     get() {
         if (_TagChevronThin != null) {
             return _TagChevronThin!!
@@ -16,7 +17,7 @@ val Thin.TagChevronThin: ImageVector
         _TagChevronThin =
             ImageVector
                 .Builder(
-                    name = "TagChevronThin",
+                    name = "Thin.TagChevronThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

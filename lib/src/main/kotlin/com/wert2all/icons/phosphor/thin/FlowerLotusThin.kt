@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FlowerLotusThin: ImageVector
+val Phosphor.Thin.FlowerLotusThin: ImageVector
     get() {
         if (_FlowerLotusThin != null) {
             return _FlowerLotusThin!!
@@ -16,7 +17,7 @@ val Thin.FlowerLotusThin: ImageVector
         _FlowerLotusThin =
             ImageVector
                 .Builder(
-                    name = "FlowerLotusThin",
+                    name = "Thin.FlowerLotusThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

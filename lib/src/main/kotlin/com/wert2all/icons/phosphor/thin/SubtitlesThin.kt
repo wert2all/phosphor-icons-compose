@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SubtitlesThin: ImageVector
+val Phosphor.Thin.SubtitlesThin: ImageVector
     get() {
         if (_SubtitlesThin != null) {
             return _SubtitlesThin!!
@@ -16,7 +17,7 @@ val Thin.SubtitlesThin: ImageVector
         _SubtitlesThin =
             ImageVector
                 .Builder(
-                    name = "SubtitlesThin",
+                    name = "Thin.SubtitlesThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TimerThin: ImageVector
+val Phosphor.Thin.TimerThin: ImageVector
     get() {
         if (_TimerThin != null) {
             return _TimerThin!!
@@ -16,7 +17,7 @@ val Thin.TimerThin: ImageVector
         _TimerThin =
             ImageVector
                 .Builder(
-                    name = "TimerThin",
+                    name = "Thin.TimerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

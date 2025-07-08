@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrainRegionalThin: ImageVector
+val Phosphor.Thin.TrainRegionalThin: ImageVector
     get() {
         if (_TrainRegionalThin != null) {
             return _TrainRegionalThin!!
@@ -16,7 +17,7 @@ val Thin.TrainRegionalThin: ImageVector
         _TrainRegionalThin =
             ImageVector
                 .Builder(
-                    name = "TrainRegionalThin",
+                    name = "Thin.TrainRegionalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

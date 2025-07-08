@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SealQuestionThin: ImageVector
+val Phosphor.Thin.SealQuestionThin: ImageVector
     get() {
         if (_SealQuestionThin != null) {
             return _SealQuestionThin!!
@@ -16,7 +17,7 @@ val Thin.SealQuestionThin: ImageVector
         _SealQuestionThin =
             ImageVector
                 .Builder(
-                    name = "SealQuestionThin",
+                    name = "Thin.SealQuestionThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -47,7 +48,7 @@ val Thin.SealQuestionThin: ImageVector
                         curveTo(83f, 204.64f, 63.66f, 210.74f, 54.46f, 201.54f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 180f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

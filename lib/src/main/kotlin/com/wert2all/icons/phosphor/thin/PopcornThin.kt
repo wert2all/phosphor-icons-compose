@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PopcornThin: ImageVector
+val Phosphor.Thin.PopcornThin: ImageVector
     get() {
         if (_PopcornThin != null) {
             return _PopcornThin!!
@@ -16,7 +17,7 @@ val Thin.PopcornThin: ImageVector
         _PopcornThin =
             ImageVector
                 .Builder(
-                    name = "PopcornThin",
+                    name = "Thin.PopcornThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

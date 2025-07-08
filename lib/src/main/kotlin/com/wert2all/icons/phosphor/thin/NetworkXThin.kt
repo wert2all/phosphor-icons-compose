@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.NetworkXThin: ImageVector
+val Phosphor.Thin.NetworkXThin: ImageVector
     get() {
         if (_NetworkXThin != null) {
             return _NetworkXThin!!
@@ -16,7 +17,7 @@ val Thin.NetworkXThin: ImageVector
         _NetworkXThin =
             ImageVector
                 .Builder(
-                    name = "NetworkXThin",
+                    name = "Thin.NetworkXThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

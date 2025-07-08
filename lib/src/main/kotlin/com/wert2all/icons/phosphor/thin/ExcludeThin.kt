@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ExcludeThin: ImageVector
+val Phosphor.Thin.ExcludeThin: ImageVector
     get() {
         if (_ExcludeThin != null) {
             return _ExcludeThin!!
@@ -16,7 +17,7 @@ val Thin.ExcludeThin: ImageVector
         _ExcludeThin =
             ImageVector
                 .Builder(
-                    name = "ExcludeThin",
+                    name = "Thin.ExcludeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

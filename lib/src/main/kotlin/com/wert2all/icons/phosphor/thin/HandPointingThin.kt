@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandPointingThin: ImageVector
+val Phosphor.Thin.HandPointingThin: ImageVector
     get() {
         if (_HandPointingThin != null) {
             return _HandPointingThin!!
@@ -16,7 +17,7 @@ val Thin.HandPointingThin: ImageVector
         _HandPointingThin =
             ImageVector
                 .Builder(
-                    name = "HandPointingThin",
+                    name = "Thin.HandPointingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

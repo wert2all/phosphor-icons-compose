@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LegoThin: ImageVector
+val Phosphor.Thin.LegoThin: ImageVector
     get() {
         if (_LegoThin != null) {
             return _LegoThin!!
@@ -16,7 +17,7 @@ val Thin.LegoThin: ImageVector
         _LegoThin =
             ImageVector
                 .Builder(
-                    name = "LegoThin",
+                    name = "Thin.LegoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

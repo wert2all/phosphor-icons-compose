@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GifThin: ImageVector
+val Phosphor.Thin.GifThin: ImageVector
     get() {
         if (_GifThin != null) {
             return _GifThin!!
@@ -16,7 +17,7 @@ val Thin.GifThin: ImageVector
         _GifThin =
             ImageVector
                 .Builder(
-                    name = "GifThin",
+                    name = "Thin.GifThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

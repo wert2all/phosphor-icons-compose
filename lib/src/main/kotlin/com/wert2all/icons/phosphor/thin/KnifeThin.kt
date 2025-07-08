@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.KnifeThin: ImageVector
+val Phosphor.Thin.KnifeThin: ImageVector
     get() {
         if (_KnifeThin != null) {
             return _KnifeThin!!
@@ -16,7 +17,7 @@ val Thin.KnifeThin: ImageVector
         _KnifeThin =
             ImageVector
                 .Builder(
-                    name = "KnifeThin",
+                    name = "Thin.KnifeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

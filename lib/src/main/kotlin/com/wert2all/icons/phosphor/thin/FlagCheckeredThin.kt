@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FlagCheckeredThin: ImageVector
+val Phosphor.Thin.FlagCheckeredThin: ImageVector
     get() {
         if (_FlagCheckeredThin != null) {
             return _FlagCheckeredThin!!
@@ -16,7 +17,7 @@ val Thin.FlagCheckeredThin: ImageVector
         _FlagCheckeredThin =
             ImageVector
                 .Builder(
-                    name = "FlagCheckeredThin",
+                    name = "Thin.FlagCheckeredThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

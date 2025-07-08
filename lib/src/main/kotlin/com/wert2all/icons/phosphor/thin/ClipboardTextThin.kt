@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ClipboardTextThin: ImageVector
+val Phosphor.Thin.ClipboardTextThin: ImageVector
     get() {
         if (_ClipboardTextThin != null) {
             return _ClipboardTextThin!!
@@ -16,7 +17,7 @@ val Thin.ClipboardTextThin: ImageVector
         _ClipboardTextThin =
             ImageVector
                 .Builder(
-                    name = "ClipboardTextThin",
+                    name = "Thin.ClipboardTextThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

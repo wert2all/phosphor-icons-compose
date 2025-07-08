@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PerspectiveThin: ImageVector
+val Phosphor.Thin.PerspectiveThin: ImageVector
     get() {
         if (_PerspectiveThin != null) {
             return _PerspectiveThin!!
@@ -16,7 +17,7 @@ val Thin.PerspectiveThin: ImageVector
         _PerspectiveThin =
             ImageVector
                 .Builder(
-                    name = "PerspectiveThin",
+                    name = "Thin.PerspectiveThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandDepositThin: ImageVector
+val Phosphor.Thin.HandDepositThin: ImageVector
     get() {
         if (_HandDepositThin != null) {
             return _HandDepositThin!!
@@ -16,7 +17,7 @@ val Thin.HandDepositThin: ImageVector
         _HandDepositThin =
             ImageVector
                 .Builder(
-                    name = "HandDepositThin",
+                    name = "Thin.HandDepositThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SupersetProperOfThin: ImageVector
+val Phosphor.Thin.SupersetProperOfThin: ImageVector
     get() {
         if (_SupersetProperOfThin != null) {
             return _SupersetProperOfThin!!
@@ -16,7 +17,7 @@ val Thin.SupersetProperOfThin: ImageVector
         _SupersetProperOfThin =
             ImageVector
                 .Builder(
-                    name = "SupersetProperOfThin",
+                    name = "Thin.SupersetProperOfThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WarningOctagonThin: ImageVector
+val Phosphor.Thin.WarningOctagonThin: ImageVector
     get() {
         if (_WarningOctagonThin != null) {
             return _WarningOctagonThin!!
@@ -16,7 +17,7 @@ val Thin.WarningOctagonThin: ImageVector
         _WarningOctagonThin =
             ImageVector
                 .Builder(
-                    name = "WarningOctagonThin",
+                    name = "Thin.WarningOctagonThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -56,7 +57,7 @@ val Thin.WarningOctagonThin: ImageVector
                         arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = false, 164.45f, 32f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 172f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

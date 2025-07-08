@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SketchLogoThin: ImageVector
+val Phosphor.Thin.SketchLogoThin: ImageVector
     get() {
         if (_SketchLogoThin != null) {
             return _SketchLogoThin!!
@@ -16,7 +17,7 @@ val Thin.SketchLogoThin: ImageVector
         _SketchLogoThin =
             ImageVector
                 .Builder(
-                    name = "SketchLogoThin",
+                    name = "Thin.SketchLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

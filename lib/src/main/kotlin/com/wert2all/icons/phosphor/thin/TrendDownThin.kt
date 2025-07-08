@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrendDownThin: ImageVector
+val Phosphor.Thin.TrendDownThin: ImageVector
     get() {
         if (_TrendDownThin != null) {
             return _TrendDownThin!!
@@ -16,7 +17,7 @@ val Thin.TrendDownThin: ImageVector
         _TrendDownThin =
             ImageVector
                 .Builder(
-                    name = "TrendDownThin",
+                    name = "Thin.TrendDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.VibrateThin: ImageVector
+val Phosphor.Thin.VibrateThin: ImageVector
     get() {
         if (_VibrateThin != null) {
             return _VibrateThin!!
@@ -16,7 +17,7 @@ val Thin.VibrateThin: ImageVector
         _VibrateThin =
             ImageVector
                 .Builder(
-                    name = "VibrateThin",
+                    name = "Thin.VibrateThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

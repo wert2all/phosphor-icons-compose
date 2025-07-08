@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BrainThin: ImageVector
+val Phosphor.Thin.BrainThin: ImageVector
     get() {
         if (_BrainThin != null) {
             return _BrainThin!!
@@ -16,7 +17,7 @@ val Thin.BrainThin: ImageVector
         _BrainThin =
             ImageVector
                 .Builder(
-                    name = "BrainThin",
+                    name = "Thin.BrainThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ListNumbersThin: ImageVector
+val Phosphor.Thin.ListNumbersThin: ImageVector
     get() {
         if (_ListNumbersThin != null) {
             return _ListNumbersThin!!
@@ -16,7 +17,7 @@ val Thin.ListNumbersThin: ImageVector
         _ListNumbersThin =
             ImageVector
                 .Builder(
-                    name = "ListNumbersThin",
+                    name = "Thin.ListNumbersThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CircleDashedThin: ImageVector
+val Phosphor.Thin.CircleDashedThin: ImageVector
     get() {
         if (_CircleDashedThin != null) {
             return _CircleDashedThin!!
@@ -16,7 +17,7 @@ val Thin.CircleDashedThin: ImageVector
         _CircleDashedThin =
             ImageVector
                 .Builder(
-                    name = "CircleDashedThin",
+                    name = "Thin.CircleDashedThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DotsThreeOutlineThin: ImageVector
+val Phosphor.Thin.DotsThreeOutlineThin: ImageVector
     get() {
         if (_DotsThreeOutlineThin != null) {
             return _DotsThreeOutlineThin!!
@@ -16,7 +17,7 @@ val Thin.DotsThreeOutlineThin: ImageVector
         _DotsThreeOutlineThin =
             ImageVector
                 .Builder(
-                    name = "DotsThreeOutlineThin",
+                    name = "Thin.DotsThreeOutlineThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TelevisionSimpleThin: ImageVector
+val Phosphor.Thin.TelevisionSimpleThin: ImageVector
     get() {
         if (_TelevisionSimpleThin != null) {
             return _TelevisionSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.TelevisionSimpleThin: ImageVector
         _TelevisionSimpleThin =
             ImageVector
                 .Builder(
-                    name = "TelevisionSimpleThin",
+                    name = "Thin.TelevisionSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

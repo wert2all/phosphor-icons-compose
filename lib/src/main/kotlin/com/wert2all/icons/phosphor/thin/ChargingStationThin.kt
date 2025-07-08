@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChargingStationThin: ImageVector
+val Phosphor.Thin.ChargingStationThin: ImageVector
     get() {
         if (_ChargingStationThin != null) {
             return _ChargingStationThin!!
@@ -16,7 +17,7 @@ val Thin.ChargingStationThin: ImageVector
         _ChargingStationThin =
             ImageVector
                 .Builder(
-                    name = "ChargingStationThin",
+                    name = "Thin.ChargingStationThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

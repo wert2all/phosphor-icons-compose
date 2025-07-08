@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CodeThin: ImageVector
+val Phosphor.Thin.CodeThin: ImageVector
     get() {
         if (_CodeThin != null) {
             return _CodeThin!!
@@ -16,7 +17,7 @@ val Thin.CodeThin: ImageVector
         _CodeThin =
             ImageVector
                 .Builder(
-                    name = "CodeThin",
+                    name = "Thin.CodeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

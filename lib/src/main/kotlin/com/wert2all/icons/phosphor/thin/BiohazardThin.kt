@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BiohazardThin: ImageVector
+val Phosphor.Thin.BiohazardThin: ImageVector
     get() {
         if (_BiohazardThin != null) {
             return _BiohazardThin!!
@@ -16,7 +17,7 @@ val Thin.BiohazardThin: ImageVector
         _BiohazardThin =
             ImageVector
                 .Builder(
-                    name = "BiohazardThin",
+                    name = "Thin.BiohazardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

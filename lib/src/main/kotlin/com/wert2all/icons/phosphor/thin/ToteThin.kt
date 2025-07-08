@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ToteThin: ImageVector
+val Phosphor.Thin.ToteThin: ImageVector
     get() {
         if (_ToteThin != null) {
             return _ToteThin!!
@@ -16,7 +17,7 @@ val Thin.ToteThin: ImageVector
         _ToteThin =
             ImageVector
                 .Builder(
-                    name = "ToteThin",
+                    name = "Thin.ToteThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

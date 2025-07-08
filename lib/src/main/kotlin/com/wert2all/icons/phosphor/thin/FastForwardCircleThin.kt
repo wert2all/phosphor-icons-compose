@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FastForwardCircleThin: ImageVector
+val Phosphor.Thin.FastForwardCircleThin: ImageVector
     get() {
         if (_FastForwardCircleThin != null) {
             return _FastForwardCircleThin!!
@@ -16,7 +17,7 @@ val Thin.FastForwardCircleThin: ImageVector
         _FastForwardCircleThin =
             ImageVector
                 .Builder(
-                    name = "FastForwardCircleThin",
+                    name = "Thin.FastForwardCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BluetoothConnectedThin: ImageVector
+val Phosphor.Thin.BluetoothConnectedThin: ImageVector
     get() {
         if (_BluetoothConnectedThin != null) {
             return _BluetoothConnectedThin!!
@@ -16,7 +17,7 @@ val Thin.BluetoothConnectedThin: ImageVector
         _BluetoothConnectedThin =
             ImageVector
                 .Builder(
-                    name = "BluetoothConnectedThin",
+                    name = "Thin.BluetoothConnectedThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -64,13 +65,13 @@ val Thin.BluetoothConnectedThin: ImageVector
                         moveTo(64f, 176f)
                         lineTo(128f, 128f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(60f, 128f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(204f, 128f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

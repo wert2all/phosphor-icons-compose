@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SquareSplitHorizontalThin: ImageVector
+val Phosphor.Thin.SquareSplitHorizontalThin: ImageVector
     get() {
         if (_SquareSplitHorizontalThin != null) {
             return _SquareSplitHorizontalThin!!
@@ -16,7 +17,7 @@ val Thin.SquareSplitHorizontalThin: ImageVector
         _SquareSplitHorizontalThin =
             ImageVector
                 .Builder(
-                    name = "SquareSplitHorizontalThin",
+                    name = "Thin.SquareSplitHorizontalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

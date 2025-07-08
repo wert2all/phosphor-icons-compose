@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.UmbrellaSimpleThin: ImageVector
+val Phosphor.Thin.UmbrellaSimpleThin: ImageVector
     get() {
         if (_UmbrellaSimpleThin != null) {
             return _UmbrellaSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.UmbrellaSimpleThin: ImageVector
         _UmbrellaSimpleThin =
             ImageVector
                 .Builder(
-                    name = "UmbrellaSimpleThin",
+                    name = "Thin.UmbrellaSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

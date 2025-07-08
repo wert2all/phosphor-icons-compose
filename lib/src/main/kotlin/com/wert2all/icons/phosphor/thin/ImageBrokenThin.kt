@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ImageBrokenThin: ImageVector
+val Phosphor.Thin.ImageBrokenThin: ImageVector
     get() {
         if (_ImageBrokenThin != null) {
             return _ImageBrokenThin!!
@@ -16,7 +17,7 @@ val Thin.ImageBrokenThin: ImageVector
         _ImageBrokenThin =
             ImageVector
                 .Builder(
-                    name = "ImageBrokenThin",
+                    name = "Thin.ImageBrokenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

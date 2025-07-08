@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GearSixThin: ImageVector
+val Phosphor.Thin.GearSixThin: ImageVector
     get() {
         if (_GearSixThin != null) {
             return _GearSixThin!!
@@ -16,7 +17,7 @@ val Thin.GearSixThin: ImageVector
         _GearSixThin =
             ImageVector
                 .Builder(
-                    name = "GearSixThin",
+                    name = "Thin.GearSixThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

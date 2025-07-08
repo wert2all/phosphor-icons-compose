@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChartDonutThin: ImageVector
+val Phosphor.Thin.ChartDonutThin: ImageVector
     get() {
         if (_ChartDonutThin != null) {
             return _ChartDonutThin!!
@@ -16,7 +17,7 @@ val Thin.ChartDonutThin: ImageVector
         _ChartDonutThin =
             ImageVector
                 .Builder(
-                    name = "ChartDonutThin",
+                    name = "Thin.ChartDonutThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TranslateThin: ImageVector
+val Phosphor.Thin.TranslateThin: ImageVector
     get() {
         if (_TranslateThin != null) {
             return _TranslateThin!!
@@ -16,7 +17,7 @@ val Thin.TranslateThin: ImageVector
         _TranslateThin =
             ImageVector
                 .Builder(
-                    name = "TranslateThin",
+                    name = "Thin.TranslateThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

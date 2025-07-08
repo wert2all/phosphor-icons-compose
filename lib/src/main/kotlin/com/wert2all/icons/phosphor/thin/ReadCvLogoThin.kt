@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ReadCvLogoThin: ImageVector
+val Phosphor.Thin.ReadCvLogoThin: ImageVector
     get() {
         if (_ReadCvLogoThin != null) {
             return _ReadCvLogoThin!!
@@ -16,7 +17,7 @@ val Thin.ReadCvLogoThin: ImageVector
         _ReadCvLogoThin =
             ImageVector
                 .Builder(
-                    name = "ReadCvLogoThin",
+                    name = "Thin.ReadCvLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

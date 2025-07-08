@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ScribbleLoopThin: ImageVector
+val Phosphor.Thin.ScribbleLoopThin: ImageVector
     get() {
         if (_ScribbleLoopThin != null) {
             return _ScribbleLoopThin!!
@@ -16,7 +17,7 @@ val Thin.ScribbleLoopThin: ImageVector
         _ScribbleLoopThin =
             ImageVector
                 .Builder(
-                    name = "ScribbleLoopThin",
+                    name = "Thin.ScribbleLoopThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

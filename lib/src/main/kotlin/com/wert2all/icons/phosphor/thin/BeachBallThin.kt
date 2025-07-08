@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BeachBallThin: ImageVector
+val Phosphor.Thin.BeachBallThin: ImageVector
     get() {
         if (_BeachBallThin != null) {
             return _BeachBallThin!!
@@ -16,7 +17,7 @@ val Thin.BeachBallThin: ImageVector
         _BeachBallThin =
             ImageVector
                 .Builder(
-                    name = "BeachBallThin",
+                    name = "Thin.BeachBallThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

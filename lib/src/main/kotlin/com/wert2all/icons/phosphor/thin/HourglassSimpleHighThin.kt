@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HourglassSimpleHighThin: ImageVector
+val Phosphor.Thin.HourglassSimpleHighThin: ImageVector
     get() {
         if (_HourglassSimpleHighThin != null) {
             return _HourglassSimpleHighThin!!
@@ -16,7 +17,7 @@ val Thin.HourglassSimpleHighThin: ImageVector
         _HourglassSimpleHighThin =
             ImageVector
                 .Builder(
-                    name = "HourglassSimpleHighThin",
+                    name = "Thin.HourglassSimpleHighThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

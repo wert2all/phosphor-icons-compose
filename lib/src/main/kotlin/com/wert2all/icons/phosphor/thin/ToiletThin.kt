@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ToiletThin: ImageVector
+val Phosphor.Thin.ToiletThin: ImageVector
     get() {
         if (_ToiletThin != null) {
             return _ToiletThin!!
@@ -16,7 +17,7 @@ val Thin.ToiletThin: ImageVector
         _ToiletThin =
             ImageVector
                 .Builder(
-                    name = "ToiletThin",
+                    name = "Thin.ToiletThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

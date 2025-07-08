@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WashingMachineThin: ImageVector
+val Phosphor.Thin.WashingMachineThin: ImageVector
     get() {
         if (_WashingMachineThin != null) {
             return _WashingMachineThin!!
@@ -16,7 +17,7 @@ val Thin.WashingMachineThin: ImageVector
         _WashingMachineThin =
             ImageVector
                 .Builder(
-                    name = "WashingMachineThin",
+                    name = "Thin.WashingMachineThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -50,7 +51,7 @@ val Thin.WashingMachineThin: ImageVector
                         arcToRelative(56f, 56f, 0f, isMoreThanHalf = true, isPositiveArc = true, 112f, 0f)
                         arcToRelative(56f, 56f, 0f, isMoreThanHalf = true, isPositiveArc = true, -112f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(188f, 68f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

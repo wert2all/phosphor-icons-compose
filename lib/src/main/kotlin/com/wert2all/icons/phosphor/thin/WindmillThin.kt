@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WindmillThin: ImageVector
+val Phosphor.Thin.WindmillThin: ImageVector
     get() {
         if (_WindmillThin != null) {
             return _WindmillThin!!
@@ -16,7 +17,7 @@ val Thin.WindmillThin: ImageVector
         _WindmillThin =
             ImageVector
                 .Builder(
-                    name = "WindmillThin",
+                    name = "Thin.WindmillThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

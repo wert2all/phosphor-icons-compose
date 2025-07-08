@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TextOutdentThin: ImageVector
+val Phosphor.Thin.TextOutdentThin: ImageVector
     get() {
         if (_TextOutdentThin != null) {
             return _TextOutdentThin!!
@@ -16,7 +17,7 @@ val Thin.TextOutdentThin: ImageVector
         _TextOutdentThin =
             ImageVector
                 .Builder(
-                    name = "TextOutdentThin",
+                    name = "Thin.TextOutdentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

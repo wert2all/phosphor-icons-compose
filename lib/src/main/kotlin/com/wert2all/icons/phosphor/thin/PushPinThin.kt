@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PushPinThin: ImageVector
+val Phosphor.Thin.PushPinThin: ImageVector
     get() {
         if (_PushPinThin != null) {
             return _PushPinThin!!
@@ -16,7 +17,7 @@ val Thin.PushPinThin: ImageVector
         _PushPinThin =
             ImageVector
                 .Builder(
-                    name = "PushPinThin",
+                    name = "Thin.PushPinThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

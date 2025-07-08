@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BracketsCurlyThin: ImageVector
+val Phosphor.Thin.BracketsCurlyThin: ImageVector
     get() {
         if (_BracketsCurlyThin != null) {
             return _BracketsCurlyThin!!
@@ -16,7 +17,7 @@ val Thin.BracketsCurlyThin: ImageVector
         _BracketsCurlyThin =
             ImageVector
                 .Builder(
-                    name = "BracketsCurlyThin",
+                    name = "Thin.BracketsCurlyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

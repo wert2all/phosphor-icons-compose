@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DeskThin: ImageVector
+val Phosphor.Thin.DeskThin: ImageVector
     get() {
         if (_DeskThin != null) {
             return _DeskThin!!
@@ -16,7 +17,7 @@ val Thin.DeskThin: ImageVector
         _DeskThin =
             ImageVector
                 .Builder(
-                    name = "DeskThin",
+                    name = "Thin.DeskThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

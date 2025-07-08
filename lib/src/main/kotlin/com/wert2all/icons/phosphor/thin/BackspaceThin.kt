@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BackspaceThin: ImageVector
+val Phosphor.Thin.BackspaceThin: ImageVector
     get() {
         if (_BackspaceThin != null) {
             return _BackspaceThin!!
@@ -16,7 +17,7 @@ val Thin.BackspaceThin: ImageVector
         _BackspaceThin =
             ImageVector
                 .Builder(
-                    name = "BackspaceThin",
+                    name = "Thin.BackspaceThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

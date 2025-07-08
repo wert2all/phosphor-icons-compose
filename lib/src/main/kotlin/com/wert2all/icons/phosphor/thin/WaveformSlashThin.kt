@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WaveformSlashThin: ImageVector
+val Phosphor.Thin.WaveformSlashThin: ImageVector
     get() {
         if (_WaveformSlashThin != null) {
             return _WaveformSlashThin!!
@@ -16,7 +17,7 @@ val Thin.WaveformSlashThin: ImageVector
         _WaveformSlashThin =
             ImageVector
                 .Builder(
-                    name = "WaveformSlashThin",
+                    name = "Thin.WaveformSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

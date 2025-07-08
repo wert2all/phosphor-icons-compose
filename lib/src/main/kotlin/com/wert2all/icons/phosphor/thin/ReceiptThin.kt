@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ReceiptThin: ImageVector
+val Phosphor.Thin.ReceiptThin: ImageVector
     get() {
         if (_ReceiptThin != null) {
             return _ReceiptThin!!
@@ -16,7 +17,7 @@ val Thin.ReceiptThin: ImageVector
         _ReceiptThin =
             ImageVector
                 .Builder(
-                    name = "ReceiptThin",
+                    name = "Thin.ReceiptThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

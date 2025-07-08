@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TabsThin: ImageVector
+val Phosphor.Thin.TabsThin: ImageVector
     get() {
         if (_TabsThin != null) {
             return _TabsThin!!
@@ -16,7 +17,7 @@ val Thin.TabsThin: ImageVector
         _TabsThin =
             ImageVector
                 .Builder(
-                    name = "TabsThin",
+                    name = "Thin.TabsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

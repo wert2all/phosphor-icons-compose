@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TreeEvergreenThin: ImageVector
+val Phosphor.Thin.TreeEvergreenThin: ImageVector
     get() {
         if (_TreeEvergreenThin != null) {
             return _TreeEvergreenThin!!
@@ -16,7 +17,7 @@ val Thin.TreeEvergreenThin: ImageVector
         _TreeEvergreenThin =
             ImageVector
                 .Builder(
-                    name = "TreeEvergreenThin",
+                    name = "Thin.TreeEvergreenThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

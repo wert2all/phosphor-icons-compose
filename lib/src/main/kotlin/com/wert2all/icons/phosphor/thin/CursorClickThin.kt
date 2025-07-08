@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CursorClickThin: ImageVector
+val Phosphor.Thin.CursorClickThin: ImageVector
     get() {
         if (_CursorClickThin != null) {
             return _CursorClickThin!!
@@ -16,7 +17,7 @@ val Thin.CursorClickThin: ImageVector
         _CursorClickThin =
             ImageVector
                 .Builder(
-                    name = "CursorClickThin",
+                    name = "Thin.CursorClickThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

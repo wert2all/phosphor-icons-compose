@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LockersThin: ImageVector
+val Phosphor.Thin.LockersThin: ImageVector
     get() {
         if (_LockersThin != null) {
             return _LockersThin!!
@@ -16,7 +17,7 @@ val Thin.LockersThin: ImageVector
         _LockersThin =
             ImageVector
                 .Builder(
-                    name = "LockersThin",
+                    name = "Thin.LockersThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

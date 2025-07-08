@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BatteryMediumThin: ImageVector
+val Phosphor.Thin.BatteryMediumThin: ImageVector
     get() {
         if (_BatteryMediumThin != null) {
             return _BatteryMediumThin!!
@@ -16,7 +17,7 @@ val Thin.BatteryMediumThin: ImageVector
         _BatteryMediumThin =
             ImageVector
                 .Builder(
-                    name = "BatteryMediumThin",
+                    name = "Thin.BatteryMediumThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

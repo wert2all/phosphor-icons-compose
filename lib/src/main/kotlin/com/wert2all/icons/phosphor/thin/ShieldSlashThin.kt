@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShieldSlashThin: ImageVector
+val Phosphor.Thin.ShieldSlashThin: ImageVector
     get() {
         if (_ShieldSlashThin != null) {
             return _ShieldSlashThin!!
@@ -16,7 +17,7 @@ val Thin.ShieldSlashThin: ImageVector
         _ShieldSlashThin =
             ImageVector
                 .Builder(
-                    name = "ShieldSlashThin",
+                    name = "Thin.ShieldSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CirclesThreePlusThin: ImageVector
+val Phosphor.Thin.CirclesThreePlusThin: ImageVector
     get() {
         if (_CirclesThreePlusThin != null) {
             return _CirclesThreePlusThin!!
@@ -16,7 +17,7 @@ val Thin.CirclesThreePlusThin: ImageVector
         _CirclesThreePlusThin =
             ImageVector
                 .Builder(
-                    name = "CirclesThreePlusThin",
+                    name = "Thin.CirclesThreePlusThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

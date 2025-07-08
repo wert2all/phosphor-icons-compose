@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChatTeardropTextThin: ImageVector
+val Phosphor.Thin.ChatTeardropTextThin: ImageVector
     get() {
         if (_ChatTeardropTextThin != null) {
             return _ChatTeardropTextThin!!
@@ -16,7 +17,7 @@ val Thin.ChatTeardropTextThin: ImageVector
         _ChatTeardropTextThin =
             ImageVector
                 .Builder(
-                    name = "ChatTeardropTextThin",
+                    name = "Thin.ChatTeardropTextThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

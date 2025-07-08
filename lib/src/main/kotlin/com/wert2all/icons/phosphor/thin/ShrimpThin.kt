@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShrimpThin: ImageVector
+val Phosphor.Thin.ShrimpThin: ImageVector
     get() {
         if (_ShrimpThin != null) {
             return _ShrimpThin!!
@@ -16,7 +17,7 @@ val Thin.ShrimpThin: ImageVector
         _ShrimpThin =
             ImageVector
                 .Builder(
-                    name = "ShrimpThin",
+                    name = "Thin.ShrimpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -31,7 +32,7 @@ val Thin.ShrimpThin: ImageVector
                         moveTo(112f, 152f)
                         lineTo(112f, 80f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(148f, 116f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

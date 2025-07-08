@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CameraPlusThin: ImageVector
+val Phosphor.Thin.CameraPlusThin: ImageVector
     get() {
         if (_CameraPlusThin != null) {
             return _CameraPlusThin!!
@@ -16,7 +17,7 @@ val Thin.CameraPlusThin: ImageVector
         _CameraPlusThin =
             ImageVector
                 .Builder(
-                    name = "CameraPlusThin",
+                    name = "Thin.CameraPlusThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

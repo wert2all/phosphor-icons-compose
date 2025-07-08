@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RadioThin: ImageVector
+val Phosphor.Thin.RadioThin: ImageVector
     get() {
         if (_RadioThin != null) {
             return _RadioThin!!
@@ -16,7 +17,7 @@ val Thin.RadioThin: ImageVector
         _RadioThin =
             ImageVector
                 .Builder(
-                    name = "RadioThin",
+                    name = "Thin.RadioThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WalletThin: ImageVector
+val Phosphor.Thin.WalletThin: ImageVector
     get() {
         if (_WalletThin != null) {
             return _WalletThin!!
@@ -16,7 +17,7 @@ val Thin.WalletThin: ImageVector
         _WalletThin =
             ImageVector
                 .Builder(
-                    name = "WalletThin",
+                    name = "Thin.WalletThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -41,7 +42,7 @@ val Thin.WalletThin: ImageVector
                         arcTo(16f, 16f, 0f, isMoreThanHalf = false, isPositiveArc = true, 56f, 40f)
                         horizontalLineTo(192f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(180f, 132f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ClipboardThin: ImageVector
+val Phosphor.Thin.ClipboardThin: ImageVector
     get() {
         if (_ClipboardThin != null) {
             return _ClipboardThin!!
@@ -16,7 +17,7 @@ val Thin.ClipboardThin: ImageVector
         _ClipboardThin =
             ImageVector
                 .Builder(
-                    name = "ClipboardThin",
+                    name = "Thin.ClipboardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

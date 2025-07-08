@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BellRingingThin: ImageVector
+val Phosphor.Thin.BellRingingThin: ImageVector
     get() {
         if (_BellRingingThin != null) {
             return _BellRingingThin!!
@@ -16,7 +17,7 @@ val Thin.BellRingingThin: ImageVector
         _BellRingingThin =
             ImageVector
                 .Builder(
-                    name = "BellRingingThin",
+                    name = "Thin.BellRingingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

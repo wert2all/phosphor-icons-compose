@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HeartHalfThin: ImageVector
+val Phosphor.Thin.HeartHalfThin: ImageVector
     get() {
         if (_HeartHalfThin != null) {
             return _HeartHalfThin!!
@@ -16,7 +17,7 @@ val Thin.HeartHalfThin: ImageVector
         _HeartHalfThin =
             ImageVector
                 .Builder(
-                    name = "HeartHalfThin",
+                    name = "Thin.HeartHalfThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

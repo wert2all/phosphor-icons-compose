@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GavelThin: ImageVector
+val Phosphor.Thin.GavelThin: ImageVector
     get() {
         if (_GavelThin != null) {
             return _GavelThin!!
@@ -16,7 +17,7 @@ val Thin.GavelThin: ImageVector
         _GavelThin =
             ImageVector
                 .Builder(
-                    name = "GavelThin",
+                    name = "Thin.GavelThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

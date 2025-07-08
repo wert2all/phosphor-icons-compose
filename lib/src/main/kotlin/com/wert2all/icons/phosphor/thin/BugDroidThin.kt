@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BugDroidThin: ImageVector
+val Phosphor.Thin.BugDroidThin: ImageVector
     get() {
         if (_BugDroidThin != null) {
             return _BugDroidThin!!
@@ -16,7 +17,7 @@ val Thin.BugDroidThin: ImageVector
         _BugDroidThin =
             ImageVector
                 .Builder(
-                    name = "BugDroidThin",
+                    name = "Thin.BugDroidThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -43,13 +44,13 @@ val Thin.BugDroidThin: ImageVector
                         moveTo(208f, 128f)
                         lineTo(48f, 128f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(156f, 92f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(100f, 92f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

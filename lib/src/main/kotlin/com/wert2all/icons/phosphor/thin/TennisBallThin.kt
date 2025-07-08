@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TennisBallThin: ImageVector
+val Phosphor.Thin.TennisBallThin: ImageVector
     get() {
         if (_TennisBallThin != null) {
             return _TennisBallThin!!
@@ -16,7 +17,7 @@ val Thin.TennisBallThin: ImageVector
         _TennisBallThin =
             ImageVector
                 .Builder(
-                    name = "TennisBallThin",
+                    name = "Thin.TennisBallThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

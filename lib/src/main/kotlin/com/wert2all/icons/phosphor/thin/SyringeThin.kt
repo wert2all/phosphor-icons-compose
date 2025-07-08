@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SyringeThin: ImageVector
+val Phosphor.Thin.SyringeThin: ImageVector
     get() {
         if (_SyringeThin != null) {
             return _SyringeThin!!
@@ -16,7 +17,7 @@ val Thin.SyringeThin: ImageVector
         _SyringeThin =
             ImageVector
                 .Builder(
-                    name = "SyringeThin",
+                    name = "Thin.SyringeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ListChecksThin: ImageVector
+val Phosphor.Thin.ListChecksThin: ImageVector
     get() {
         if (_ListChecksThin != null) {
             return _ListChecksThin!!
@@ -16,7 +17,7 @@ val Thin.ListChecksThin: ImageVector
         _ListChecksThin =
             ImageVector
                 .Builder(
-                    name = "ListChecksThin",
+                    name = "Thin.ListChecksThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

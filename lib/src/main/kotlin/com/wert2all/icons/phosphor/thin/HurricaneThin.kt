@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HurricaneThin: ImageVector
+val Phosphor.Thin.HurricaneThin: ImageVector
     get() {
         if (_HurricaneThin != null) {
             return _HurricaneThin!!
@@ -16,7 +17,7 @@ val Thin.HurricaneThin: ImageVector
         _HurricaneThin =
             ImageVector
                 .Builder(
-                    name = "HurricaneThin",
+                    name = "Thin.HurricaneThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

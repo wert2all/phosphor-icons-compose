@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpeakerSlashThin: ImageVector
+val Phosphor.Thin.SpeakerSlashThin: ImageVector
     get() {
         if (_SpeakerSlashThin != null) {
             return _SpeakerSlashThin!!
@@ -16,7 +17,7 @@ val Thin.SpeakerSlashThin: ImageVector
         _SpeakerSlashThin =
             ImageVector
                 .Builder(
-                    name = "SpeakerSlashThin",
+                    name = "Thin.SpeakerSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

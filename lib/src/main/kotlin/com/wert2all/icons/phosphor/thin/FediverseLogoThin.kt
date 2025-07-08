@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FediverseLogoThin: ImageVector
+val Phosphor.Thin.FediverseLogoThin: ImageVector
     get() {
         if (_FediverseLogoThin != null) {
             return _FediverseLogoThin!!
@@ -16,7 +17,7 @@ val Thin.FediverseLogoThin: ImageVector
         _FediverseLogoThin =
             ImageVector
                 .Builder(
-                    name = "FediverseLogoThin",
+                    name = "Thin.FediverseLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

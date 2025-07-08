@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WaveSawtoothThin: ImageVector
+val Phosphor.Thin.WaveSawtoothThin: ImageVector
     get() {
         if (_WaveSawtoothThin != null) {
             return _WaveSawtoothThin!!
@@ -16,7 +17,7 @@ val Thin.WaveSawtoothThin: ImageVector
         _WaveSawtoothThin =
             ImageVector
                 .Builder(
-                    name = "WaveSawtoothThin",
+                    name = "Thin.WaveSawtoothThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

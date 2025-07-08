@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FlyingSaucerThin: ImageVector
+val Phosphor.Thin.FlyingSaucerThin: ImageVector
     get() {
         if (_FlyingSaucerThin != null) {
             return _FlyingSaucerThin!!
@@ -16,7 +17,7 @@ val Thin.FlyingSaucerThin: ImageVector
         _FlyingSaucerThin =
             ImageVector
                 .Builder(
-                    name = "FlyingSaucerThin",
+                    name = "Thin.FlyingSaucerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

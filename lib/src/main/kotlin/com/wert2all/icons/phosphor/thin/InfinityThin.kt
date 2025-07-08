@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.InfinityThin: ImageVector
+val Phosphor.Thin.InfinityThin: ImageVector
     get() {
         if (_InfinityThin != null) {
             return _InfinityThin!!
@@ -16,7 +17,7 @@ val Thin.InfinityThin: ImageVector
         _InfinityThin =
             ImageVector
                 .Builder(
-                    name = "InfinityThin",
+                    name = "Thin.InfinityThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

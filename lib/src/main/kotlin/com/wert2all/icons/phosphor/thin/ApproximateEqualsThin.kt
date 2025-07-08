@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ApproximateEqualsThin: ImageVector
+val Phosphor.Thin.ApproximateEqualsThin: ImageVector
     get() {
         if (_ApproximateEqualsThin != null) {
             return _ApproximateEqualsThin!!
@@ -16,7 +17,7 @@ val Thin.ApproximateEqualsThin: ImageVector
         _ApproximateEqualsThin =
             ImageVector
                 .Builder(
-                    name = "ApproximateEqualsThin",
+                    name = "Thin.ApproximateEqualsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

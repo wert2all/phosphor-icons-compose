@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LifebuoyThin: ImageVector
+val Phosphor.Thin.LifebuoyThin: ImageVector
     get() {
         if (_LifebuoyThin != null) {
             return _LifebuoyThin!!
@@ -16,7 +17,7 @@ val Thin.LifebuoyThin: ImageVector
         _LifebuoyThin =
             ImageVector
                 .Builder(
-                    name = "LifebuoyThin",
+                    name = "Thin.LifebuoyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

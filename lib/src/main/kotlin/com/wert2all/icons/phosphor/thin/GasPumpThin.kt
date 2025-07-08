@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GasPumpThin: ImageVector
+val Phosphor.Thin.GasPumpThin: ImageVector
     get() {
         if (_GasPumpThin != null) {
             return _GasPumpThin!!
@@ -16,7 +17,7 @@ val Thin.GasPumpThin: ImageVector
         _GasPumpThin =
             ImageVector
                 .Builder(
-                    name = "GasPumpThin",
+                    name = "Thin.GasPumpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

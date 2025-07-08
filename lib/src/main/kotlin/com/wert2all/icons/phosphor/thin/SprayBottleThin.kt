@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SprayBottleThin: ImageVector
+val Phosphor.Thin.SprayBottleThin: ImageVector
     get() {
         if (_SprayBottleThin != null) {
             return _SprayBottleThin!!
@@ -16,7 +17,7 @@ val Thin.SprayBottleThin: ImageVector
         _SprayBottleThin =
             ImageVector
                 .Builder(
-                    name = "SprayBottleThin",
+                    name = "Thin.SprayBottleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SignOutThin: ImageVector
+val Phosphor.Thin.SignOutThin: ImageVector
     get() {
         if (_SignOutThin != null) {
             return _SignOutThin!!
@@ -16,7 +17,7 @@ val Thin.SignOutThin: ImageVector
         _SignOutThin =
             ImageVector
                 .Builder(
-                    name = "SignOutThin",
+                    name = "Thin.SignOutThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

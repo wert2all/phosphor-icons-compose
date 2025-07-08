@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CraneTowerThin: ImageVector
+val Phosphor.Thin.CraneTowerThin: ImageVector
     get() {
         if (_CraneTowerThin != null) {
             return _CraneTowerThin!!
@@ -16,7 +17,7 @@ val Thin.CraneTowerThin: ImageVector
         _CraneTowerThin =
             ImageVector
                 .Builder(
-                    name = "CraneTowerThin",
+                    name = "Thin.CraneTowerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

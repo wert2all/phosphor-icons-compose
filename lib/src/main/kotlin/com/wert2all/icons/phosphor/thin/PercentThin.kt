@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PercentThin: ImageVector
+val Phosphor.Thin.PercentThin: ImageVector
     get() {
         if (_PercentThin != null) {
             return _PercentThin!!
@@ -16,7 +17,7 @@ val Thin.PercentThin: ImageVector
         _PercentThin =
             ImageVector
                 .Builder(
-                    name = "PercentThin",
+                    name = "Thin.PercentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

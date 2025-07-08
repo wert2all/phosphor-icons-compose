@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PlaceholderThin: ImageVector
+val Phosphor.Thin.PlaceholderThin: ImageVector
     get() {
         if (_PlaceholderThin != null) {
             return _PlaceholderThin!!
@@ -16,7 +17,7 @@ val Thin.PlaceholderThin: ImageVector
         _PlaceholderThin =
             ImageVector
                 .Builder(
-                    name = "PlaceholderThin",
+                    name = "Thin.PlaceholderThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

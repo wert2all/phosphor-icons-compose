@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PencilCircleThin: ImageVector
+val Phosphor.Thin.PencilCircleThin: ImageVector
     get() {
         if (_PencilCircleThin != null) {
             return _PencilCircleThin!!
@@ -16,7 +17,7 @@ val Thin.PencilCircleThin: ImageVector
         _PencilCircleThin =
             ImageVector
                 .Builder(
-                    name = "PencilCircleThin",
+                    name = "Thin.PencilCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

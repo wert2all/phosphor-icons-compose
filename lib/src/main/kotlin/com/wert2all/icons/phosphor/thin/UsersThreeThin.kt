@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.UsersThreeThin: ImageVector
+val Phosphor.Thin.UsersThreeThin: ImageVector
     get() {
         if (_UsersThreeThin != null) {
             return _UsersThreeThin!!
@@ -16,7 +17,7 @@ val Thin.UsersThreeThin: ImageVector
         _UsersThreeThin =
             ImageVector
                 .Builder(
-                    name = "UsersThreeThin",
+                    name = "Thin.UsersThreeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

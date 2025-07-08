@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CalendarHeartThin: ImageVector
+val Phosphor.Thin.CalendarHeartThin: ImageVector
     get() {
         if (_CalendarHeartThin != null) {
             return _CalendarHeartThin!!
@@ -16,7 +17,7 @@ val Thin.CalendarHeartThin: ImageVector
         _CalendarHeartThin =
             ImageVector
                 .Builder(
-                    name = "CalendarHeartThin",
+                    name = "Thin.CalendarHeartThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

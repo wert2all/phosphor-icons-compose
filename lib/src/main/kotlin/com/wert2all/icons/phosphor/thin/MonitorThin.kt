@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MonitorThin: ImageVector
+val Phosphor.Thin.MonitorThin: ImageVector
     get() {
         if (_MonitorThin != null) {
             return _MonitorThin!!
@@ -16,7 +17,7 @@ val Thin.MonitorThin: ImageVector
         _MonitorThin =
             ImageVector
                 .Builder(
-                    name = "MonitorThin",
+                    name = "Thin.MonitorThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

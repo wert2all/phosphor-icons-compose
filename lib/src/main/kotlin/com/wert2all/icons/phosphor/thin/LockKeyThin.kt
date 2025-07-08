@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LockKeyThin: ImageVector
+val Phosphor.Thin.LockKeyThin: ImageVector
     get() {
         if (_LockKeyThin != null) {
             return _LockKeyThin!!
@@ -16,7 +17,7 @@ val Thin.LockKeyThin: ImageVector
         _LockKeyThin =
             ImageVector
                 .Builder(
-                    name = "LockKeyThin",
+                    name = "Thin.LockKeyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

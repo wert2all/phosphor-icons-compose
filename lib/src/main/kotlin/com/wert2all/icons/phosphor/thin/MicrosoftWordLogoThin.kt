@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MicrosoftWordLogoThin: ImageVector
+val Phosphor.Thin.MicrosoftWordLogoThin: ImageVector
     get() {
         if (_MicrosoftWordLogoThin != null) {
             return _MicrosoftWordLogoThin!!
@@ -16,7 +17,7 @@ val Thin.MicrosoftWordLogoThin: ImageVector
         _MicrosoftWordLogoThin =
             ImageVector
                 .Builder(
-                    name = "MicrosoftWordLogoThin",
+                    name = "Thin.MicrosoftWordLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.VirtualRealityThin: ImageVector
+val Phosphor.Thin.VirtualRealityThin: ImageVector
     get() {
         if (_VirtualRealityThin != null) {
             return _VirtualRealityThin!!
@@ -16,7 +17,7 @@ val Thin.VirtualRealityThin: ImageVector
         _VirtualRealityThin =
             ImageVector
                 .Builder(
-                    name = "VirtualRealityThin",
+                    name = "Thin.VirtualRealityThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

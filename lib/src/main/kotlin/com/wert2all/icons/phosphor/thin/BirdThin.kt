@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BirdThin: ImageVector
+val Phosphor.Thin.BirdThin: ImageVector
     get() {
         if (_BirdThin != null) {
             return _BirdThin!!
@@ -16,13 +17,13 @@ val Thin.BirdThin: ImageVector
         _BirdThin =
             ImageVector
                 .Builder(
-                    name = "BirdThin",
+                    name = "Thin.BirdThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
                     viewportHeight = 256f,
                 ).apply {
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(164f, 68f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

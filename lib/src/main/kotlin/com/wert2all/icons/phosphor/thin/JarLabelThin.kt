@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.JarLabelThin: ImageVector
+val Phosphor.Thin.JarLabelThin: ImageVector
     get() {
         if (_JarLabelThin != null) {
             return _JarLabelThin!!
@@ -16,7 +17,7 @@ val Thin.JarLabelThin: ImageVector
         _JarLabelThin =
             ImageVector
                 .Builder(
-                    name = "JarLabelThin",
+                    name = "Thin.JarLabelThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

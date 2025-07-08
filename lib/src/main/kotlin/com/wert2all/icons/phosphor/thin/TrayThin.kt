@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrayThin: ImageVector
+val Phosphor.Thin.TrayThin: ImageVector
     get() {
         if (_TrayThin != null) {
             return _TrayThin!!
@@ -16,7 +17,7 @@ val Thin.TrayThin: ImageVector
         _TrayThin =
             ImageVector
                 .Builder(
-                    name = "TrayThin",
+                    name = "Thin.TrayThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

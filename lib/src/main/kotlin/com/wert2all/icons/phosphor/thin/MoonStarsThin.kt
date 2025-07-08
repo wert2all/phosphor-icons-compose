@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MoonStarsThin: ImageVector
+val Phosphor.Thin.MoonStarsThin: ImageVector
     get() {
         if (_MoonStarsThin != null) {
             return _MoonStarsThin!!
@@ -16,7 +17,7 @@ val Thin.MoonStarsThin: ImageVector
         _MoonStarsThin =
             ImageVector
                 .Builder(
-                    name = "MoonStarsThin",
+                    name = "Thin.MoonStarsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

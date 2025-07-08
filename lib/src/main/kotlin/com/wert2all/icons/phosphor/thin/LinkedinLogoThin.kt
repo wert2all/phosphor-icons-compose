@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LinkedinLogoThin: ImageVector
+val Phosphor.Thin.LinkedinLogoThin: ImageVector
     get() {
         if (_LinkedinLogoThin != null) {
             return _LinkedinLogoThin!!
@@ -16,7 +17,7 @@ val Thin.LinkedinLogoThin: ImageVector
         _LinkedinLogoThin =
             ImageVector
                 .Builder(
-                    name = "LinkedinLogoThin",
+                    name = "Thin.LinkedinLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -67,7 +68,7 @@ val Thin.LinkedinLogoThin: ImageVector
                         arcToRelative(28f, 28f, 0f, isMoreThanHalf = false, isPositiveArc = true, 56f, 0f)
                         verticalLineToRelative(36f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(88f, 84f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

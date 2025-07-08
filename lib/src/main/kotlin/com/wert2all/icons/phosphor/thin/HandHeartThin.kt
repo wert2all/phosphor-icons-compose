@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandHeartThin: ImageVector
+val Phosphor.Thin.HandHeartThin: ImageVector
     get() {
         if (_HandHeartThin != null) {
             return _HandHeartThin!!
@@ -16,7 +17,7 @@ val Thin.HandHeartThin: ImageVector
         _HandHeartThin =
             ImageVector
                 .Builder(
-                    name = "HandHeartThin",
+                    name = "Thin.HandHeartThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BracketsAngleThin: ImageVector
+val Phosphor.Thin.BracketsAngleThin: ImageVector
     get() {
         if (_BracketsAngleThin != null) {
             return _BracketsAngleThin!!
@@ -16,7 +17,7 @@ val Thin.BracketsAngleThin: ImageVector
         _BracketsAngleThin =
             ImageVector
                 .Builder(
-                    name = "BracketsAngleThin",
+                    name = "Thin.BracketsAngleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

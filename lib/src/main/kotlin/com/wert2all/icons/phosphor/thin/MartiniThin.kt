@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MartiniThin: ImageVector
+val Phosphor.Thin.MartiniThin: ImageVector
     get() {
         if (_MartiniThin != null) {
             return _MartiniThin!!
@@ -16,7 +17,7 @@ val Thin.MartiniThin: ImageVector
         _MartiniThin =
             ImageVector
                 .Builder(
-                    name = "MartiniThin",
+                    name = "Thin.MartiniThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

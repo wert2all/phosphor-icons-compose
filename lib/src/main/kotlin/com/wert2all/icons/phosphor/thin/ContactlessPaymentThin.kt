@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ContactlessPaymentThin: ImageVector
+val Phosphor.Thin.ContactlessPaymentThin: ImageVector
     get() {
         if (_ContactlessPaymentThin != null) {
             return _ContactlessPaymentThin!!
@@ -16,7 +17,7 @@ val Thin.ContactlessPaymentThin: ImageVector
         _ContactlessPaymentThin =
             ImageVector
                 .Builder(
-                    name = "ContactlessPaymentThin",
+                    name = "Thin.ContactlessPaymentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

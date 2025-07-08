@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FloppyDiskBackThin: ImageVector
+val Phosphor.Thin.FloppyDiskBackThin: ImageVector
     get() {
         if (_FloppyDiskBackThin != null) {
             return _FloppyDiskBackThin!!
@@ -16,7 +17,7 @@ val Thin.FloppyDiskBackThin: ImageVector
         _FloppyDiskBackThin =
             ImageVector
                 .Builder(
-                    name = "FloppyDiskBackThin",
+                    name = "Thin.FloppyDiskBackThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

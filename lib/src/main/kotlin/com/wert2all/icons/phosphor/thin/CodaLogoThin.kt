@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CodaLogoThin: ImageVector
+val Phosphor.Thin.CodaLogoThin: ImageVector
     get() {
         if (_CodaLogoThin != null) {
             return _CodaLogoThin!!
@@ -16,7 +17,7 @@ val Thin.CodaLogoThin: ImageVector
         _CodaLogoThin =
             ImageVector
                 .Builder(
-                    name = "CodaLogoThin",
+                    name = "Thin.CodaLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CardholderThin: ImageVector
+val Phosphor.Thin.CardholderThin: ImageVector
     get() {
         if (_CardholderThin != null) {
             return _CardholderThin!!
@@ -16,7 +17,7 @@ val Thin.CardholderThin: ImageVector
         _CardholderThin =
             ImageVector
                 .Builder(
-                    name = "CardholderThin",
+                    name = "Thin.CardholderThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RacquetThin: ImageVector
+val Phosphor.Thin.RacquetThin: ImageVector
     get() {
         if (_RacquetThin != null) {
             return _RacquetThin!!
@@ -16,7 +17,7 @@ val Thin.RacquetThin: ImageVector
         _RacquetThin =
             ImageVector
                 .Builder(
-                    name = "RacquetThin",
+                    name = "Thin.RacquetThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

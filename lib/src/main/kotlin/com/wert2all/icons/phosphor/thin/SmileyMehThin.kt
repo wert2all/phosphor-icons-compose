@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SmileyMehThin: ImageVector
+val Phosphor.Thin.SmileyMehThin: ImageVector
     get() {
         if (_SmileyMehThin != null) {
             return _SmileyMehThin!!
@@ -16,7 +17,7 @@ val Thin.SmileyMehThin: ImageVector
         _SmileyMehThin =
             ImageVector
                 .Builder(
-                    name = "SmileyMehThin",
+                    name = "Thin.SmileyMehThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -42,13 +43,13 @@ val Thin.SmileyMehThin: ImageVector
                         moveTo(88f, 160f)
                         lineTo(168f, 160f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(92f, 108f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, -16f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(164f, 108f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

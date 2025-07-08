@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MusicNotesSimpleThin: ImageVector
+val Phosphor.Thin.MusicNotesSimpleThin: ImageVector
     get() {
         if (_MusicNotesSimpleThin != null) {
             return _MusicNotesSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.MusicNotesSimpleThin: ImageVector
         _MusicNotesSimpleThin =
             ImageVector
                 .Builder(
-                    name = "MusicNotesSimpleThin",
+                    name = "Thin.MusicNotesSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

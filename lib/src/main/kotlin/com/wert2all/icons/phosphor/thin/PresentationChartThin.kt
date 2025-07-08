@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PresentationChartThin: ImageVector
+val Phosphor.Thin.PresentationChartThin: ImageVector
     get() {
         if (_PresentationChartThin != null) {
             return _PresentationChartThin!!
@@ -16,7 +17,7 @@ val Thin.PresentationChartThin: ImageVector
         _PresentationChartThin =
             ImageVector
                 .Builder(
-                    name = "PresentationChartThin",
+                    name = "Thin.PresentationChartThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

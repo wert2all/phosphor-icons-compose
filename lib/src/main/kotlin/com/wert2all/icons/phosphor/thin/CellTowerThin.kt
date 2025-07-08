@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CellTowerThin: ImageVector
+val Phosphor.Thin.CellTowerThin: ImageVector
     get() {
         if (_CellTowerThin != null) {
             return _CellTowerThin!!
@@ -16,7 +17,7 @@ val Thin.CellTowerThin: ImageVector
         _CellTowerThin =
             ImageVector
                 .Builder(
-                    name = "CellTowerThin",
+                    name = "Thin.CellTowerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

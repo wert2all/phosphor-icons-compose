@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SortDescendingThin: ImageVector
+val Phosphor.Thin.SortDescendingThin: ImageVector
     get() {
         if (_SortDescendingThin != null) {
             return _SortDescendingThin!!
@@ -16,7 +17,7 @@ val Thin.SortDescendingThin: ImageVector
         _SortDescendingThin =
             ImageVector
                 .Builder(
-                    name = "SortDescendingThin",
+                    name = "Thin.SortDescendingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

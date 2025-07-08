@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RectangleThin: ImageVector
+val Phosphor.Thin.RectangleThin: ImageVector
     get() {
         if (_RectangleThin != null) {
             return _RectangleThin!!
@@ -16,7 +17,7 @@ val Thin.RectangleThin: ImageVector
         _RectangleThin =
             ImageVector
                 .Builder(
-                    name = "RectangleThin",
+                    name = "Thin.RectangleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

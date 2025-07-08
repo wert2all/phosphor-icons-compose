@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CheckCircleThin: ImageVector
+val Phosphor.Thin.CheckCircleThin: ImageVector
     get() {
         if (_CheckCircleThin != null) {
             return _CheckCircleThin!!
@@ -16,7 +17,7 @@ val Thin.CheckCircleThin: ImageVector
         _CheckCircleThin =
             ImageVector
                 .Builder(
-                    name = "CheckCircleThin",
+                    name = "Thin.CheckCircleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

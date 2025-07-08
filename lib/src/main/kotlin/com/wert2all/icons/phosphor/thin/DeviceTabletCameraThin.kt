@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DeviceTabletCameraThin: ImageVector
+val Phosphor.Thin.DeviceTabletCameraThin: ImageVector
     get() {
         if (_DeviceTabletCameraThin != null) {
             return _DeviceTabletCameraThin!!
@@ -16,7 +17,7 @@ val Thin.DeviceTabletCameraThin: ImageVector
         _DeviceTabletCameraThin =
             ImageVector
                 .Builder(
-                    name = "DeviceTabletCameraThin",
+                    name = "Thin.DeviceTabletCameraThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -39,7 +40,7 @@ val Thin.DeviceTabletCameraThin: ImageVector
                         arcTo(16f, 16f, 0f, isMoreThanHalf = false, isPositiveArc = true, 208f, 48f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 68f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

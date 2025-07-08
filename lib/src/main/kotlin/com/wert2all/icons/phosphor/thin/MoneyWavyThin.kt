@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MoneyWavyThin: ImageVector
+val Phosphor.Thin.MoneyWavyThin: ImageVector
     get() {
         if (_MoneyWavyThin != null) {
             return _MoneyWavyThin!!
@@ -16,7 +17,7 @@ val Thin.MoneyWavyThin: ImageVector
         _MoneyWavyThin =
             ImageVector
                 .Builder(
-                    name = "MoneyWavyThin",
+                    name = "Thin.MoneyWavyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

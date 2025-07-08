@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.KeyReturnThin: ImageVector
+val Phosphor.Thin.KeyReturnThin: ImageVector
     get() {
         if (_KeyReturnThin != null) {
             return _KeyReturnThin!!
@@ -16,7 +17,7 @@ val Thin.KeyReturnThin: ImageVector
         _KeyReturnThin =
             ImageVector
                 .Builder(
-                    name = "KeyReturnThin",
+                    name = "Thin.KeyReturnThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

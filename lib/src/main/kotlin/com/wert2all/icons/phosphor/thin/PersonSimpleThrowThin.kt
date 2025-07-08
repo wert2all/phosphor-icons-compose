@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PersonSimpleThrowThin: ImageVector
+val Phosphor.Thin.PersonSimpleThrowThin: ImageVector
     get() {
         if (_PersonSimpleThrowThin != null) {
             return _PersonSimpleThrowThin!!
@@ -16,7 +17,7 @@ val Thin.PersonSimpleThrowThin: ImageVector
         _PersonSimpleThrowThin =
             ImageVector
                 .Builder(
-                    name = "PersonSimpleThrowThin",
+                    name = "Thin.PersonSimpleThrowThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -33,7 +34,7 @@ val Thin.PersonSimpleThrowThin: ImageVector
                         arcToRelative(24f, 24f, 0f, isMoreThanHalf = true, isPositiveArc = true, 48f, 0f)
                         arcToRelative(24f, 24f, 0f, isMoreThanHalf = true, isPositiveArc = true, -48f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(64f, 96f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

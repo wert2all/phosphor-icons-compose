@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LineSegmentThin: ImageVector
+val Phosphor.Thin.LineSegmentThin: ImageVector
     get() {
         if (_LineSegmentThin != null) {
             return _LineSegmentThin!!
@@ -16,7 +17,7 @@ val Thin.LineSegmentThin: ImageVector
         _LineSegmentThin =
             ImageVector
                 .Builder(
-                    name = "LineSegmentThin",
+                    name = "Thin.LineSegmentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

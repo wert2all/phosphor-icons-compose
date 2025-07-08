@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ApertureThin: ImageVector
+val Phosphor.Thin.ApertureThin: ImageVector
     get() {
         if (_ApertureThin != null) {
             return _ApertureThin!!
@@ -16,7 +17,7 @@ val Thin.ApertureThin: ImageVector
         _ApertureThin =
             ImageVector
                 .Builder(
-                    name = "ApertureThin",
+                    name = "Thin.ApertureThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

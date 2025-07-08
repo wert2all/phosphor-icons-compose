@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CrossThin: ImageVector
+val Phosphor.Thin.CrossThin: ImageVector
     get() {
         if (_CrossThin != null) {
             return _CrossThin!!
@@ -16,7 +17,7 @@ val Thin.CrossThin: ImageVector
         _CrossThin =
             ImageVector
                 .Builder(
-                    name = "CrossThin",
+                    name = "Thin.CrossThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

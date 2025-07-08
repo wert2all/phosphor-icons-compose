@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FileDashedThin: ImageVector
+val Phosphor.Thin.FileDashedThin: ImageVector
     get() {
         if (_FileDashedThin != null) {
             return _FileDashedThin!!
@@ -16,7 +17,7 @@ val Thin.FileDashedThin: ImageVector
         _FileDashedThin =
             ImageVector
                 .Builder(
-                    name = "FileDashedThin",
+                    name = "Thin.FileDashedThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MapPinLineThin: ImageVector
+val Phosphor.Thin.MapPinLineThin: ImageVector
     get() {
         if (_MapPinLineThin != null) {
             return _MapPinLineThin!!
@@ -16,7 +17,7 @@ val Thin.MapPinLineThin: ImageVector
         _MapPinLineThin =
             ImageVector
                 .Builder(
-                    name = "MapPinLineThin",
+                    name = "Thin.MapPinLineThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

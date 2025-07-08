@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.KeyboardThin: ImageVector
+val Phosphor.Thin.KeyboardThin: ImageVector
     get() {
         if (_KeyboardThin != null) {
             return _KeyboardThin!!
@@ -16,7 +17,7 @@ val Thin.KeyboardThin: ImageVector
         _KeyboardThin =
             ImageVector
                 .Builder(
-                    name = "KeyboardThin",
+                    name = "Thin.KeyboardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

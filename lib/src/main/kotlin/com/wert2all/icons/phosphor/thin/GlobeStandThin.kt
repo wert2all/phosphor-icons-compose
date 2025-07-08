@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GlobeStandThin: ImageVector
+val Phosphor.Thin.GlobeStandThin: ImageVector
     get() {
         if (_GlobeStandThin != null) {
             return _GlobeStandThin!!
@@ -16,7 +17,7 @@ val Thin.GlobeStandThin: ImageVector
         _GlobeStandThin =
             ImageVector
                 .Builder(
-                    name = "GlobeStandThin",
+                    name = "Thin.GlobeStandThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

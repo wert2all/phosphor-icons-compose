@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MicrophoneStageThin: ImageVector
+val Phosphor.Thin.MicrophoneStageThin: ImageVector
     get() {
         if (_MicrophoneStageThin != null) {
             return _MicrophoneStageThin!!
@@ -16,7 +17,7 @@ val Thin.MicrophoneStageThin: ImageVector
         _MicrophoneStageThin =
             ImageVector
                 .Builder(
-                    name = "MicrophoneStageThin",
+                    name = "Thin.MicrophoneStageThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TidalLogoThin: ImageVector
+val Phosphor.Thin.TidalLogoThin: ImageVector
     get() {
         if (_TidalLogoThin != null) {
             return _TidalLogoThin!!
@@ -16,7 +17,7 @@ val Thin.TidalLogoThin: ImageVector
         _TidalLogoThin =
             ImageVector
                 .Builder(
-                    name = "TidalLogoThin",
+                    name = "Thin.TidalLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

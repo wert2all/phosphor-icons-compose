@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FunnelXThin: ImageVector
+val Phosphor.Thin.FunnelXThin: ImageVector
     get() {
         if (_FunnelXThin != null) {
             return _FunnelXThin!!
@@ -16,7 +17,7 @@ val Thin.FunnelXThin: ImageVector
         _FunnelXThin =
             ImageVector
                 .Builder(
-                    name = "FunnelXThin",
+                    name = "Thin.FunnelXThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.JoystickThin: ImageVector
+val Phosphor.Thin.JoystickThin: ImageVector
     get() {
         if (_JoystickThin != null) {
             return _JoystickThin!!
@@ -16,7 +17,7 @@ val Thin.JoystickThin: ImageVector
         _JoystickThin =
             ImageVector
                 .Builder(
-                    name = "JoystickThin",
+                    name = "Thin.JoystickThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

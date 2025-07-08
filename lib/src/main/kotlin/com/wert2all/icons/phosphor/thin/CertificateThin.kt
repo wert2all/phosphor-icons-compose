@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CertificateThin: ImageVector
+val Phosphor.Thin.CertificateThin: ImageVector
     get() {
         if (_CertificateThin != null) {
             return _CertificateThin!!
@@ -16,7 +17,7 @@ val Thin.CertificateThin: ImageVector
         _CertificateThin =
             ImageVector
                 .Builder(
-                    name = "CertificateThin",
+                    name = "Thin.CertificateThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

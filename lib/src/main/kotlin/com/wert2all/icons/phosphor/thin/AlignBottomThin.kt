@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AlignBottomThin: ImageVector
+val Phosphor.Thin.AlignBottomThin: ImageVector
     get() {
         if (_AlignBottomThin != null) {
             return _AlignBottomThin!!
@@ -16,7 +17,7 @@ val Thin.AlignBottomThin: ImageVector
         _AlignBottomThin =
             ImageVector
                 .Builder(
-                    name = "AlignBottomThin",
+                    name = "Thin.AlignBottomThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FileArrowUpThin: ImageVector
+val Phosphor.Thin.FileArrowUpThin: ImageVector
     get() {
         if (_FileArrowUpThin != null) {
             return _FileArrowUpThin!!
@@ -16,7 +17,7 @@ val Thin.FileArrowUpThin: ImageVector
         _FileArrowUpThin =
             ImageVector
                 .Builder(
-                    name = "FileArrowUpThin",
+                    name = "Thin.FileArrowUpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

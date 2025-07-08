@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HeartBreakThin: ImageVector
+val Phosphor.Thin.HeartBreakThin: ImageVector
     get() {
         if (_HeartBreakThin != null) {
             return _HeartBreakThin!!
@@ -16,7 +17,7 @@ val Thin.HeartBreakThin: ImageVector
         _HeartBreakThin =
             ImageVector
                 .Builder(
-                    name = "HeartBreakThin",
+                    name = "Thin.HeartBreakThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

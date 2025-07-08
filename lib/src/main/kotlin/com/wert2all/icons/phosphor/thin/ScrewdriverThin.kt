@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ScrewdriverThin: ImageVector
+val Phosphor.Thin.ScrewdriverThin: ImageVector
     get() {
         if (_ScrewdriverThin != null) {
             return _ScrewdriverThin!!
@@ -16,7 +17,7 @@ val Thin.ScrewdriverThin: ImageVector
         _ScrewdriverThin =
             ImageVector
                 .Builder(
-                    name = "ScrewdriverThin",
+                    name = "Thin.ScrewdriverThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

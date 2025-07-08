@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RocketLaunchThin: ImageVector
+val Phosphor.Thin.RocketLaunchThin: ImageVector
     get() {
         if (_RocketLaunchThin != null) {
             return _RocketLaunchThin!!
@@ -16,7 +17,7 @@ val Thin.RocketLaunchThin: ImageVector
         _RocketLaunchThin =
             ImageVector
                 .Builder(
-                    name = "RocketLaunchThin",
+                    name = "Thin.RocketLaunchThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CrownThin: ImageVector
+val Phosphor.Thin.CrownThin: ImageVector
     get() {
         if (_CrownThin != null) {
             return _CrownThin!!
@@ -16,7 +17,7 @@ val Thin.CrownThin: ImageVector
         _CrownThin =
             ImageVector
                 .Builder(
-                    name = "CrownThin",
+                    name = "Thin.CrownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

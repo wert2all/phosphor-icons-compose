@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PizzaThin: ImageVector
+val Phosphor.Thin.PizzaThin: ImageVector
     get() {
         if (_PizzaThin != null) {
             return _PizzaThin!!
@@ -16,7 +17,7 @@ val Thin.PizzaThin: ImageVector
         _PizzaThin =
             ImageVector
                 .Builder(
-                    name = "PizzaThin",
+                    name = "Thin.PizzaThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

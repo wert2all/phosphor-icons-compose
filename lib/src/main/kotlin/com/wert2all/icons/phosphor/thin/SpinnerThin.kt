@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpinnerThin: ImageVector
+val Phosphor.Thin.SpinnerThin: ImageVector
     get() {
         if (_SpinnerThin != null) {
             return _SpinnerThin!!
@@ -16,7 +17,7 @@ val Thin.SpinnerThin: ImageVector
         _SpinnerThin =
             ImageVector
                 .Builder(
-                    name = "SpinnerThin",
+                    name = "Thin.SpinnerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

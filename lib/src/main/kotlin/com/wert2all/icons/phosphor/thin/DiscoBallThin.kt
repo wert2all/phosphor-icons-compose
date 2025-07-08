@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.DiscoBallThin: ImageVector
+val Phosphor.Thin.DiscoBallThin: ImageVector
     get() {
         if (_DiscoBallThin != null) {
             return _DiscoBallThin!!
@@ -16,7 +17,7 @@ val Thin.DiscoBallThin: ImageVector
         _DiscoBallThin =
             ImageVector
                 .Builder(
-                    name = "DiscoBallThin",
+                    name = "Thin.DiscoBallThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

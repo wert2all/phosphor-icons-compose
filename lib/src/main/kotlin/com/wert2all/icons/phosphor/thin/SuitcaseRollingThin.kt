@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SuitcaseRollingThin: ImageVector
+val Phosphor.Thin.SuitcaseRollingThin: ImageVector
     get() {
         if (_SuitcaseRollingThin != null) {
             return _SuitcaseRollingThin!!
@@ -16,7 +17,7 @@ val Thin.SuitcaseRollingThin: ImageVector
         _SuitcaseRollingThin =
             ImageVector
                 .Builder(
-                    name = "SuitcaseRollingThin",
+                    name = "Thin.SuitcaseRollingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

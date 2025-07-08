@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FlagBannerThin: ImageVector
+val Phosphor.Thin.FlagBannerThin: ImageVector
     get() {
         if (_FlagBannerThin != null) {
             return _FlagBannerThin!!
@@ -16,7 +17,7 @@ val Thin.FlagBannerThin: ImageVector
         _FlagBannerThin =
             ImageVector
                 .Builder(
-                    name = "FlagBannerThin",
+                    name = "Thin.FlagBannerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

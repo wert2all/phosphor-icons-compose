@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BinocularsThin: ImageVector
+val Phosphor.Thin.BinocularsThin: ImageVector
     get() {
         if (_BinocularsThin != null) {
             return _BinocularsThin!!
@@ -16,7 +17,7 @@ val Thin.BinocularsThin: ImageVector
         _BinocularsThin =
             ImageVector
                 .Builder(
-                    name = "BinocularsThin",
+                    name = "Thin.BinocularsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

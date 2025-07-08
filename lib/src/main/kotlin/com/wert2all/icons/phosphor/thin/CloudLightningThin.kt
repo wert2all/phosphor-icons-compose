@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CloudLightningThin: ImageVector
+val Phosphor.Thin.CloudLightningThin: ImageVector
     get() {
         if (_CloudLightningThin != null) {
             return _CloudLightningThin!!
@@ -16,7 +17,7 @@ val Thin.CloudLightningThin: ImageVector
         _CloudLightningThin =
             ImageVector
                 .Builder(
-                    name = "CloudLightningThin",
+                    name = "Thin.CloudLightningThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

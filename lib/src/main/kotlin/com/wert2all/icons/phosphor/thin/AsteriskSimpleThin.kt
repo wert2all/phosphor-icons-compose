@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AsteriskSimpleThin: ImageVector
+val Phosphor.Thin.AsteriskSimpleThin: ImageVector
     get() {
         if (_AsteriskSimpleThin != null) {
             return _AsteriskSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.AsteriskSimpleThin: ImageVector
         _AsteriskSimpleThin =
             ImageVector
                 .Builder(
-                    name = "AsteriskSimpleThin",
+                    name = "Thin.AsteriskSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

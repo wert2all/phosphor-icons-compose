@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AvocadoThin: ImageVector
+val Phosphor.Thin.AvocadoThin: ImageVector
     get() {
         if (_AvocadoThin != null) {
             return _AvocadoThin!!
@@ -16,7 +17,7 @@ val Thin.AvocadoThin: ImageVector
         _AvocadoThin =
             ImageVector
                 .Builder(
-                    name = "AvocadoThin",
+                    name = "Thin.AvocadoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

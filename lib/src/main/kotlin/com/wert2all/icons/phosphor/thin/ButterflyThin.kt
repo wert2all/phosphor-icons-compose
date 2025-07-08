@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ButterflyThin: ImageVector
+val Phosphor.Thin.ButterflyThin: ImageVector
     get() {
         if (_ButterflyThin != null) {
             return _ButterflyThin!!
@@ -16,7 +17,7 @@ val Thin.ButterflyThin: ImageVector
         _ButterflyThin =
             ImageVector
                 .Builder(
-                    name = "ButterflyThin",
+                    name = "Thin.ButterflyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

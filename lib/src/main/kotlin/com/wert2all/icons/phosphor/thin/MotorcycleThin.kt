@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MotorcycleThin: ImageVector
+val Phosphor.Thin.MotorcycleThin: ImageVector
     get() {
         if (_MotorcycleThin != null) {
             return _MotorcycleThin!!
@@ -16,7 +17,7 @@ val Thin.MotorcycleThin: ImageVector
         _MotorcycleThin =
             ImageVector
                 .Builder(
-                    name = "MotorcycleThin",
+                    name = "Thin.MotorcycleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

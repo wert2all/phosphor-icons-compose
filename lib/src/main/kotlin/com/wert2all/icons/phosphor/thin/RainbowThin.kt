@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RainbowThin: ImageVector
+val Phosphor.Thin.RainbowThin: ImageVector
     get() {
         if (_RainbowThin != null) {
             return _RainbowThin!!
@@ -16,7 +17,7 @@ val Thin.RainbowThin: ImageVector
         _RainbowThin =
             ImageVector
                 .Builder(
-                    name = "RainbowThin",
+                    name = "Thin.RainbowThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

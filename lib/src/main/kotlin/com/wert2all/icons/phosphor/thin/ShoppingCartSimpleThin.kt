@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ShoppingCartSimpleThin: ImageVector
+val Phosphor.Thin.ShoppingCartSimpleThin: ImageVector
     get() {
         if (_ShoppingCartSimpleThin != null) {
             return _ShoppingCartSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.ShoppingCartSimpleThin: ImageVector
         _ShoppingCartSimpleThin =
             ImageVector
                 .Builder(
-                    name = "ShoppingCartSimpleThin",
+                    name = "Thin.ShoppingCartSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -37,13 +38,13 @@ val Thin.ShoppingCartSimpleThin: ImageVector
                         lineTo(232f, 72f)
                         horizontalLineTo(51.11f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(88f, 216f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, -24f, 0f)
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(192f, 216f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

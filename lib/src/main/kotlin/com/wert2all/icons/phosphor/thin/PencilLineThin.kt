@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PencilLineThin: ImageVector
+val Phosphor.Thin.PencilLineThin: ImageVector
     get() {
         if (_PencilLineThin != null) {
             return _PencilLineThin!!
@@ -16,7 +17,7 @@ val Thin.PencilLineThin: ImageVector
         _PencilLineThin =
             ImageVector
                 .Builder(
-                    name = "PencilLineThin",
+                    name = "Thin.PencilLineThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

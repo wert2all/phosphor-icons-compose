@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LadderThin: ImageVector
+val Phosphor.Thin.LadderThin: ImageVector
     get() {
         if (_LadderThin != null) {
             return _LadderThin!!
@@ -16,7 +17,7 @@ val Thin.LadderThin: ImageVector
         _LadderThin =
             ImageVector
                 .Builder(
-                    name = "LadderThin",
+                    name = "Thin.LadderThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BinaryThin: ImageVector
+val Phosphor.Thin.BinaryThin: ImageVector
     get() {
         if (_BinaryThin != null) {
             return _BinaryThin!!
@@ -16,7 +17,7 @@ val Thin.BinaryThin: ImageVector
         _BinaryThin =
             ImageVector
                 .Builder(
-                    name = "BinaryThin",
+                    name = "Thin.BinaryThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ToggleRightThin: ImageVector
+val Phosphor.Thin.ToggleRightThin: ImageVector
     get() {
         if (_ToggleRightThin != null) {
             return _ToggleRightThin!!
@@ -16,7 +17,7 @@ val Thin.ToggleRightThin: ImageVector
         _ToggleRightThin =
             ImageVector
                 .Builder(
-                    name = "ToggleRightThin",
+                    name = "Thin.ToggleRightThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

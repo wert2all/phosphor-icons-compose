@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GraduationCapThin: ImageVector
+val Phosphor.Thin.GraduationCapThin: ImageVector
     get() {
         if (_GraduationCapThin != null) {
             return _GraduationCapThin!!
@@ -16,7 +17,7 @@ val Thin.GraduationCapThin: ImageVector
         _GraduationCapThin =
             ImageVector
                 .Builder(
-                    name = "GraduationCapThin",
+                    name = "Thin.GraduationCapThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

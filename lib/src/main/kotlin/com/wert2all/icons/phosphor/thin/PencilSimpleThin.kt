@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PencilSimpleThin: ImageVector
+val Phosphor.Thin.PencilSimpleThin: ImageVector
     get() {
         if (_PencilSimpleThin != null) {
             return _PencilSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.PencilSimpleThin: ImageVector
         _PencilSimpleThin =
             ImageVector
                 .Builder(
-                    name = "PencilSimpleThin",
+                    name = "Thin.PencilSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

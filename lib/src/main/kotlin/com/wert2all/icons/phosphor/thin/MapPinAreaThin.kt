@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MapPinAreaThin: ImageVector
+val Phosphor.Thin.MapPinAreaThin: ImageVector
     get() {
         if (_MapPinAreaThin != null) {
             return _MapPinAreaThin!!
@@ -16,13 +17,13 @@ val Thin.MapPinAreaThin: ImageVector
         _MapPinAreaThin =
             ImageVector
                 .Builder(
-                    name = "MapPinAreaThin",
+                    name = "Thin.MapPinAreaThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
                     viewportHeight = 256f,
                 ).apply {
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(128f, 80f)
                         moveToRelative(-12f, 0f)
                         arcToRelative(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 0f)

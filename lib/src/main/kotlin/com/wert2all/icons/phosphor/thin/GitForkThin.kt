@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GitForkThin: ImageVector
+val Phosphor.Thin.GitForkThin: ImageVector
     get() {
         if (_GitForkThin != null) {
             return _GitForkThin!!
@@ -16,7 +17,7 @@ val Thin.GitForkThin: ImageVector
         _GitForkThin =
             ImageVector
                 .Builder(
-                    name = "GitForkThin",
+                    name = "Thin.GitForkThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

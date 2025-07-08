@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HandArrowDownThin: ImageVector
+val Phosphor.Thin.HandArrowDownThin: ImageVector
     get() {
         if (_HandArrowDownThin != null) {
             return _HandArrowDownThin!!
@@ -16,7 +17,7 @@ val Thin.HandArrowDownThin: ImageVector
         _HandArrowDownThin =
             ImageVector
                 .Builder(
-                    name = "HandArrowDownThin",
+                    name = "Thin.HandArrowDownThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

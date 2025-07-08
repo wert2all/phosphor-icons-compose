@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SpiralThin: ImageVector
+val Phosphor.Thin.SpiralThin: ImageVector
     get() {
         if (_SpiralThin != null) {
             return _SpiralThin!!
@@ -16,7 +17,7 @@ val Thin.SpiralThin: ImageVector
         _SpiralThin =
             ImageVector
                 .Builder(
-                    name = "SpiralThin",
+                    name = "Thin.SpiralThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

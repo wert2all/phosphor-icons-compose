@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LineVerticalThin: ImageVector
+val Phosphor.Thin.LineVerticalThin: ImageVector
     get() {
         if (_LineVerticalThin != null) {
             return _LineVerticalThin!!
@@ -16,7 +17,7 @@ val Thin.LineVerticalThin: ImageVector
         _LineVerticalThin =
             ImageVector
                 .Builder(
-                    name = "LineVerticalThin",
+                    name = "Thin.LineVerticalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

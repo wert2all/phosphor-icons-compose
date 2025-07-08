@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AddressBookTabsThin: ImageVector
+val Phosphor.Thin.AddressBookTabsThin: ImageVector
     get() {
         if (_AddressBookTabsThin != null) {
             return _AddressBookTabsThin!!
@@ -16,7 +17,7 @@ val Thin.AddressBookTabsThin: ImageVector
         _AddressBookTabsThin =
             ImageVector
                 .Builder(
-                    name = "AddressBookTabsThin",
+                    name = "Thin.AddressBookTabsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MegaphoneSimpleThin: ImageVector
+val Phosphor.Thin.MegaphoneSimpleThin: ImageVector
     get() {
         if (_MegaphoneSimpleThin != null) {
             return _MegaphoneSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.MegaphoneSimpleThin: ImageVector
         _MegaphoneSimpleThin =
             ImageVector
                 .Builder(
-                    name = "MegaphoneSimpleThin",
+                    name = "Thin.MegaphoneSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

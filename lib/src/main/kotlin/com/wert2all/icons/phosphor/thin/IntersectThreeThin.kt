@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.IntersectThreeThin: ImageVector
+val Phosphor.Thin.IntersectThreeThin: ImageVector
     get() {
         if (_IntersectThreeThin != null) {
             return _IntersectThreeThin!!
@@ -16,7 +17,7 @@ val Thin.IntersectThreeThin: ImageVector
         _IntersectThreeThin =
             ImageVector
                 .Builder(
-                    name = "IntersectThreeThin",
+                    name = "Thin.IntersectThreeThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

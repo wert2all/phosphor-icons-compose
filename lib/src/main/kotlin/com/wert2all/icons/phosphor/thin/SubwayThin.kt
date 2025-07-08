@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SubwayThin: ImageVector
+val Phosphor.Thin.SubwayThin: ImageVector
     get() {
         if (_SubwayThin != null) {
             return _SubwayThin!!
@@ -16,7 +17,7 @@ val Thin.SubwayThin: ImageVector
         _SubwayThin =
             ImageVector
                 .Builder(
-                    name = "SubwayThin",
+                    name = "Thin.SubwayThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

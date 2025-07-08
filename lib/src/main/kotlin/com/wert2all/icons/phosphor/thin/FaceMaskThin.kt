@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.FaceMaskThin: ImageVector
+val Phosphor.Thin.FaceMaskThin: ImageVector
     get() {
         if (_FaceMaskThin != null) {
             return _FaceMaskThin!!
@@ -16,7 +17,7 @@ val Thin.FaceMaskThin: ImageVector
         _FaceMaskThin =
             ImageVector
                 .Builder(
-                    name = "FaceMaskThin",
+                    name = "Thin.FaceMaskThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

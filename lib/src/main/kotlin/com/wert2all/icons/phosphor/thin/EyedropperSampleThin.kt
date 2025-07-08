@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EyedropperSampleThin: ImageVector
+val Phosphor.Thin.EyedropperSampleThin: ImageVector
     get() {
         if (_EyedropperSampleThin != null) {
             return _EyedropperSampleThin!!
@@ -16,7 +17,7 @@ val Thin.EyedropperSampleThin: ImageVector
         _EyedropperSampleThin =
             ImageVector
                 .Builder(
-                    name = "EyedropperSampleThin",
+                    name = "Thin.EyedropperSampleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

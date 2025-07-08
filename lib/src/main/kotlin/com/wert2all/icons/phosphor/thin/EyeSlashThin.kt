@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.EyeSlashThin: ImageVector
+val Phosphor.Thin.EyeSlashThin: ImageVector
     get() {
         if (_EyeSlashThin != null) {
             return _EyeSlashThin!!
@@ -16,7 +17,7 @@ val Thin.EyeSlashThin: ImageVector
         _EyeSlashThin =
             ImageVector
                 .Builder(
-                    name = "EyeSlashThin",
+                    name = "Thin.EyeSlashThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

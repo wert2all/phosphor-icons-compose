@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PanoramaThin: ImageVector
+val Phosphor.Thin.PanoramaThin: ImageVector
     get() {
         if (_PanoramaThin != null) {
             return _PanoramaThin!!
@@ -16,7 +17,7 @@ val Thin.PanoramaThin: ImageVector
         _PanoramaThin =
             ImageVector
                 .Builder(
-                    name = "PanoramaThin",
+                    name = "Thin.PanoramaThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
@@ -40,7 +41,7 @@ val Thin.PanoramaThin: ImageVector
                         arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 192f)
                         close()
                     }
-                    path(fill = SolidColor(Color(0xFF000000))) {
+                    path(fill = SolidColor(Color.Black)) {
                         moveTo(204f, 108f)
                         moveToRelative(-8f, 0f)
                         arcToRelative(8f, 8f, 0f, isMoreThanHalf = true, isPositiveArc = true, 16f, 0f)

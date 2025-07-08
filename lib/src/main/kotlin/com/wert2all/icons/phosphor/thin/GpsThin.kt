@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GpsThin: ImageVector
+val Phosphor.Thin.GpsThin: ImageVector
     get() {
         if (_GpsThin != null) {
             return _GpsThin!!
@@ -16,7 +17,7 @@ val Thin.GpsThin: ImageVector
         _GpsThin =
             ImageVector
                 .Builder(
-                    name = "GpsThin",
+                    name = "Thin.GpsThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

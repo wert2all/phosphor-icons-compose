@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TriangleDashedThin: ImageVector
+val Phosphor.Thin.TriangleDashedThin: ImageVector
     get() {
         if (_TriangleDashedThin != null) {
             return _TriangleDashedThin!!
@@ -16,7 +17,7 @@ val Thin.TriangleDashedThin: ImageVector
         _TriangleDashedThin =
             ImageVector
                 .Builder(
-                    name = "TriangleDashedThin",
+                    name = "Thin.TriangleDashedThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

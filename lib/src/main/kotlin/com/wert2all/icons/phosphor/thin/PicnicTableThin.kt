@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.PicnicTableThin: ImageVector
+val Phosphor.Thin.PicnicTableThin: ImageVector
     get() {
         if (_PicnicTableThin != null) {
             return _PicnicTableThin!!
@@ -16,7 +17,7 @@ val Thin.PicnicTableThin: ImageVector
         _PicnicTableThin =
             ImageVector
                 .Builder(
-                    name = "PicnicTableThin",
+                    name = "Thin.PicnicTableThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

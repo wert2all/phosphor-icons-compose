@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.GoogleDriveLogoThin: ImageVector
+val Phosphor.Thin.GoogleDriveLogoThin: ImageVector
     get() {
         if (_GoogleDriveLogoThin != null) {
             return _GoogleDriveLogoThin!!
@@ -16,7 +17,7 @@ val Thin.GoogleDriveLogoThin: ImageVector
         _GoogleDriveLogoThin =
             ImageVector
                 .Builder(
-                    name = "GoogleDriveLogoThin",
+                    name = "Thin.GoogleDriveLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

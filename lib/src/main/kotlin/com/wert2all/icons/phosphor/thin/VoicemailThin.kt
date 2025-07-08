@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.VoicemailThin: ImageVector
+val Phosphor.Thin.VoicemailThin: ImageVector
     get() {
         if (_VoicemailThin != null) {
             return _VoicemailThin!!
@@ -16,7 +17,7 @@ val Thin.VoicemailThin: ImageVector
         _VoicemailThin =
             ImageVector
                 .Builder(
-                    name = "VoicemailThin",
+                    name = "Thin.VoicemailThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

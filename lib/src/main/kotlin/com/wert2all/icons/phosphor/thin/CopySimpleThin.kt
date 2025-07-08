@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CopySimpleThin: ImageVector
+val Phosphor.Thin.CopySimpleThin: ImageVector
     get() {
         if (_CopySimpleThin != null) {
             return _CopySimpleThin!!
@@ -16,7 +17,7 @@ val Thin.CopySimpleThin: ImageVector
         _CopySimpleThin =
             ImageVector
                 .Builder(
-                    name = "CopySimpleThin",
+                    name = "Thin.CopySimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

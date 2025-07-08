@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.OfficeChairThin: ImageVector
+val Phosphor.Thin.OfficeChairThin: ImageVector
     get() {
         if (_OfficeChairThin != null) {
             return _OfficeChairThin!!
@@ -16,7 +17,7 @@ val Thin.OfficeChairThin: ImageVector
         _OfficeChairThin =
             ImageVector
                 .Builder(
-                    name = "OfficeChairThin",
+                    name = "Thin.OfficeChairThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BoundingBoxThin: ImageVector
+val Phosphor.Thin.BoundingBoxThin: ImageVector
     get() {
         if (_BoundingBoxThin != null) {
             return _BoundingBoxThin!!
@@ -16,7 +17,7 @@ val Thin.BoundingBoxThin: ImageVector
         _BoundingBoxThin =
             ImageVector
                 .Builder(
-                    name = "BoundingBoxThin",
+                    name = "Thin.BoundingBoxThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AnchorSimpleThin: ImageVector
+val Phosphor.Thin.AnchorSimpleThin: ImageVector
     get() {
         if (_AnchorSimpleThin != null) {
             return _AnchorSimpleThin!!
@@ -16,7 +17,7 @@ val Thin.AnchorSimpleThin: ImageVector
         _AnchorSimpleThin =
             ImageVector
                 .Builder(
-                    name = "AnchorSimpleThin",
+                    name = "Thin.AnchorSimpleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

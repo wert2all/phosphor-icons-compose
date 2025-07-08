@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.AirplaneLandingThin: ImageVector
+val Phosphor.Thin.AirplaneLandingThin: ImageVector
     get() {
         if (_AirplaneLandingThin != null) {
             return _AirplaneLandingThin!!
@@ -16,7 +17,7 @@ val Thin.AirplaneLandingThin: ImageVector
         _AirplaneLandingThin =
             ImageVector
                 .Builder(
-                    name = "AirplaneLandingThin",
+                    name = "Thin.AirplaneLandingThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BaseballCapThin: ImageVector
+val Phosphor.Thin.BaseballCapThin: ImageVector
     get() {
         if (_BaseballCapThin != null) {
             return _BaseballCapThin!!
@@ -16,7 +17,7 @@ val Thin.BaseballCapThin: ImageVector
         _BaseballCapThin =
             ImageVector
                 .Builder(
-                    name = "BaseballCapThin",
+                    name = "Thin.BaseballCapThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

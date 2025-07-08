@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BriefcaseMetalThin: ImageVector
+val Phosphor.Thin.BriefcaseMetalThin: ImageVector
     get() {
         if (_BriefcaseMetalThin != null) {
             return _BriefcaseMetalThin!!
@@ -16,7 +17,7 @@ val Thin.BriefcaseMetalThin: ImageVector
         _BriefcaseMetalThin =
             ImageVector
                 .Builder(
-                    name = "BriefcaseMetalThin",
+                    name = "Thin.BriefcaseMetalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

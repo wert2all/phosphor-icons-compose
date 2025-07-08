@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SkipBackThin: ImageVector
+val Phosphor.Thin.SkipBackThin: ImageVector
     get() {
         if (_SkipBackThin != null) {
             return _SkipBackThin!!
@@ -16,7 +17,7 @@ val Thin.SkipBackThin: ImageVector
         _SkipBackThin =
             ImageVector
                 .Builder(
-                    name = "SkipBackThin",
+                    name = "Thin.SkipBackThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

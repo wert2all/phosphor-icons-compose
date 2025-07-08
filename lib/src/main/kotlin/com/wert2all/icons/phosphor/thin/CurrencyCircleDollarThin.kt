@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CurrencyCircleDollarThin: ImageVector
+val Phosphor.Thin.CurrencyCircleDollarThin: ImageVector
     get() {
         if (_CurrencyCircleDollarThin != null) {
             return _CurrencyCircleDollarThin!!
@@ -16,7 +17,7 @@ val Thin.CurrencyCircleDollarThin: ImageVector
         _CurrencyCircleDollarThin =
             ImageVector
                 .Builder(
-                    name = "CurrencyCircleDollarThin",
+                    name = "Thin.CurrencyCircleDollarThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

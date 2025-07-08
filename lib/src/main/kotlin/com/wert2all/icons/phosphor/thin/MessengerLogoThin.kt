@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.MessengerLogoThin: ImageVector
+val Phosphor.Thin.MessengerLogoThin: ImageVector
     get() {
         if (_MessengerLogoThin != null) {
             return _MessengerLogoThin!!
@@ -16,7 +17,7 @@ val Thin.MessengerLogoThin: ImageVector
         _MessengerLogoThin =
             ImageVector
                 .Builder(
-                    name = "MessengerLogoThin",
+                    name = "Thin.MessengerLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

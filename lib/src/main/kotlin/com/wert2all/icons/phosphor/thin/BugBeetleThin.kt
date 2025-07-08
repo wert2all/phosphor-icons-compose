@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BugBeetleThin: ImageVector
+val Phosphor.Thin.BugBeetleThin: ImageVector
     get() {
         if (_BugBeetleThin != null) {
             return _BugBeetleThin!!
@@ -16,7 +17,7 @@ val Thin.BugBeetleThin: ImageVector
         _BugBeetleThin =
             ImageVector
                 .Builder(
-                    name = "BugBeetleThin",
+                    name = "Thin.BugBeetleThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

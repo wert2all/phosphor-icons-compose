@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.LightbulbFilamentThin: ImageVector
+val Phosphor.Thin.LightbulbFilamentThin: ImageVector
     get() {
         if (_LightbulbFilamentThin != null) {
             return _LightbulbFilamentThin!!
@@ -16,7 +17,7 @@ val Thin.LightbulbFilamentThin: ImageVector
         _LightbulbFilamentThin =
             ImageVector
                 .Builder(
-                    name = "LightbulbFilamentThin",
+                    name = "Thin.LightbulbFilamentThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

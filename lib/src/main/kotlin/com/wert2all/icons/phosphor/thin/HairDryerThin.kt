@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.HairDryerThin: ImageVector
+val Phosphor.Thin.HairDryerThin: ImageVector
     get() {
         if (_HairDryerThin != null) {
             return _HairDryerThin!!
@@ -16,7 +17,7 @@ val Thin.HairDryerThin: ImageVector
         _HairDryerThin =
             ImageVector
                 .Builder(
-                    name = "HairDryerThin",
+                    name = "Thin.HairDryerThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

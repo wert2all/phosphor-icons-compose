@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WhatsappLogoThin: ImageVector
+val Phosphor.Thin.WhatsappLogoThin: ImageVector
     get() {
         if (_WhatsappLogoThin != null) {
             return _WhatsappLogoThin!!
@@ -16,7 +17,7 @@ val Thin.WhatsappLogoThin: ImageVector
         _WhatsappLogoThin =
             ImageVector
                 .Builder(
-                    name = "WhatsappLogoThin",
+                    name = "Thin.WhatsappLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

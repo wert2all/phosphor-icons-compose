@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TextUnderlineThin: ImageVector
+val Phosphor.Thin.TextUnderlineThin: ImageVector
     get() {
         if (_TextUnderlineThin != null) {
             return _TextUnderlineThin!!
@@ -16,7 +17,7 @@ val Thin.TextUnderlineThin: ImageVector
         _TextUnderlineThin =
             ImageVector
                 .Builder(
-                    name = "TextUnderlineThin",
+                    name = "Thin.TextUnderlineThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

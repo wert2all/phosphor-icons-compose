@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.CompassRoseThin: ImageVector
+val Phosphor.Thin.CompassRoseThin: ImageVector
     get() {
         if (_CompassRoseThin != null) {
             return _CompassRoseThin!!
@@ -16,7 +17,7 @@ val Thin.CompassRoseThin: ImageVector
         _CompassRoseThin =
             ImageVector
                 .Builder(
-                    name = "CompassRoseThin",
+                    name = "Thin.CompassRoseThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

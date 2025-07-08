@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SoundcloudLogoThin: ImageVector
+val Phosphor.Thin.SoundcloudLogoThin: ImageVector
     get() {
         if (_SoundcloudLogoThin != null) {
             return _SoundcloudLogoThin!!
@@ -16,7 +17,7 @@ val Thin.SoundcloudLogoThin: ImageVector
         _SoundcloudLogoThin =
             ImageVector
                 .Builder(
-                    name = "SoundcloudLogoThin",
+                    name = "Thin.SoundcloudLogoThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

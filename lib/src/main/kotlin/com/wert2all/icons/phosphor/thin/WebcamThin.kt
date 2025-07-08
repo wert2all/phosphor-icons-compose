@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WebcamThin: ImageVector
+val Phosphor.Thin.WebcamThin: ImageVector
     get() {
         if (_WebcamThin != null) {
             return _WebcamThin!!
@@ -16,7 +17,7 @@ val Thin.WebcamThin: ImageVector
         _WebcamThin =
             ImageVector
                 .Builder(
-                    name = "WebcamThin",
+                    name = "Thin.WebcamThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

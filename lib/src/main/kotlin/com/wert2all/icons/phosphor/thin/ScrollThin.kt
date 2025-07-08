@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ScrollThin: ImageVector
+val Phosphor.Thin.ScrollThin: ImageVector
     get() {
         if (_ScrollThin != null) {
             return _ScrollThin!!
@@ -16,7 +17,7 @@ val Thin.ScrollThin: ImageVector
         _ScrollThin =
             ImageVector
                 .Builder(
-                    name = "ScrollThin",
+                    name = "Thin.ScrollThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

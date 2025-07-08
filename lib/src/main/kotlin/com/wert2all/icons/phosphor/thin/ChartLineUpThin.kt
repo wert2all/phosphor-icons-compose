@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChartLineUpThin: ImageVector
+val Phosphor.Thin.ChartLineUpThin: ImageVector
     get() {
         if (_ChartLineUpThin != null) {
             return _ChartLineUpThin!!
@@ -16,7 +17,7 @@ val Thin.ChartLineUpThin: ImageVector
         _ChartLineUpThin =
             ImageVector
                 .Builder(
-                    name = "ChartLineUpThin",
+                    name = "Thin.ChartLineUpThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.SimCardThin: ImageVector
+val Phosphor.Thin.SimCardThin: ImageVector
     get() {
         if (_SimCardThin != null) {
             return _SimCardThin!!
@@ -16,7 +17,7 @@ val Thin.SimCardThin: ImageVector
         _SimCardThin =
             ImageVector
                 .Builder(
-                    name = "SimCardThin",
+                    name = "Thin.SimCardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

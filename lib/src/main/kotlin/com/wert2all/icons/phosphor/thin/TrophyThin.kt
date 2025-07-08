@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.TrophyThin: ImageVector
+val Phosphor.Thin.TrophyThin: ImageVector
     get() {
         if (_TrophyThin != null) {
             return _TrophyThin!!
@@ -16,7 +17,7 @@ val Thin.TrophyThin: ImageVector
         _TrophyThin =
             ImageVector
                 .Builder(
-                    name = "TrophyThin",
+                    name = "Thin.TrophyThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

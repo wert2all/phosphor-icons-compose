@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.WrenchThin: ImageVector
+val Phosphor.Thin.WrenchThin: ImageVector
     get() {
         if (_WrenchThin != null) {
             return _WrenchThin!!
@@ -16,7 +17,7 @@ val Thin.WrenchThin: ImageVector
         _WrenchThin =
             ImageVector
                 .Builder(
-                    name = "WrenchThin",
+                    name = "Thin.WrenchThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

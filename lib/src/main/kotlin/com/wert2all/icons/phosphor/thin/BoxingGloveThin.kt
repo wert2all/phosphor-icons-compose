@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.BoxingGloveThin: ImageVector
+val Phosphor.Thin.BoxingGloveThin: ImageVector
     get() {
         if (_BoxingGloveThin != null) {
             return _BoxingGloveThin!!
@@ -16,7 +17,7 @@ val Thin.BoxingGloveThin: ImageVector
         _BoxingGloveThin =
             ImageVector
                 .Builder(
-                    name = "BoxingGloveThin",
+                    name = "Thin.BoxingGloveThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

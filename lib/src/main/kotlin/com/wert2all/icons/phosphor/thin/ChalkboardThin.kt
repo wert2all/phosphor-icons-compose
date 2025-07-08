@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.ChalkboardThin: ImageVector
+val Phosphor.Thin.ChalkboardThin: ImageVector
     get() {
         if (_ChalkboardThin != null) {
             return _ChalkboardThin!!
@@ -16,7 +17,7 @@ val Thin.ChalkboardThin: ImageVector
         _ChalkboardThin =
             ImageVector
                 .Builder(
-                    name = "ChalkboardThin",
+                    name = "Thin.ChalkboardThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,

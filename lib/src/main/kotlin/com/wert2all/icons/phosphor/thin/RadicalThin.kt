@@ -7,8 +7,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wert2all.icons.phosphor.Phosphor
 
-val Thin.RadicalThin: ImageVector
+val Phosphor.Thin.RadicalThin: ImageVector
     get() {
         if (_RadicalThin != null) {
             return _RadicalThin!!
@@ -16,7 +17,7 @@ val Thin.RadicalThin: ImageVector
         _RadicalThin =
             ImageVector
                 .Builder(
-                    name = "RadicalThin",
+                    name = "Thin.RadicalThin",
                     defaultWidth = 256.dp,
                     defaultHeight = 256.dp,
                     viewportWidth = 256f,
