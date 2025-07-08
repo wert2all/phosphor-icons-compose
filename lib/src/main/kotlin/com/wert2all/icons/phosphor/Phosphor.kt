@@ -4,4 +4,6 @@ object Phosphor {
     object Thin
 
     object Regular
+
+    object Light
 }
