@@ -1,13 +1,15 @@
 package com.wert2all.icons.phosphor
 
 object Phosphor {
-    object Thin
+    object Bold
 
-    object Regular
-
-    object Light
+    object Duotone
 
     object Fill
 
-    object Duotone
+    object Light
+
+    object Regular
+
+    object Thin
 }
