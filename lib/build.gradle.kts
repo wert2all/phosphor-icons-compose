@@ -65,24 +65,15 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.github.wert2all"
+            artifactId = "phosphor-icons-compose"
+            version = project.version.toString()
+
+            afterEvaluate {
                 from(components["release"])
-                groupId = project.group.toString()
-                artifactId = "phosphor-icons-compose"
-                version = project.version.toString()
-            }
-        }
-        repositories {
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/wert2all/phosphor-icons-compose")
-                credentials {
-                    username = System.getenv("GITHUB_ACTOR")
-                    password = System.getenv("GITHUB_TOKEN")
-                }
             }
         }
     }
