@@ -15,10 +15,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/wert2all/phosphor-icons-compose")
-        }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 ```
@@ -29,13 +26,6 @@ Then, add the dependency to your `build.gradle.kts` (or `build.gradle`) file:
 ```kotlin
 dependencies {
     implementation("com.wert2all.icons.phosphor:phosphor-icons-compose:1.0.0")
-}
-```
-
-**build.gradle**
-```groovy
-dependencies {
-    implementation 'com.wert2all.icons.phosphor:phosphor-icons-compose:1.0.0'
 }
 ```
 **Note:** Remember to replace `1.0.0` with the latest version of the library.
