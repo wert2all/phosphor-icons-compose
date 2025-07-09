@@ -55,9 +55,8 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
 
-    val composeBom = platform("androidx.compose:compose-bom:2025.05.00")
-    implementation(composeBom)
-    androidTestImplementation(composeBom)
+    implementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.runtime)
     implementation(libs.androidx.compose.ui)
 
@@ -89,7 +88,7 @@ afterEvaluate {
     }
 }
 
-fun getVersion(): String{
+fun getVersion(): String {
     val releasePleaseManifest = rootProject.file(".release-please-manifest.json")
     val versionJson = JsonSlurper().parseText(releasePleaseManifest.readText()) as Map<*, *>
     return versionJson["."] as String
