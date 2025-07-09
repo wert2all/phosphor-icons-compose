@@ -20,15 +20,15 @@ dependencyResolutionManagement {
 }
 ```
 
-Then, add the dependency to your `build.gradle.kts` (or `build.gradle`) file:
+Then, add the dependency to your `app/build.gradle.kts` (or `app/build.gradle`) file:
 
 **build.gradle.kts**
 ```kotlin
 dependencies {
-    implementation("com.wert2all.icons.phosphor:phosphor-icons-compose:1.0.0")
+    implementation("com.github.wert2all:phosphor-icons-compose:v1.0.6")
 }
 ```
-**Note:** Remember to replace `1.0.0` with the latest version of the library.
+**Note:** Remember to replace `v1.0.6` with the latest version of the library.
 
 ## Usage
 
