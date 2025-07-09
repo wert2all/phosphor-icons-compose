@@ -1,3 +1,5 @@
+import groovy.json.JsonSlurper
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
@@ -7,10 +9,10 @@ plugins {
 }
 
 group = "com.wert2all.icons.phosphor"
-version = "0.0.1"
+version = getVersion()
 
 android {
-    namespace = "com.wert2all.icons.phosphor"
+    namespace = project.group.toString()
     compileSdk = 36
 
     defaultConfig {
@@ -69,9 +71,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.wert2all.icons.phosphor"
+                groupId = project.group.toString()
                 artifactId = "phosphor-icons-compose"
-                version = "0.0.1"
+                version = project.version.toString()
             }
         }
         repositories {
@@ -85,4 +87,10 @@ afterEvaluate {
             }
         }
     }
+}
+
+fun getVersion(): String{
+    val releasePleaseManifest = rootProject.file(".release-please-manifest.json")
+    val versionJson = JsonSlurper().parseText(releasePleaseManifest.readText()) as Map<*, *>
+    return versionJson["."] as String
 }
