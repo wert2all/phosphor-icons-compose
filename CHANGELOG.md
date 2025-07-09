@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.6](https://github.com/wert2all/phosphor-icons-compose/compare/v1.0.5...v1.0.6) (2025-07-09)
+
+
+### Bug Fixes
+
+* fix build on jitpack again ([8930885](https://github.com/wert2all/phosphor-icons-compose/commit/89308855c3ef2ad4193d6d92ccc0b1c86ff1c636))
+* fix publishing ([7068a72](https://github.com/wert2all/phosphor-icons-compose/commit/7068a72facdc186116c41c91c86548a89df1814e))
+* increase kotlin memory ([9cdb094](https://github.com/wert2all/phosphor-icons-compose/commit/9cdb094fef10a173d538a279c8f754931813ad89))
+
 ## [1.0.5](https://github.com/wert2all/phosphor-icons-compose/compare/v1.0.4...v1.0.5) (2025-07-09)
 
 
