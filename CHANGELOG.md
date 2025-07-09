@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/wert2all/phosphor-icons-compose/compare/v1.0.6...v1.0.7) (2025-07-09)
+
+
+### Bug Fixes
+
+* remove publish to github packages ([3a9557a](https://github.com/wert2all/phosphor-icons-compose/commit/3a9557af938cbae21b4327d6d7f89be76ab26283))
+
 ## [1.0.6](https://github.com/wert2all/phosphor-icons-compose/compare/v1.0.5...v1.0.6) (2025-07-09)
 
 
